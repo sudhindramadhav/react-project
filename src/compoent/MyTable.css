@@ -1,21 +1,8 @@
-@media screen {
-    header {
-        text-align: center;
-    }
-}
-
-
-h1{
-        text-align: center;
-}
 .table-container {
     border: 1px solid #ccc;
     padding: 10px;
     margin-bottom: 20px;
   }
-.table-container h1{
-    text-align: center;
-}
   
   .my-table {
     border-collapse: collapse;

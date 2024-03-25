@@ -45,7 +45,7 @@ const Footer = () => {
   
     </div>
 
-    <div className="py-8 text-center text-sm text-gray-400">© 2021 - Present Flowrift. All rights reserved.</div>
+    <div className="py-8 text-center text-sm text-gray-400">Copyright © sv colleges all rights are reserved  <br/> DJ MURALI MAHESH || KKM SUDHINDRA</div>
   </footer>
 </div>
     

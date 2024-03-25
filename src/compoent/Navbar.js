@@ -8,7 +8,7 @@ const Navbar = () => {
   const [Mobile, setMobile] = useState(false)
   return (
     <>
-      <nav className='navbar container mb-4'>
+      <nav className='navbar w-full mb-4'>
       <img src={process.env.PUBLIC_URL + '/assets/images/svcelogo.png'}  alt=" by Magicle" className="logo p-0 m-0" />
         {/*
         if large screen ma xa bhane Mobile add huxa

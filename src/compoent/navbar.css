@@ -13,6 +13,7 @@ li {
   list-style-type: none;
 }
 .navbar {
+  width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -57,14 +58,18 @@ button {
   background: none;
 }
 @media (max-width: 768px) {
+  .navbar{
+    height: 12vh;
+  }
   .logo {
     display: flex;
     position: absolute;
-    top: 15px;
     left: 35px;
+ 
   }
   .nav-links {
     display: none;
+    
   }
   .nav-links-mobile {
     position: absolute;
@@ -72,10 +77,11 @@ button {
     list-style: none;
     box-shadow: rgba(50, 50, 93, 0.23) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     left: 0;
-    top: 10%;
+    top: 12%;
     transition: all 0.5s ease-in-out;
     width: 100%;
     background-color: white;
+    z-index: 2;
   }
   ul li {
     padding: 32px;

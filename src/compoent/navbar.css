@@ -64,7 +64,8 @@ button {
   .logo {
     display: flex;
     position: absolute;
-    left: 35px;
+    left: 25px;
+    height: 50px;
  
   }
   .nav-links {

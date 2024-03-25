@@ -11,12 +11,12 @@ const Home = () => {
    
     <div className="relative flex flex-col items-center p-4 sm:max-w-xl">
       <p className="mb-4 text-center text-lg text-indigo-200 sm:text-xl md:mb-8">Very proud to introduce</p>
-      <h1 className="mb-8 text-center text-4xl font-bold text-white sm:text-5xl md:mb-12 md:text-6xl">SVCE SPA</h1>
+      <h1 className="mb-8 text-center text-4xl font-bold text-white sm:text-5xl md:mb-12 md:text-6xl">SVCE SPARK</h1>
 
       <div className="flex w-full flex-col gap-2.5 sm:flex-row sm:justify-center">
-        <a href="/" className="inline-block rounded-lg bg-indigo-500 px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-indigo-300 transition duration-100 hover:bg-indigo-600 focus-visible:ring active:bg-indigo-700 md:text-base">Start now</a>
-
-
+        <Link to='/events'>
+        <a href="/" className="inline-block rounded-lg bg-indigo-500 px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-indigo-300 transition duration-100 hover:bg-indigo-600 focus-visible:ring active:bg-indigo-700 md:text-base">Register Now</a>
+        </Link>
       </div>
     </div>
   
@@ -70,7 +70,7 @@ const Home = () => {
   <div className="flex flex-wrap -m-4">
     <div className="xl:w-1/4 md:w-1/2 p-4">
       <div className="bg-gray-100 p-6 rounded-lg">
-      <Link to="/about">
+      <Link to="/idea_blitz">
       <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/assets/images/img_1.jpg'} alt="content"/>
       </Link>
         <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">SUBTITLE</h3>

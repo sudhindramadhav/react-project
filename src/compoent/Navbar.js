@@ -24,7 +24,11 @@ const Navbar = () => {
           <Link to='/sponsers' className='sponsers'>
             <li>Sponsers</li>
           </Link>
-          <Link to='/contact' className='home'>
+          <Link to='/events' className='events'>
+            <li>Events
+            </li>
+          </Link>
+          <Link to='/contact' className='contact'>
             <li>contact</li>
           </Link>
         </ul>

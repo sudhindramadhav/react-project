@@ -1,6 +1,6 @@
 import React from "react";
-import "C:/Users/DELL/OneDrive/Desktop/example/src/Contact.css"; // Import CSS file for styling
-
+ // Import CSS file for styling
+import './Contact.css';
 const Contact = () => {
   return (
     <>
@@ -24,6 +24,11 @@ const Contact = () => {
               <td>Jacob</td>
               <td>Thornton</td>
               <td>@fat</td>
+            </tr>
+            <tr>
+              <td>fdg</td>
+              <td>acd</td>
+              <td>@twitter</td>
             </tr>
             <tr>
               <td>fdg</td>

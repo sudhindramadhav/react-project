@@ -4,82 +4,75 @@ const sponser = () => {
   return (
     <>
       <section class="text-gray-600 body-font bg-grey-600">
-      <h2 class="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl">Blog</h2>
-
-      
+      <h2 class="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl">Ttile Sponsered By</h2>
         <div class="container mx-auto flex px-2 py-2 items-center justify-center flex-col">
-          <img class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600"/>
+          <img class="lg:w-2/6 md:w-3/6 w-5/6  object-cover object-center rounded" alt="hero" src={process.env.PUBLIC_URL + '/assets/images/Coca-Cola-Logo.png'}/>
           <div class="text-center lg:w-2/3 w-full">
             
-          <p class="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg">About the Title sponser</p>
-            
+          <div class="bg-white py-6 sm:py-8 lg:py-12">
+  <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
+    <h2 class="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-8 lg:text-3xl">Trusted by the best</h2>
+
+    <div class="grid grid-cols-2 gap-26 rounded-lg bg-gray-100 p-6 sm:h-40 sm:content-evenly md:grid-cols-4">
+          
+            <div class="flex justify-center text-gray-400">
+            <img alt="testimonial" class=" object-cover object-center  inline-block  border-gray-200 bg-gray-100" src={process.env.PUBLIC_URL + '/assets/images/Coca-Cola-Logo.png'}></img>
+            </div>
+     
+            <div class="flex justify-center text-gray-400">
+            <img alt="testimonial" class=" object-cover object-center  inline-block  border-gray-200 bg-gray-100" src={process.env.PUBLIC_URL + '/assets/images/Unacademy-logo.png'}></img>
+            </div>
+           
+            <div class="flex justify-center text-gray-400">
+            <img alt="testimonial" class=" object-cover object-center  inline-block  border-gray-200 bg-gray-100" src={process.env.PUBLIC_URL + '/assets/images/Coca-Cola-Logo.png'}></img>
+            </div>
+           
+            <div class="flex justify-center text-gray-400">
+            <img alt="testimonial" class=" object-cover object-center  inline-block  border-gray-200 bg-gray-100" src={process.env.PUBLIC_URL + '/assets/images/Coca-Cola-Logo.png'}></img>
+            </div>
+         
+          </div>
+        </div>
+      </div>
+
           </div>
         </div>
       </section>
 
       <div class="bg-white py-6 sm:py-8 lg:py-12">
   <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
-    
-    <div class="mb-10 md:mb-16">
-      <h2 class="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl">Honarable Sponsers</h2>
+    <div class="mb-4 flex flex-col items-center md:mb-8 lg:flex-row lg:justify-between">
+      <h2 class="mb-2 text-center text-2xl font-bold text-gray-800 lg:mb-0 lg:text-3xl">Trusted by the best</h2>
+
+      <p class="max-w-md text-center text-gray-400 lg:text-right">Filler text is dummy text which has no meaning however looks very similar to real text.</p>
     </div>
+
+    <div class="grid grid-cols-2 gap-4 rounded-lg md:grid-cols-3 lg:gap-6">
     
-
-    <div class="grid gap-4 sm:grid-cols-2 md:gap-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-8">
+      <div class="flex  items-center justify-center rounded-lg bg-gray-100 p-4 text-gray-400 ">
+      <img alt="testimonial" class=" object-cover object-center  inline-block  border-gray-200 bg-gray-100" src={process.env.PUBLIC_URL + '/assets/images/Coca-Cola-Logo.png'}></img>
+      </div>
     
-      <a href="|" class="group relative flex h-48 flex-col overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-64 xl:h-96">
-        <img src="https://images.unsplash.com/-1593508512255-86ab42a8e620?auto=format&q=75&fit=crop&w=600" loading="lazy" alt=" by Minh Pham" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
-
-        <div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 to-transparent md:via-transparent"></div>
-
-        <div class="relative mt-auto p-4">
-          <span class="block text-sm text-gray-200">July 19, 2021</span>
-          <h2 class="mb-2 text-xl font-semibold text-white transition duration-100">New trends in Tech</h2>
-
-          <span class="font-semibold text-indigo-300">Read more</span>
-        </div>
-      </a>
-
-      <a href="|" class="group relative flex h-48 flex-col overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-64 xl:h-96">
-        <img src="https://images.unsplash.com/-1550745165-9bc0b252726f?auto=format&q=75&fit=crop&w=600" loading="lazy" alt=" by Lorenzo Herrera" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
-
-        <div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 to-transparent md:via-transparent"></div>
-
-        <div class="relative mt-auto p-4">
-          <span class="block text-sm text-gray-200">April 07, 2021</span>
-          <h2 class="mb-2 text-xl font-semibold text-white transition duration-100">Working with legacy stacks</h2>
-
-          <span class="font-semibold text-indigo-300">Read more</span>
-        </div>
-      </a>
-
-      <a href="|" class="group relative flex h-48 flex-col overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-64 xl:h-96">
-        <img src="https://images.unsplash.com/-1542759564-7ccbb6ac450a?auto=format&q=75&fit=crop&w=600" loading="lazy" alt=" by Magicle" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
-
-        <div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 to-transparent md:via-transparent"></div>
-
-        <div class="relative mt-auto p-4">
-          <span class="block text-sm text-gray-200">March 15, 2021</span>
-          <h2 class="mb-2 text-xl font-semibold text-white transition duration-100">10 best smartphones for devs</h2>
-
-          <span class="font-semibold text-indigo-300">Read more</span>
-        </div>
-      </a>
-   
+      <div class="flex  items-center justify-center rounded-lg bg-gray-100 p-4 text-gray-400 ">
+      <img alt="testimonial" class=" object-cover object-center  inline-block  border-gray-200 bg-gray-100" src={process.env.PUBLIC_URL + '/assets/images/Coca-Cola-Logo.png'}></img>
+      </div>
+     
+      <div class="flex  items-center justify-center rounded-lg bg-gray-100 p-4 text-gray-400 ">
+      <img alt="testimonial" class=" object-cover object-center  inline-block  border-gray-200 bg-gray-100" src={process.env.PUBLIC_URL + '/assets/images/Coca-Cola-Logo.png'}></img>
+      </div>
   
-      <a href="|" class="group relative flex h-48 flex-col overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-64 xl:h-96">
-        <img src="https://images.unsplash.com/-1610465299996-30f240ac2b1c?auto=format&q=75&fit=crop&w=600" loading="lazy" alt=" by Martin Sanchez" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+      <div class="flex items-center justify-center rounded-lg bg-gray-100 p-4 text-gray-400 ">
+      <img alt="testimonial" class=" object-cover object-center  inline-block  border-gray-200 bg-gray-100" src={process.env.PUBLIC_URL + '/assets/images/Coca-Cola-Logo.png'}></img>
+      </div>
+  
+      <div class="flex  items-center justify-center rounded-lg bg-gray-100 p-4 text-gray-400 ">
+      <img alt="testimonial" class=" object-cover object-center  inline-block  border-gray-200 bg-gray-100" src={process.env.PUBLIC_URL + '/assets/images/Coca-Cola-Logo.png'}></img>
+      </div>
 
-        <div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 to-transparent md:via-transparent"></div>
-
-        <div class="relative mt-auto p-4">
-          <span class="block text-sm text-gray-200">January 27, 2021</span>
-          <h2 class="mb-2 text-xl font-semibold text-white transition duration-100">8 High performance Notebooks</h2>
-
-          <span class="font-semibold text-indigo-300">Read more</span>
-        </div>
-      </a>
-
+      <div class="flex  items-center justify-center rounded-lg bg-gray-100 p-4 text-gray-400 ">
+      <img alt="testimonial" class=" object-cover object-center  inline-block  border-gray-200 bg-gray-100" src={process.env.PUBLIC_URL + '/assets/images/Coca-Cola-Logo.png'}></img>
+      </div>
+     
     </div>
   </div>
 </div>

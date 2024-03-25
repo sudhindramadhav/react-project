@@ -4,32 +4,3 @@
     }
 }
 
-
-h1{
-        text-align: center;
-}
-.table-container {
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin-bottom: 20px;
-  }
-.table-container h1{
-    text-align: center;
-}
-  
-  .my-table {
-    border-collapse: collapse;
-    width: 100%;
-  }
-  
-  .my-table th,
-  .my-table td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: left;
-  }
-  
-  .my-table th {
-    background-color: #f2f2f2;
-  }
-  

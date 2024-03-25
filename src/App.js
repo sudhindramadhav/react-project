@@ -2,6 +2,8 @@ import React from "react"
 import Navbar from "./compoent/Navbar"
 import Home from "./compoent/Home"
 import About from "./compoent/About"
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 import Contact from "./compoent/Contact"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"

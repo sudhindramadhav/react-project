@@ -22,7 +22,7 @@ const Contact = () => {
                 </div>
 
                 <div>
-                  <div class="text-center font-bold text-indigo-500 sm:text-left md:text-lg">John McCulling</div>
+                  <div class="text-center font-bold text-indigo-500 sm:text-left md:text-lg">MR PANI LENODU</div>
                   <p class="text-center text-sm text-gray-500 sm:text-left md:text-base">Founder / CEO</p>
                 </div>
               </div>

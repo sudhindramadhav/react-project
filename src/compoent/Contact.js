@@ -18,7 +18,7 @@ const Contact = () => {
          
               <div class="flex flex-col items-center gap-2 sm:flex-row md:gap-4">
                 <div class="h-24 w-24 overflow-hidden rounded-full bg-gray-100 shadow-lg md:h-32 md:w-32">
-                  <img src={process.env.PUBLIC_URL + '/assets/images/praveen.jpg'} loading="lazy" alt=" by Radu Florin" class="h-full w-full object-cover object-center" />
+                  <img src={process.env.PUBLIC_URL + '/images/praveen.jpg'} loading="lazy" alt=" by Radu Florin" class="h-full w-full object-cover object-center" />
                 </div>
 
                 <div>

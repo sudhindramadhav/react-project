@@ -33,3 +33,29 @@
 button.slick-arrow.slick-next {
     right: 0px;
 }
+
+
+
+button.slick-arrow.slick-prev.slick-disabled{
+    width: 44px;
+    height: 44px;
+    z-index: 1;
+    background-color: grey;
+    left: 20px;
+}
+
+button.slick-arrow.slick-next {
+    width: 44px;
+    height: 44px;
+    z-index: 1;
+    background-color: gray;
+    right: 20px;
+}
+
+button.slick-arrow.slick-prev {
+    width: 44px;
+    height: 44px;
+    z-index: 1;
+    background-color: gray;
+    left: 20px;
+}

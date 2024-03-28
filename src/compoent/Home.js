@@ -44,21 +44,15 @@ const Home = () => {
   };
   const row1 = [
     "https://logos-world.net/wp-content/uploads/2020/03/Coca-Cola-Logo.png",
-    "https://logos-world.net/wp-content/uploads/2020/03/Coca-Cola-Logo.png",
-    "https://logos-world.net/wp-content/uploads/2020/03/Coca-Cola-Logo.png",
+    "https://xlprojects.net/wp-content/uploads/2023/05/fortune-global-1024x564.png",
+    "https://xlprojects.net/wp-content/uploads/2023/05/fortune-global-1024x564.png",
+    "https://1000logos.net/wp-content/uploads/2022/09/Unacademy-Logo-2048x1153.png",
+    "https://1000logos.net/wp-content/uploads/2022/09/Unacademy-Logo-2048x1153.png",
     
 
   ];
 
-  const row2 = [
-    "https://assets.algoexpert.io/spas/main/prod/g523bdeb478-prod/dist/images/6c585c33ca6c71c79bb7.png",
-    "https://assets.algoexpert.io/spas/main/prod/g523bdeb478-prod/dist/images/9dd55e54b5a28658bf4e.png",
-    "https://assets.algoexpert.io/spas/main/prod/g523bdeb478-prod/dist/images/0384060dcbf73b6a707c.png",
-    "https://assets.algoexpert.io/spas/main/prod/g523bdeb478-prod/dist/images/7ae42bac3b34999c0db3.png",
-    "https://assets.algoexpert.io/spas/main/prod/g523bdeb478-prod/dist/images/b2bd91d7b87b2181ca45.png",
-    "https://assets.algoexpert.io/spas/main/prod/g523bdeb478-prod/dist/images/6591cdc0702b32310306.png",
   
-  ];
   return (
     <>
       <section className="min-h-90 relative flex flex-1 shrink-0 items-center justify-center overflow-hidden    bg-gray-2000 py-10 shadow-lg md:py-20 xl:py-48 ">
@@ -116,7 +110,7 @@ const Home = () => {
               <div className="h-1 w-20 bg-indigo-500 rounded mx-16"></div>
         <br></br>
         <Slider {...settings}>
-          <div className="box mx-10">
+          <div className=" box ">
             <div className=" bg-gray-200 p-6 rounded-lg mx-10">
               <Link to="/kahoot_quiz">
                 <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/img_1.jpg'} alt="content" />
@@ -124,7 +118,7 @@ const Home = () => {
               </Link>
             </div>
           </div>
-          <div className="box mx-10">
+          <div className=" box ">
             <div className=" bg-gray-200 p-6 rounded-lg mx-10">
               <Link to="/kahoot_quiz">
                 <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/img_1.jpg'} alt="content" />
@@ -132,7 +126,7 @@ const Home = () => {
               </Link>
             </div>
           </div>
-          <div className="box mx-10">
+          <div className=" box ">
             <div className=" bg-gray-200 p-6 rounded-lg mx-10">
               <Link to="/kahoot_quiz">
                 <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/img_1.jpg'} alt="content" />
@@ -140,7 +134,7 @@ const Home = () => {
               </Link>
             </div>
           </div>
-          <div className="box mx-10">
+          <div className=" box ">
             <div className=" bg-gray-200 p-6 rounded-lg mx-10">
               <Link to="/kahoot_quiz">
                 <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/img_1.jpg'} alt="content" />
@@ -148,7 +142,7 @@ const Home = () => {
               </Link>
             </div>
           </div>
-          <div className="box mx-10">
+          <div className=" box ">
             <div className=" bg-gray-200 p-6 rounded-lg mx-10">
               <Link to="/kahoot_quiz">
                 <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/img_1.jpg'} alt="content" />
@@ -182,7 +176,7 @@ const Home = () => {
               <div className="h-1 w-20 bg-indigo-500 rounded mx-16"></div>
         <br></br>
         <Slider {...settings}>
-          <div className="box mx-10">
+          <div className=" box ">
             <div className=" bg-gray-200 p-6 rounded-lg mx-10">
               <Link to="/kahoot_quiz">
                 <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/img_1.jpg'} alt="content" />
@@ -190,7 +184,7 @@ const Home = () => {
               </Link>
             </div>
           </div>
-          <div className="box mx-10">
+          <div className=" box ">
             <div className=" bg-gray-200 p-6 rounded-lg mx-10">
               <Link to="/kahoot_quiz">
                 <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/img_1.jpg'} alt="content" />
@@ -198,7 +192,7 @@ const Home = () => {
               </Link>
             </div>
           </div>
-          <div className="box mx-10">
+          <div className=" box ">
             <div className=" bg-gray-200 p-6 rounded-lg mx-10">
               <Link to="/kahoot_quiz">
                 <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/img_1.jpg'} alt="content" />
@@ -206,7 +200,7 @@ const Home = () => {
               </Link>
             </div>
           </div>
-          <div className="box mx-10">
+          <div className=" box ">
             <div className=" bg-gray-200 p-6 rounded-lg mx-10">
               <Link to="/kahoot_quiz">
                 <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/img_1.jpg'} alt="content" />
@@ -214,15 +208,7 @@ const Home = () => {
               </Link>
             </div>
           </div>
-          <div className="box mx-10">
-            <div className=" bg-gray-200 p-6 rounded-lg mx-10">
-              <Link to="/kahoot_quiz">
-                <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/img_1.jpg'} alt="content" />
-                <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center ">KAHOOT QUIZ</h2>
-              </Link>
-            </div>
-          </div>
-          <div className="box m-0 mx-10">
+          <div className=" box ">
             <div className=" bg-gray-200 p-6 rounded-lg mx-10">
               <Link to="/kahoot_quiz">
                 <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/img_1.jpg'} alt="content" />
@@ -238,7 +224,7 @@ const Home = () => {
               </Link>
             </div>
           </div>
-          <div className="box mx-10">
+          <div className="box m-0 mx-10">
             <div className=" bg-gray-200 p-6 rounded-lg mx-10">
               <Link to="/kahoot_quiz">
                 <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/img_1.jpg'} alt="content" />
@@ -246,7 +232,7 @@ const Home = () => {
               </Link>
             </div>
           </div>
-          <div className="box mx-10">
+          <div className=" box ">
             <div className=" bg-gray-200 p-6 rounded-lg mx-10">
               <Link to="/kahoot_quiz">
                 <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/img_1.jpg'} alt="content" />
@@ -254,7 +240,7 @@ const Home = () => {
               </Link>
             </div>
           </div>
-          <div className="box mx-10">
+          <div className=" box ">
             <div className=" bg-gray-200 p-6 rounded-lg mx-10">
               <Link to="/kahoot_quiz">
                 <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/img_1.jpg'} alt="content" />
@@ -262,7 +248,7 @@ const Home = () => {
               </Link>
             </div>
           </div>
-          <div className="box mx-10">
+          <div className=" box ">
             <div className=" bg-gray-200 p-6 rounded-lg mx-10">
               <Link to="/kahoot_quiz">
                 <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/img_1.jpg'} alt="content" />
@@ -270,7 +256,15 @@ const Home = () => {
               </Link>
             </div>
           </div>
-          <div className="box mx-10">
+          <div className=" box ">
+            <div className=" bg-gray-200 p-6 rounded-lg mx-10">
+              <Link to="/kahoot_quiz">
+                <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/img_1.jpg'} alt="content" />
+                <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center ">KAHOOT QUIZ</h2>
+              </Link>
+            </div>
+          </div>
+          <div className=" box ">
             <div className=" bg-gray-200 p-6 rounded-lg mx-10">
               <Link to="/kahoot_quiz">
                 <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/img_1.jpg'} alt="content" />
@@ -331,11 +325,11 @@ const Home = () => {
       </div>
 
       <div className="carousel mt-6 py-6">
-      <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900 m-8 ">Sopt Events</h1>
+      <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900 m-8 ">spot Events</h1>
               <div className="h-1 w-20 bg-indigo-500 rounded mx-16"></div>
         <br></br>
         <Slider {...settings}>
-          <div className="box mx-10">
+          <div className=" box ">
             <div className=" bg-gray-200 p-6 rounded-lg mx-10">
               <Link to="/kahoot_quiz">
                 <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/img_1.jpg'} alt="content" />
@@ -343,7 +337,7 @@ const Home = () => {
               </Link>
             </div>
           </div>
-          <div className="box mx-10">
+          <div className=" box ">
             <div className=" bg-gray-200 p-6 rounded-lg mx-10">
               <Link to="/kahoot_quiz">
                 <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/img_1.jpg'} alt="content" />
@@ -351,7 +345,7 @@ const Home = () => {
               </Link>
             </div>
           </div>
-          <div className="box mx-10">
+          <div className=" box ">
             <div className=" bg-gray-200 p-6 rounded-lg mx-10">
               <Link to="/kahoot_quiz">
                 <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/img_1.jpg'} alt="content" />
@@ -359,7 +353,7 @@ const Home = () => {
               </Link>
             </div>
           </div>
-          <div className="box mx-10">
+          <div className=" box ">
             <div className=" bg-gray-200 p-6 rounded-lg mx-10">
               <Link to="/kahoot_quiz">
                 <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/img_1.jpg'} alt="content" />
@@ -367,7 +361,7 @@ const Home = () => {
               </Link>
             </div>
           </div>
-          <div className="box mx-10">
+          <div className=" box ">
             <div className=" bg-gray-200 p-6 rounded-lg mx-10">
               <Link to="/kahoot_quiz">
                 <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/img_1.jpg'} alt="content" />
@@ -415,22 +409,7 @@ const Home = () => {
               ))}
             </MarqueeGroup>
           </Marquee>
-          <Marquee>
-            <MarqueeGroup2>
-              {row2.map((el) => (
-                <ImageGroup>
-                  <Image src={el} />
-                </ImageGroup>
-              ))}
-            </MarqueeGroup2>
-            <MarqueeGroup2>
-              {row2.map((el) => (
-                <ImageGroup>
-                  <Image src={el} />
-                </ImageGroup>
-              ))}
-            </MarqueeGroup2>
-          </Marquee>
+          
         </Wrapper>
       </AppContainer>
 
@@ -443,7 +422,9 @@ export default Home
 
 
 const AppContainer = styled.div`
+  width: 100vw;
   color: #000000;
+
   position: relative;
   display: flex;
   align-items: center;
@@ -451,7 +432,7 @@ const AppContainer = styled.div`
 `;
 
 const Wrapper = styled.div`
-
+  width: 100%;
   height: fit-content;
 
   display: flex;
@@ -476,7 +457,7 @@ const Note = styled.div`
 
 const Marquee = styled.div`
   display: flex;
-
+  width: 100%;
   overflow: hidden;
   user-select: none;
 
@@ -505,31 +486,26 @@ const common = css`
   justify-content: space-around;
   white-space: nowrap;
   width: 100%;
-  animation: ${scrollX} 30s linear infinite;
+  animation: ${scrollX} 10s linear infinite;
 `;
 
 const MarqueeGroup = styled.div`
   ${common}
 `;
-const MarqueeGroup2 = styled.div`
-  ${common}
-  animation-direction: reverse;
-  animation-delay: -3s;
-`;
+
 
 const ImageGroup = styled.div`
   display: grid;
   place-items: center;
- 
+  height : 60px;
 `;
 
 const Image = styled.img`
   object-fit: contain;
 
-  height: 100%;
   /* border: 1px solid black; */
   border-radius: 0.5rem;
-  aspect-ratio: 10/9;
+ 
   padding: 5px 20px;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 `;

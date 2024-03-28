@@ -6,7 +6,7 @@ const sponser = () => {
       <section class="text-gray-600 body-font bg-grey-600">
       <h2 class="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl">Ttile Sponsered By</h2>
         <div class="container mx-auto flex px-2 py-2 items-center justify-center flex-col">
-          <img class="lg:w-2/6 md:w-3/6 w-5/6  object-cover object-center rounded" alt="hero" src={process.env.PUBLIC_URL + ' /images/Coca-Cola-Logo.png'}/>
+          <img class="lg:w-2/6 md:w-3/6 w-5/6  object-cover object-center rounded" alt="hero" src={process.env.PUBLIC_URL + ' /images/fortune-global.png'}/>
           <div class="text-center lg:w-2/3 w-full">
             
           <div class="bg-white py-6 sm:py-8 lg:py-12">

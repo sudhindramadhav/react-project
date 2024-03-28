@@ -150,7 +150,7 @@ const Home = () => {
               </Link>
             </div>
           </div>
-          <div className="box m-0 mx-10">
+          <div className="box ">
             <div className=" bg-gray-200 p-6 rounded-lg mx-10">
               <Link to="/kahoot_quiz">
                 <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/img_1.jpg'} alt="content" />
@@ -158,7 +158,7 @@ const Home = () => {
               </Link>
             </div>
           </div>
-          <div className="box m-0 mx-10">
+          <div className="box ">
             <div className=" bg-gray-200 p-6 rounded-lg mx-10">
               <Link to="/robo-talk">
                 <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/img_1.jpg'} alt="content" />

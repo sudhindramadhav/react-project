@@ -30,7 +30,7 @@ const Spot = () => {
           <img src="https://images.unsplash.com/ -1552668693-d0738e00eca8?auto=format&q=75&fit=crop&crop=top&w=600&h=700" loading="lazy" alt="  by Austin Wade" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
 
           <div class="relative flex w-full flex-col rounded-lg bg-white p-4 text-center">
-            <span class="text-lg font-bold text-gray-800 lg:text-xl">KAHOOT QUIZ</span>
+            <span class="text-lg font-bold text-gray-800 lg:text-xl">Gully Circket</span>
           </div>
         </Link>
       </div>
@@ -40,7 +40,7 @@ const Spot = () => {
           <img src="https://images.unsplash.com/ -1560269999-cef6ebd23ad3?auto=format&q=75&fit=crop&w=600&h=700" loading="lazy" alt="  by Austin Wade" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
 
           <div class="relative flex w-full flex-col rounded-lg bg-white p-4 text-center">
-            <span class="text-lg font-bold text-gray-800 lg:text-xl">ROBO TALK</span>
+            <span class="text-lg font-bold text-gray-800 lg:text-xl">Thug Of War</span>
           </div>
         </Link>
       </div>

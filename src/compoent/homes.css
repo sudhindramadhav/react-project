@@ -5,25 +5,21 @@
 }
 
 .carousel{
-    padding: 5rem;
     background-color: #fcfcfc;
     color: #080808;
-    height: 100vh;
     width: 100vw;
 }
 
 .box{
     background-color: rgb(255, 255, 255);
     height: 290px;
+    margin: 0px;
 }
 
 .box h3{
     text-align: center;
 } 
 
-.slick-slide div{
-    margin: 0 1rem;
-}
 
 .slick-dots li.slick-active button:before{
     color: lightgreen;
@@ -33,4 +29,7 @@
     color: #f80606 !important;
     font-size: 1rem !important;
     top:2rem !important;
+}
+button.slick-arrow.slick-next {
+    right: 0px;
 }

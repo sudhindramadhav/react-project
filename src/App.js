@@ -17,6 +17,8 @@ import Coding_automata from "./compoent/Events/technical/Coding_automata"
 import Coding_contest from "./compoent/Events/technical/Coding_contest"
 import Kahoot_quiz from "./compoent/Events/technical/Kahoot_quiz"
 import Robo_Talk from "./compoent/Events/technical/Robo_Talk"
+import Non_technical from "./compoent/Events/Non_technical"
+import Spot from "./compoent/Events/Spot"
 
 
 //npm install react-router-dom@5
@@ -39,6 +41,12 @@ function App() {
           </Route>
           <Route path='/events' compoent={Events} exact>
             <Events />
+          </Route>
+          <Route path='/non_technical' compoent={Non_technical} exact>
+            <Non_technical/>
+          </Route>
+          <Route path='/spot' compoent={Spot} exact>
+            <Spot/>
           </Route>
           <Route path='/sponsers' compoent={Sponsers} exact>
             <Sponsers/>

@@ -10,48 +10,48 @@ const Contact = () => {
             <div class="mb-10 md:mb-16">
               <h2 class="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl">Meet our Team</h2>
 
-              <p class="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg">This is a section of some simple filler text, also known as placeholder text. It shares some characteristics of a real written text but is random or otherwise generated.</p>
+              
             </div>
             
 
             <div class="grid grid-cols-2 gap-x-4 gap-y-6 sm:gap-y-8 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-12">
          
               <div class="flex flex-col items-center gap-2 sm:flex-row md:gap-4">
-                <div class="h-24 w-24 overflow-hidden rounded-full bg-gray-100 shadow-lg md:h-32 md:w-32">
+                <div class="h-30 w-24 overflow-hidden rounded-full bg-gray-100 shadow-lg md:h-40 md:w-32">
                   <img src={process.env.PUBLIC_URL + '/images/praveen.jpg'} loading="lazy" alt=" by Radu Florin" class="h-full w-full object-cover object-center" />
                 </div>
 
                 <div>
-                  <div class="text-center font-bold text-indigo-500 sm:text-left md:text-lg">MR PANI LENODU</div>
-                  <p class="text-center text-sm text-gray-500 sm:text-left md:text-base"></p>
+                  <div class="text-center font-bold text-indigo-500 sm:text-left md:text-lg">Praveen</div>
+                  <p class="text-center text-sm text-gray-500 sm:text-left md:text-base">Coordinator</p>
                 </div>
               </div>
              
               <div class="flex flex-col items-center gap-2 sm:flex-row md:gap-4">
-                <div class="h-24 w-24 overflow-hidden rounded-full bg-gray-100 shadow-lg md:h-32 md:w-32">
-                  <img src="https://images.unsplash.com/-1532073150508-0c1df022bdd1?auto=format&q=75&fit=crop&w=256" loading="lazy" alt=" by christian ferrer" class="h-full w-full object-cover object-center" />
+                <div class="h-30 w-24 overflow-hidden rounded-full bg-gray-100 shadow-lg md:h-32 md:w-32">
+                  <img src={process.env.PUBLIC_URL + '/images/murali.jpeg'} loading="lazy" alt=" by christian ferrer" class="h-full w-full object-cover object-center" />
                 </div>
 
                 <div>
-                  <div class="text-center font-bold text-indigo-500 sm:text-left md:text-lg">Kate Berg</div>
-                  <p class="text-center text-sm text-gray-500 sm:text-left md:text-base">CFO</p>
+                  <div class="text-center font-bold text-indigo-500 sm:text-left md:text-lg">DJ Murali Mahes</div>
+                  <p class="text-center text-sm text-gray-500 sm:text-left md:text-base">Website Incharge</p>
                 </div>
               </div>
           
               <div class="flex flex-col items-center gap-2 sm:flex-row md:gap-4">
-                <div class="h-24 w-24 overflow-hidden rounded-full bg-gray-100 shadow-lg md:h-32 md:w-32">
-                  <img src="https://images.unsplash.com/-1463453091185-61582044d556?auto=format&q=75&fit=crop&w=256" loading="lazy" alt=" by Ayo Ogunseinde" class="h-full w-full object-cover object-center" />
+                <div class="h-30 w-24 overflow-hidden rounded-full bg-gray-100 shadow-lg md:h-40 md:w-32">
+                  <img src={process.env.PUBLIC_URL + '/images/sudhindra1.jpeg'} loading="lazy" alt=" by Ayo Ogunseinde" class="h-full w-full object-cover object-center" />
                 </div>
 
                 <div>
-                  <div class="text-center font-bold text-indigo-500 sm:text-left md:text-lg">Greg Jackson</div>
-                  <p class="text-center text-sm text-gray-500 sm:text-left md:text-base">CTO</p>
+                  <div class="text-center font-bold text-indigo-500 sm:text-left md:text-lg">KKM Sudhindra</div>
+                  <p class="text-center text-sm text-gray-500 sm:text-left md:text-base">Website Inchare</p>
                 </div>
               </div>
           
               <div class="flex flex-col items-center gap-2 sm:flex-row md:gap-4">
-                <div class="h-24 w-24 overflow-hidden rounded-full bg-gray-100 shadow-lg md:h-32 md:w-32">
-                  <img src="https://images.unsplash.com/-1529068755536-a5ade0dcb4e8?auto=format&q=75&fit=crop&w=256" loading="lazy" alt=" by Midas Hofstra" class="h-full w-full object-cover object-center" />
+                <div class="h-30 w-24 overflow-hidden rounded-full bg-gray-100 shadow-lg md:h-40 md:w-32">
+                  <img src={process.env.PUBLIC_URL + '/images/praveen.jpg'} loading="lazy" alt=" by Midas Hofstra" class="h-full w-full object-cover object-center" />
                 </div>
 
                 <div>
@@ -61,8 +61,8 @@ const Contact = () => {
               </div>
              
               <div class="flex flex-col items-center gap-2 sm:flex-row md:gap-4">
-                <div class="h-24 w-24 overflow-hidden rounded-full bg-gray-100 shadow-lg md:h-32 md:w-32">
-                  <img src="https://images.unsplash.com/-1522529599102-193c0d76b5b6?auto=format&q=75&fit=crop&w=256" loading="lazy" alt=" by Elizeu Dias" class="h-full w-full object-cover object-center" />
+                <div class="h-30 w-24 overflow-hidden rounded-full bg-gray-100 shadow-lg md:h-32 md:w-32">
+                  <img src={process.env.PUBLIC_URL + '/images/praveen.jpg'} loading="lazy" alt=" by Elizeu Dias" class="h-full w-full object-cover object-center" />
                 </div>
 
                 <div>
@@ -72,8 +72,8 @@ const Contact = () => {
               </div>
        
               <div class="flex flex-col items-center gap-2 sm:flex-row md:gap-4">
-                <div class="h-24 w-24 overflow-hidden rounded-full bg-gray-100 shadow-lg md:h-32 md:w-32">
-                  <img src="https://images.unsplash.com/-1488426862026-3ee34a7d66df?auto=format&q=75&fit=crop&w=256" loading="lazy" alt=" by Matheus Ferrero" class="h-full w-full object-cover object-center" />
+                <div class="h-30 w-24 overflow-hidden rounded-full bg-gray-100 shadow-lg md:h-32 md:w-32">
+                  <img src={process.env.PUBLIC_URL + '/images/praveen.jpg'} loading="lazy" alt=" by Matheus Ferrero" class="h-full w-full object-cover object-center" />
                 </div>
 
                 <div>

@@ -59,3 +59,23 @@ button.slick-arrow.slick-prev {
     background-color: gray;
     left: 20px;
 }
+
+.brands_slider{
+    width:100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.brands_slider .brands{
+    list-style: none;
+    width: 335em;
+    display: flex;
+    animation: slide_Left 10s linear infinite;
+    margin-right: 50px;
+}
+@keyframes slide_Left {
+    100%{
+        transform: translateX(-50%);
+    }
+}

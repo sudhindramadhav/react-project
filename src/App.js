@@ -36,6 +36,8 @@ import Reels from "./compoent/Events/non-technical/Reels"
 import Short_film from "./compoent/Events/non-technical/Short_film"
 import Sound_Space from "./compoent/Events/non-technical/Sound_Space"
 import Stand_up_comedy from "./compoent/Events/non-technical/Stand_up_comedy"
+import ThugOfWar from "./compoent/Events/spot/ThugOfWar"
+import Gully_circket from "./compoent/Events/spot/Gully_circket"
 
 
 //npm install react-router-dom@5
@@ -138,6 +140,12 @@ function App() {
           </Route>
           <Route path='/stand-up-comedy' compoent={Stand_up_comedy} exact>
             <Stand_up_comedy/>
+          </Route>
+          <Route path='/tug_of_war' compoent={ThugOfWar} exact>
+            <ThugOfWar/>
+          </Route>
+          <Route path='/gully_cricket' compoent={Gully_circket} exact>
+            <Gully_circket/>
           </Route>
          
           

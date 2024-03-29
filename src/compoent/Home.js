@@ -48,11 +48,11 @@ const Home = () => {
     "https://xlprojects.net/wp-content/uploads/2023/05/fortune-global-1024x564.png",
     "https://1000logos.net/wp-content/uploads/2022/09/Unacademy-Logo-2048x1153.png",
     "https://1000logos.net/wp-content/uploads/2022/09/Unacademy-Logo-2048x1153.png",
-    
+
 
   ];
 
-  
+
   return (
     <>
       <section className="min-h-90 relative flex flex-1 shrink-0 items-center justify-center overflow-hidden    bg-gray-2000 py-10 shadow-lg md:py-20 xl:py-48 ">
@@ -106,14 +106,14 @@ const Home = () => {
 
 
       <div className="carousel mt-6 py-6">
-      <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900 m-8 ">Technical Events</h1>
-              <div className="h-1 w-20 bg-indigo-500 rounded mx-16"></div>
+        <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900 m-8 ">Technical Events</h1>
+        <div className="h-1 w-20 bg-indigo-500 rounded mx-16"></div>
         <br></br>
         <Slider {...settings}>
           <div className=" box ">
             <div className=" bg-gray-200 p-6 rounded-lg mx-10">
               <Link to="/bwb">
-                <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/img_1.jpg'} alt="content" />
+                <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/build_with_bits.jpg'} alt="content" />
                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center ">BUILD WITH BITS</h2>
               </Link>
             </div>
@@ -121,7 +121,7 @@ const Home = () => {
           <div className="circut_trace">
             <div className=" bg-gray-200 p-6 rounded-lg mx-10">
               <Link to="/circut_trace">
-                <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/img_1.jpg'} alt="content" />
+                <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/circut_trace.jpg'} alt="content" />
                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center ">CIRCUT TRACE</h2>
               </Link>
             </div>
@@ -129,7 +129,7 @@ const Home = () => {
           <div className=" box ">
             <div className=" bg-gray-200 p-6 rounded-lg mx-10">
               <Link to="/coding_automata">
-                <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/img_1.jpg'} alt="content" />
+                <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/coding_automata.jpg'} alt="content" />
                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center ">CODING AUTOMATA</h2>
               </Link>
             </div>
@@ -137,7 +137,7 @@ const Home = () => {
           <div className=" box ">
             <div className=" bg-gray-200 p-6 rounded-lg mx-10">
               <Link to="/coding_contest">
-                <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/img_1.jpg'} alt="content" />
+                <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/coding_competition.jpg'} alt="content" />
                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center ">CODING CONTEST</h2>
               </Link>
             </div>
@@ -153,33 +153,33 @@ const Home = () => {
           <div className="box ">
             <div className=" bg-gray-200 p-6 rounded-lg mx-10">
               <Link to="/kahoot_quiz">
-                <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/img_1.jpg'} alt="content" />
+                <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/kahoot_quiz.png'} alt="content" />
                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center ">KAHOOT QUIZ</h2>
               </Link>
             </div>
           </div>
           <div className="box ">
             <div className=" bg-gray-200 p-6 rounded-lg mx-10">
-              <Link to="/robo-talk">
-                <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/img_1.jpg'} alt="content" />
+              <Link to="/robo_talk">
+                <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/robo_talk.jpg'} alt="content" />
                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center ">ROBO TALK</h2>
               </Link>
             </div>
           </div>
-          
+
         </Slider>
       </div>
-      
+
 
       <div className="carousel mt-6 py-6">
-      <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900 m-8 ">Non Technical</h1>
-              <div className="h-1 w-20 bg-indigo-500 rounded mx-16"></div>
+        <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900 m-8 ">Non Technical</h1>
+        <div className="h-1 w-20 bg-indigo-500 rounded mx-16"></div>
         <br></br>
         <Slider {...settings}>
           <div className=" box ">
             <div className=" bg-gray-200 p-6 rounded-lg mx-10">
               <Link to="/colour-paint">
-                <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/img_1.jpg'} alt="content" />
+                <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/color_paint.jpg'} alt="content" />
                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center ">COLOUR PAINT</h2>
               </Link>
             </div>
@@ -187,7 +187,7 @@ const Home = () => {
           <div className=" box ">
             <div className=" bg-gray-200 p-6 rounded-lg mx-10">
               <Link to="/dialogue-war">
-                <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/img_1.jpg'} alt="content" />
+                <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/dialogur_war.jpg'} alt="content" />
                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center ">DIALOGUE WAR</h2>
               </Link>
             </div>
@@ -195,7 +195,7 @@ const Home = () => {
           <div className=" box ">
             <div className=" bg-gray-200 p-6 rounded-lg mx-10">
               <Link to="/dillse-dance">
-                <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/img_1.jpg'} alt="content" />
+                <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/dance.jpg'} alt="content" />
                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center ">DILLSE DANCE</h2>
               </Link>
             </div>
@@ -203,7 +203,7 @@ const Home = () => {
           <div className=" box ">
             <div className=" bg-gray-200 p-6 rounded-lg mx-10">
               <Link to="/dumb-charades">
-                <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/img_1.jpg'} alt="content" />
+                <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/dumb_charades.jpg'} alt="content" />
                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center ">DUMB CHARADES</h2>
               </Link>
             </div>
@@ -211,7 +211,7 @@ const Home = () => {
           <div className=" box ">
             <div className=" bg-gray-200 p-6 rounded-lg mx-10">
               <Link to="/face-paint">
-                <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/img_1.jpg'} alt="content" />
+                <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/face_paint.jpg'} alt="content" />
                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center ">FACE PAINT</h2>
               </Link>
             </div>
@@ -304,72 +304,51 @@ const Home = () => {
               </Link>
             </div>
           </div>
-         
+
         </Slider>
       </div>
 
       <div className="carousel mt-6 py-6">
-      <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900 m-8 ">spot Events</h1>
-              <div className="h-1 w-20 bg-indigo-500 rounded mx-16"></div>
+        <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900 m-8 ">spot Events</h1>
+        <div className="h-1 w-20 bg-indigo-500 rounded mx-16"></div>
         <br></br>
         <Slider {...settings}>
           <div className=" box ">
             <div className=" bg-gray-200 p-6 rounded-lg mx-10">
-              <Link to="/kahoot_quiz">
-                <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/img_1.jpg'} alt="content" />
-                <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center ">KAHOOT QUIZ</h2>
+              <Link to="/gully_cricket">
+                <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/gully_cricket.jpg'} alt="content" />
+                <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center ">GULLY CRICKET</h2>
               </Link>
             </div>
           </div>
           <div className=" box ">
             <div className=" bg-gray-200 p-6 rounded-lg mx-10">
-              <Link to="/kahoot_quiz">
-                <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/img_1.jpg'} alt="content" />
-                <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center ">KAHOOT QUIZ</h2>
-              </Link>
-            </div>
-          </div>
-          <div className=" box ">
-            <div className=" bg-gray-200 p-6 rounded-lg mx-10">
-              <Link to="/kahoot_quiz">
-                <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/img_1.jpg'} alt="content" />
-                <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center ">KAHOOT QUIZ</h2>
-              </Link>
-            </div>
-          </div>
-          <div className=" box ">
-            <div className=" bg-gray-200 p-6 rounded-lg mx-10">
-              <Link to="/kahoot_quiz">
-                <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/img_1.jpg'} alt="content" />
-                <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center ">KAHOOT QUIZ</h2>
-              </Link>
-            </div>
-          </div>
-          <div className=" box ">
-            <div className=" bg-gray-200 p-6 rounded-lg mx-10">
-              <Link to="/kahoot_quiz">
-                <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/img_1.jpg'} alt="content" />
-                <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center ">KAHOOT QUIZ</h2>
-              </Link>
-            </div>
-          </div>
-          <div className="box ">
-            <div className=" bg-gray-200 p-6 rounded-lg mx-10">
-              <Link to="/kahoot_quiz">
-                <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/img_1.jpg'} alt="content" />
-                <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center ">KAHOOT QUIZ</h2>
-              </Link>
-            </div>
-          </div>
-          <div className="box ">
-            <div className=" bg-gray-200 p-6 rounded-lg mx-10">
-              <Link to="/kahoot_quiz">
-                <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/img_1.jpg'} alt="content" />
-                <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center ">KAHOOT QUIZ</h2>
+              <Link to="/tug_of_war">
+                <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/tug_of_war.jpg'} alt="content" />
+                <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center ">TUG OF WAR</h2>
               </Link>
             </div>
           </div>
           
+          
+          
+          <div className="box ">
+            <div className=" bg-gray-200 p-6 rounded-lg mx-10">
+              <Link to="/kahoot_quiz">
+                <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/img_1.jpg'} alt="content" />
+                <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center ">KAHOOT QUIZ</h2>
+              </Link>
+            </div>
+          </div>
+          <div className="box ">
+            <div className=" bg-gray-200 p-6 rounded-lg mx-10">
+              <Link to="/kahoot_quiz">
+                <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/img_1.jpg'} alt="content" />
+                <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center ">KAHOOT QUIZ</h2>
+              </Link>
+            </div>
+          </div>
+
         </Slider>
       </div>
 
@@ -393,15 +372,11 @@ const Home = () => {
               ))}
             </MarqueeGroup>
           </Marquee>
-          
+
         </Wrapper>
       </AppContainer>
 
-
-
-
-      
-
+          
     </>
   )
 }

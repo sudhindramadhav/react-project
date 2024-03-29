@@ -25,7 +25,7 @@ const Events = () => {
       
       <div>
         <Link  to='/bwb' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
-          <img src="https://images.unsplash.com/ -1552374196-1ab2a1c593e8?auto=format&q=75&fit=crop&crop=top&w=600&h=700" loading="lazy" alt="  by Austin Wade" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+          <img src={process.env.PUBLIC_URL + '/images/img_1.jpg'} loading="lazy" alt="  by Austin Wade" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
 
           <div class="relative flex w-full flex-col rounded-lg bg-white p-4 text-center">
             <span class="text-lg font-bold text-gray-800 lg:text-xl">BUILD WITH BITS</span>
@@ -35,7 +35,7 @@ const Events = () => {
 
       <div>
         <Link  to='/circut_trace' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
-          <img src="https://images.unsplash.com/ -1552374196-1ab2a1c593e8?auto=format&q=75&fit=crop&crop=top&w=600&h=700" loading="lazy" alt="  by Austin Wade" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+          <img src={process.env.PUBLIC_URL + '/images/img_1.jpg'} loading="lazy" alt="  by Austin Wade" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
 
           <div class="relative flex w-full flex-col rounded-lg bg-white p-4 text-center">
             <span class="text-lg font-bold text-gray-800 lg:text-xl">CIRCUT TRACE</span>
@@ -45,7 +45,7 @@ const Events = () => {
 
       <div>
         <Link  to='/coding_automata' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
-          <img src="https://images.unsplash.com/ -1552374196-1ab2a1c593e8?auto=format&q=75&fit=crop&crop=top&w=600&h=700" loading="lazy" alt="  by Austin Wade" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+          <img src={process.env.PUBLIC_URL + '/images/img_1.jpg'} loading="lazy" alt="  by Austin Wade" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
 
           <div class="relative flex w-full flex-col rounded-lg bg-white p-4 text-center">
             <span class="text-lg font-bold text-gray-800 lg:text-xl">CODING AUTOMATA</span>
@@ -55,7 +55,7 @@ const Events = () => {
 
       <div>
         <Link  to='/coding_contest' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
-          <img src="https://images.unsplash.com/ -1552374196-1ab2a1c593e8?auto=format&q=75&fit=crop&crop=top&w=600&h=700" loading="lazy" alt="  by Austin Wade" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+          <img src={process.env.PUBLIC_URL + '/images/img_1.jpg'} loading="lazy" alt="  by Austin Wade" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
 
           <div class="relative flex w-full flex-col rounded-lg bg-white p-4 text-center">
             <span class="text-lg font-bold text-gray-800 lg:text-xl">CODING CONTEST</span>
@@ -65,7 +65,7 @@ const Events = () => {
       
       <div>
         <Link  to='/idea_blitz' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
-          <img src="https://images.unsplash.com/ -1603344797033-f0f4f587ab60?auto=format&q=75&fit=crop&crop=top&w=600&h=700" loading="lazy" alt="  by engin akyurt" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+          <img src={process.env.PUBLIC_URL + '/images/img_1.jpg'} loading="lazy" alt="  by engin akyurt" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
 
           <div class="relative flex w-full flex-col rounded-lg bg-white p-4 text-center">
             <span class="text-lg font-bold text-gray-800 lg:text-xl">IDEA BLITZ</span>
@@ -75,7 +75,7 @@ const Events = () => {
      
       <div>
         <Link  to='/kahoot_quiz' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
-          <img src="https://images.unsplash.com/ -1552668693-d0738e00eca8?auto=format&q=75&fit=crop&crop=top&w=600&h=700" loading="lazy" alt="  by Austin Wade" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+          <img src={process.env.PUBLIC_URL + '/images/img_1.jpg'} loading="lazy" alt="  by Austin Wade" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
 
           <div class="relative flex w-full flex-col rounded-lg bg-white p-4 text-center">
             <span class="text-lg font-bold text-gray-800 lg:text-xl">KAHOOT QUIZ</span>
@@ -85,7 +85,7 @@ const Events = () => {
     
       <div>
         <Link  to='/robo_talk' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
-          <img src="https://images.unsplash.com/ -1560269999-cef6ebd23ad3?auto=format&q=75&fit=crop&w=600&h=700" loading="lazy" alt="  by Austin Wade" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+          <img src={process.env.PUBLIC_URL + '/images/img_1.jpg'} loading="lazy" alt="  by Austin Wade" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
 
           <div class="relative flex w-full flex-col rounded-lg bg-white p-4 text-center">
             <span class="text-lg font-bold text-gray-800 lg:text-xl">ROBO TALK</span>

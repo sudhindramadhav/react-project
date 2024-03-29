@@ -55,21 +55,27 @@ const Home = () => {
   
   return (
     <>
-      <section className="min-h-90 relative flex flex-1 shrink-0 items-center justify-center overflow-hidden    bg-gray-2000 py-10 shadow-lg md:py-20 xl:py-48 ">
+      <section className="min-h-90 relative flex flex-1 shrink-0 items-center justify-center overflow-hidden bg-gray-2000 py-10 shadow-lg md:py-20 xl:py-48 ">
+      {/* Video element */}
+      <video autoPlay loop muted className="absolute inset-0 h-full w-full object-cover object-center">
+        <source src={process.env.PUBLIC_URL + '/videos/clgpost.mp4'} type="video/mp4" />
+        {/* Provide alternative content in case the video cannot be played */}
+        Your browser does not support the video tag.
+      </video>
 
-        <img src={process.env.PUBLIC_URL + '/images/clgpost.jpg'} loading="lazy" alt=" by Fakurian Design" className="absolute inset-0 h-full w-full object-cover object-center" />
-        <div className="absolute inset-0  mix-blend-multiply"></div>
-        <div className="relative flex flex-col items-center p-4 sm:max-w-xl">
-          <p className="mb-4 text-center text-lg text-indigo-200 sm:text-xl md:mb-8">Very proud to introduce</p>
-          <h1 className="mb-8 text-center text-4xl font-bold text-white sm:text-5xl md:mb-12 md:text-6xl">SVCE SPARk</h1>
+      {/* Overlay */}
+      <div className="absolute inset-0 mix-blend-multiply"></div>
 
-          <div className="flex  flex-col gap-2.5 sm:flex-row sm:justify-center">
-            <Link to='/events'>
-              <Link to="/events" className="rounded-lg bg-indigo-500 px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-indigo-300 transition duration-100 hover:bg-indigo-600 focus-visible:ring active:bg-indigo-700 md:text-base">Register Now</Link>
-            </Link>
-          </div>
+      {/* Content */}
+      <div className="relative flex flex-col items-center p-4 sm:max-w-xl">
+        <h1 className="mb-8 text-center text-4xl font-bold text-white sm:text-5xl md:mb-12 md:text-6xl">SVCE SPARk</h1>
+        <div className="flex flex-col gap-2.5 sm:flex-row sm:justify-center">
+          <Link to='/events'>
+            <Link to="/events" className="rounded-lg bg-indigo-500 px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-indigo-300 transition duration-100 hover:bg-indigo-600 focus-visible:ring active:bg-indigo-700 md:text-base">Register Now</Link>
+          </Link>
         </div>
-      </section>
+      </div>
+    </section>
 
 
       <section className="text-gray-600 body-font">

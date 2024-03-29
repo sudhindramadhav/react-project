@@ -28,10 +28,15 @@ const Spot = () => {
       
     <div>
         <Link  to='/kahoot_quiz' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
+<<<<<<< HEAD
         <img src={process.env.PUBLIC_URL + '/images/gully_cricket.jpg'} loading="lazy"
                   alt="Description of the image"
                   className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                 />
+=======
+          <img src={process.env.PUBLIC_URL + '/images/img_1.jpg'} loading="lazy" alt="  by Austin Wade" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+>>>>>>> b6d18ec1714c89377e09bba34fc6589ddbd17a85
           <div class="relative flex w-full flex-col rounded-lg bg-white p-4 text-center">
             <span class="text-lg font-bold text-gray-800 lg:text-xl">Gully Circket</span>
           </div>
@@ -40,10 +45,15 @@ const Spot = () => {
     
       <div>
         <Link  to='/robo_talk' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
+<<<<<<< HEAD
         <img src={process.env.PUBLIC_URL + '/images/tug_of_war.jpg'} loading="lazy"
                   alt="Description of the image"
                   className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                 />
+=======
+          <img src={process.env.PUBLIC_URL + '/images/img_1.jpg'} loading="lazy" alt="  by Austin Wade" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+>>>>>>> b6d18ec1714c89377e09bba34fc6589ddbd17a85
           <div class="relative flex w-full flex-col rounded-lg bg-white p-4 text-center">
             <span class="text-lg font-bold text-gray-800 lg:text-xl">Tug Of War</span>
           </div>
@@ -51,11 +61,31 @@ const Spot = () => {
       </div>
 
       <div>
+<<<<<<< HEAD
         
       </div>
     
       <div>
         
+=======
+        <Link  to='/kahoot_quiz' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
+          <img src={process.env.PUBLIC_URL + '/images/img_1.jpg'} loading="lazy" alt="  by Austin Wade" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+          <div class="relative flex w-full flex-col rounded-lg bg-white p-4 text-center">
+            <span class="text-lg font-bold text-gray-800 lg:text-xl">KAHOOT QUIZ</span>
+          </div>
+        </Link>
+      </div>
+    
+      <div>
+        <Link  to='/robo_talk' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
+          <img src={process.env.PUBLIC_URL + '/images/img_1.jpg'} loading="lazy" alt="  by Austin Wade" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+          <div class="relative flex w-full flex-col rounded-lg bg-white p-4 text-center">
+            <span class="text-lg font-bold text-gray-800 lg:text-xl">ROBO TALK</span>
+          </div>
+        </Link>
+>>>>>>> b6d18ec1714c89377e09bba34fc6589ddbd17a85
       </div>
    
     </div>

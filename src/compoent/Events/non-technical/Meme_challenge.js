@@ -1,6 +1,6 @@
 import React from 'react'
 import { useEffect } from 'react';
-import memechallenge from "../../../Assets/images/memechallenge.png"
+import memechallenge from "../../../Assets/images/memechallenge.jpg"
 const Meme_challenge = () => {
     useEffect(() => {
         window.scrollTo(0, 0); // Scrolls to the top of the page

@@ -1,5 +1,5 @@
 import React from "react";
-import fgc from "../Assets/images/fgc.png"
+import fgc from "../Assets/images/fgc.jpg"
 import cola from "../Assets/images/Coca_Cola_Logo.png"
 
 const sponser = () => {

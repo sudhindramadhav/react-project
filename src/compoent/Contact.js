@@ -1,7 +1,7 @@
 import React from "react";
  // Import CSS file for styling
 import './Contact.css';
-import murali from "../Assets/images/murali.jpg"
+import murali from "../Assets/images/murali.jpeg"
 import sudhindra from "../Assets/images/Sudhindra1.jpeg"
 import praveen from "../Assets/images/praveen.jpg"
 const Contact = () => {

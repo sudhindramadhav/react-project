@@ -1,6 +1,6 @@
 import React from 'react'
 import { useEffect } from 'react';
-import robo_talk from "../../../Assets/images/robo_talk.jpg"
+import robo_talk from "../../../Assets/images/robotalk.jpg"
 const Robo_Talk = () => {
   useEffect(() => {
     window.scrollTo(0, 0); // Scrolls to the top of the page

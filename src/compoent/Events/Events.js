@@ -8,7 +8,7 @@ import coding_automata from "../../Assets/images/coding_automata.jpg"
 import coding_contest from "../../Assets/images/codingcontest.jpg"
 import idea_blitz from "../../Assets/images/idea_blitz.jpeg"
 import kahoot_quiz from "../../Assets/images/kahoot_quiz.png"
-import robo_talk from "../../Assets/images/robo_talk.jpg"
+import robo_talk from "../../Assets/images/robotalk.jpg"
 
 const Events = () => {
   return (

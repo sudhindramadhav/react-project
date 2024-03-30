@@ -38,6 +38,7 @@ import Sound_Space from "./compoent/Events/non-technical/Sound_Space"
 import Stand_up_comedy from "./compoent/Events/non-technical/Stand_up_comedy"
 import ThugOfWar from "./compoent/Events/spot/ThugOfWar"
 import Gully_circket from "./compoent/Events/spot/Gully_circket"
+import Gallery from "./compoent/Gallery"
 
 
 //npm install react-router-dom@5
@@ -54,6 +55,9 @@ function App() {
           </Route>
           <Route path='/about' compoent={About} exact>
             <About />
+          </Route>
+          <Route path='/gallery' compoent={Gallery} exact>
+            <Gallery />
           </Route>
           <Route path='/contact' compoent={Contact} exact>
             <Contact />

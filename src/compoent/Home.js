@@ -6,6 +6,8 @@ import "slick-carousel/slick/slick-theme.css"
 import Slider from "react-slick"
 import styled, { keyframes, css } from "styled-components"
 
+import examplev from "../Assets/video/example.mp4"
+
 import build_with_bits from "../Assets/images/build_with_bits.jpg"
 import circut_trace from "../Assets/images/circut_trace.jpg"
 import coding_automata from "../Assets/images/coding_automata.jpg"
@@ -35,6 +37,7 @@ import standupcomedy from "../Assets/images/standupcomedy.jpg"
 
 import gully_cricket from "../Assets/images/gully_cricket.jpg"
 import tug_of_war from "../Assets/images/tug_of_war.jpg"
+import Pricing from "./Pricing"
 
 const Home = () => {
 
@@ -88,7 +91,7 @@ const Home = () => {
       <section className="min-h-90 relative flex flex-1 shrink-0 items-center justify-center overflow-hidden bg-gray-2000 py-10 shadow-lg md:py-20 xl:py-48 ">
       {/* Video element */}
       <video autoPlay loop muted className="absolute inset-0 h-full w-full object-cover object-center">
-        <source src={process.env.PUBLIC_URL + '/videos/clgpost.mp4'} type="video/mp4" />
+        <source src={examplev} type="video/mp4" />
         {/* Provide alternative content in case the video cannot be played */}
         Your browser does not support the video tag.
       </video>
@@ -108,37 +111,8 @@ const Home = () => {
     </section>
 
 
-      <section className="text-gray-600 body-font">
-        <div className="container px-5 py-4 mx-auto flex flex-wrap">
-          <div className="flex w-full mb-4 flex-wrap  p-4">
-            <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900  lg:mb-0 mb-4 text-center">AMPLE GALLERY :</h1>
-          </div>
-          <div className="flex flex-wrap md:-m-2 -m-1">
-            <div className="flex flex-wrap w-1/2">
-              <div className="md:p-2 p-1 w-1/2">
-                <img alt="gallery" className="w-full object-cover h-full object-center block" src={process.env.PUBLIC_URL + '/images/img_1.jpg'} />
-              </div>
-              <div className="md:p-2 p-1 w-1/2">
-                <img alt="gallery" className="w-full object-cover h-full object-center block" src={process.env.PUBLIC_URL + '/images/img_2.jpg'} />
-              </div>
-              <div className="md:p-2 p-1 w-full">
-                <img alt="gallery" className="w-full h-full object-cover object-center block" src={process.env.PUBLIC_URL + '/images/img_1.jpg'} />
-              </div>
-            </div>
-            <div className="flex flex-wrap w-1/2">
-              <div className="md:p-2 p-1 w-full">
-                <img alt="gallery" className="w-full h-full object-cover object-center block" src="https://dummyimage.com/601x361" />
-              </div>
-              <div className="md:p-2 p-1 w-1/2">
-                <img alt="gallery" className="w-full object-cover h-full object-center block" src={process.env.PUBLIC_URL + '/images/img_3.jpg'} />
-              </div>
-              <div className="md:p-2 p-1 w-1/2">
-                <img alt="gallery" className="w-full object-cover h-full object-center block" src={process.env.PUBLIC_URL + '/images/img_4.jpg'} />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+        
+
 
 
       <div className="carousel mt-6 py-6">
@@ -388,6 +362,8 @@ const Home = () => {
         </Slider>
       </div>
 
+      <Pricing/>
+
       <AppContainer>
         <Wrapper>
           <Text>Special Thanks to</Text>
@@ -411,6 +387,9 @@ const Home = () => {
 
         </Wrapper>
       </AppContainer>
+
+
+     
 
           
     </>

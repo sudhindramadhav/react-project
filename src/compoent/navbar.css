@@ -87,7 +87,7 @@ button {
     z-index: 2;
   }
   ul li {
-    padding: 32px;
+    padding: 20px;
     width: 100%;
     transition: all 0.5s ease-in-out;
     text-align: center;

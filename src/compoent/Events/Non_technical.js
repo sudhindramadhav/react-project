@@ -40,7 +40,7 @@ const Non_technical = () => {
 
             <div>
               <Link to='/dialogue-war' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
-                <img src={process.env.PUBLIC_URL + '/images/dialogur_war.jpg'} loading="lazy"
+                <img src={process.env.PUBLIC_URL + '/images/dialoguewar.jpg'} loading="lazy"
                   alt="Description of the image"
                   className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                 />
@@ -52,7 +52,7 @@ const Non_technical = () => {
 
             <div>
               <Link to='/dillse-dance' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
-                <img src={process.env.PUBLIC_URL + '/images/dance.jpg'} loading="lazy"
+                <img src={process.env.PUBLIC_URL + '/images/classicaldance.jpg'} loading="lazy"
                   alt="Description of the image"
                   className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                 />
@@ -64,7 +64,7 @@ const Non_technical = () => {
 
             <div>
               <Link to='/dumb-charades' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
-                <img src={process.env.PUBLIC_URL + '/images/dumb_charades.jpg'} loading="lazy"
+                <img src={process.env.PUBLIC_URL + '/images/dumbcharades.jpg'} loading="lazy"
                   alt="Description of the image"
                   className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                 />
@@ -88,19 +88,19 @@ const Non_technical = () => {
 
             <div>
               <Link to='/gana' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
-                <img src={process.env.PUBLIC_URL + '/images/idea_blitz.jpeg'} loading="lazy"
+                <img src={process.env.PUBLIC_URL + '/images/singing.jpg'} loading="lazy"
                   alt="Description of the image"
                   className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                 />
                 <div class="relative flex w-full flex-col rounded-lg bg-white p-4 text-center">
-                  <span class="text-lg font-bold text-gray-800 lg:text-xl">Gana</span>
+                  <span class="text-lg font-bold text-gray-800 lg:text-xl">Gaana</span>
                 </div>
               </Link>
             </div>
 
             <div>
               <Link to='/mehandi' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
-                <img src={process.env.PUBLIC_URL + '/images/idea_blitz.jpeg'} loading="lazy"
+                <img src={process.env.PUBLIC_URL + '/images/mehandi.jpg'} loading="lazy"
                   alt="Description of the image"
                   className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                 />
@@ -112,7 +112,7 @@ const Non_technical = () => {
 
             <div>
               <Link to='/meme-challenge' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
-                <img src={process.env.PUBLIC_URL + '/images/idea_blitz.jpeg'} loading="lazy"
+                <img src={process.env.PUBLIC_URL + '/images/memechallenge.png'} loading="lazy"
                   alt="Description of the image"
                   className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                 />
@@ -124,7 +124,7 @@ const Non_technical = () => {
 
             <div>
               <Link to='/pencil-sketch' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
-                <img src={process.env.PUBLIC_URL + '/images/idea_blitz.jpeg'} loading="lazy"
+                <img src={process.env.PUBLIC_URL + '/images/pencilsketch.jpg'} loading="lazy"
                   alt="Description of the image"
                   className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                 />
@@ -136,7 +136,7 @@ const Non_technical = () => {
 
             <div>
               <Link to='/period-pain' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
-                <img src={process.env.PUBLIC_URL + '/images/idea_blitz.jpeg'} loading="lazy"
+                <img src={process.env.PUBLIC_URL + '/images/periodpain.jpg'} loading="lazy"
                   alt="Description of the image"
                   className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                 />
@@ -148,7 +148,7 @@ const Non_technical = () => {
 
             <div>
               <Link to='/poetry-pros' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
-                <img src={process.env.PUBLIC_URL + '/images/idea_blitz.jpeg'} loading="lazy"
+                <img src={process.env.PUBLIC_URL + '/images/poetry.jpg'} loading="lazy"
                   alt="Description of the image"
                   className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                 />
@@ -160,7 +160,7 @@ const Non_technical = () => {
 
             <div>
               <Link to='/ramp-walk' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
-                <img src={process.env.PUBLIC_URL + '/images/idea_blitz.jpeg'} loading="lazy"
+                <img src={process.env.PUBLIC_URL + '/images/rampwalk.jpg'} loading="lazy"
                   alt="Description of the image"
                   className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                 />
@@ -172,7 +172,7 @@ const Non_technical = () => {
 
             <div>
               <Link to='/reels' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
-                <img src={process.env.PUBLIC_URL + '/images/idea_blitz.jpeg'} loading="lazy"
+                <img src={process.env.PUBLIC_URL + '/images/reels.jpg'} loading="lazy"
                   alt="Description of the image"
                   className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                 />
@@ -184,7 +184,7 @@ const Non_technical = () => {
 
             <div>
               <Link to='/short-film' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
-                <img src={process.env.PUBLIC_URL + '/images/idea_blitz.jpeg'} loading="lazy"
+                <img src={process.env.PUBLIC_URL + '/images/shortfilm.jpg'} loading="lazy"
                   alt="Description of the image"
                   className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                 />
@@ -196,7 +196,7 @@ const Non_technical = () => {
 
             <div>
               <Link to='/sound-sapce' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
-                <img src={process.env.PUBLIC_URL + '/images/idea_blitz.jpeg'} loading="lazy"
+                <img src={process.env.PUBLIC_URL + '/images/musicalinstrument.jpg'} loading="lazy"
                   alt="Description of the image"
                   className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                 />
@@ -208,7 +208,7 @@ const Non_technical = () => {
 
             <div>
               <Link to='/stand-up-comedy' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
-                <img src={process.env.PUBLIC_URL + '/images/idea_blitz.jpeg'} loading="lazy"
+                <img src={process.env.PUBLIC_URL + '/images/standupcomedy.jpg'} loading="lazy"
                   alt="Description of the image"
                   className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                 />

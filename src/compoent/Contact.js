@@ -40,7 +40,7 @@ const Contact = () => {
           
               <div class="flex flex-col items-center gap-2 sm:flex-row md:gap-4">
                 <div class="h-30 w-24 overflow-hidden rounded-full bg-gray-100 shadow-lg md:h-40 md:w-32">
-                  <img src={process.env.PUBLIC_URL + '/images/sudhindra1.jpeg'} loading="lazy" alt=" by Ayo Ogunseinde" class="h-full w-full object-cover object-center" />
+                  <img src={process.env.PUBLIC_URL + '/images/Sudhindra1.jpeg'} loading="lazy" alt=" by Ayo Ogunseinde" class="h-full w-full object-cover object-center" />
                 </div>
 
                 <div>

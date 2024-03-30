@@ -62,7 +62,7 @@ const Events = () => {
 
             <div>
               <Link to='/coding_contest' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
-              <img src={process.env.PUBLIC_URL + '/images/coding_competition.jpg'} loading="lazy"
+              <img src={process.env.PUBLIC_URL + '/images/codingcontest.jpg'} loading="lazy"
                   alt="Description of the image"
                   className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                 />
@@ -98,7 +98,7 @@ const Events = () => {
 
             <div>
               <Link to='/robo_talk' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
-              <img src={process.env.PUBLIC_URL + '/images/robo_talk.jpg'} loading="lazy"
+              <img src={process.env.PUBLIC_URL + '/images/robotalk.jpg'} loading="lazy"
                   alt="Description of the image"
                   className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                 />

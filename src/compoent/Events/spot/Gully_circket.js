@@ -14,7 +14,7 @@ const Gully_circket = () => {
             <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
             <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">GULLY CIRCKET
             </h1>
-            <p class="mb-8 leading-relaxed">Build With Bits: A compact, engaging brainstorming event, where participants in groups of 3-5 collaborate on inventive solutions for various problem statements. Prizes and appreciation are given for the most creative, feasible ideas, fostering an atmosphere of innovation and enthusiasm.</p>
+            <p class="mb-8 leading-relaxed">Gully Cricket: Refers to a casual form of cricket played in streets, parks, or any open space, rather than in a formal cricket ground. It's popular in many cricket-loving countries, particularly in India. Gully cricket often involves improvised rules, such as fewer players, smaller playing areas, and variations in equipment. It's a fun and accessible way for people to enjoy the sport in a more informal setting.</p>
             <div class="flex justify-center">
                 <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Register Now</button> 
             </div>
@@ -27,23 +27,17 @@ const Gully_circket = () => {
                   <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">RULES:</h2>
               
                     <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
-                    • Participants form teams of 3-5 members.<br/>
-                    • A clear and random problem statement from the given list  is provided at the start to each team <br/>
-                    • Teams brainstorm to generate as many ideas as possible.<br/>
-                    • Ideas should be creative and relevant to the problem statement.<br/>
-                    • Each team presents their top ideas in 3 minutes.<br/>
-                    • Awards are given for the most creative and feasible ideas.<br/>
+                    • Team Contains 5 Members.<br/>
+                    • Gully cricket emphasises fair play and sportsmanship. Players are expected to abide by the rules, respect their opponents, and play in the spirit of the game.<br/>
+                    • There can be variations in the rules regarding boundaries, such as hitting the ball over a certain height or distance being declared as six, or the ball bouncing off a wall counting as runs, etc.<br/>
+                    • Depending on the locality and the preferences of the players, additional rules or modifications to existing rules may be introduced to suit the conditions or enhance the enjoyment of the game.<br/>
                     </p>
-                    <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">PRE-REQUISITE:</h2>
-              
-                    <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
-                    • Projector, Chairs and Benches<br/>
-                    </p>
+                    
 
                     <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">ENTRY FEE:</h2>
               
                     <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
-                    <h4>100/-</h4><br/>
+                    <h4>200/- per Team</h4><br/>
                     </p>
             
                 </div>

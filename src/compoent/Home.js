@@ -143,7 +143,7 @@ const Home = () => {
           <div className=" box ">
             <div className=" bg-gray-200 p-6 rounded-lg mx-10">
               <Link to="/coding_contest">
-                <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/coding_competition.jpg'} alt="content" />
+                <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/codingcontest.jpg'} alt="content" />
                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center ">CODING CONTEST</h2>
               </Link>
             </div>
@@ -167,7 +167,7 @@ const Home = () => {
           <div className="box ">
             <div className=" bg-gray-200 p-6 rounded-lg mx-10">
               <Link to="/robo_talk">
-                <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/robo_talk.jpg'} alt="content" />
+                <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/robotalk.jpg'} alt="content" />
                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center ">ROBO TALK</h2>
               </Link>
             </div>
@@ -193,7 +193,7 @@ const Home = () => {
           <div className=" box ">
             <div className=" bg-gray-200 p-6 rounded-lg mx-10">
               <Link to="/dialogue-war">
-                <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/dialogur_war.jpg'} alt="content" />
+                <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/dialoguewar.jpg'} alt="content" />
                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center ">DIALOGUE WAR</h2>
               </Link>
             </div>
@@ -201,7 +201,7 @@ const Home = () => {
           <div className=" box ">
             <div className=" bg-gray-200 p-6 rounded-lg mx-10">
               <Link to="/dillse-dance">
-                <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/dance.jpg'} alt="content" />
+                <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/classicaldance.jpg'} alt="content" />
                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center ">DILLSE DANCE</h2>
               </Link>
             </div>
@@ -209,7 +209,7 @@ const Home = () => {
           <div className=" box ">
             <div className=" bg-gray-200 p-6 rounded-lg mx-10">
               <Link to="/dumb-charades">
-                <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/dumb_charades.jpg'} alt="content" />
+                <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/dumbcharades.jpg'} alt="content" />
                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center ">DUMB CHARADES</h2>
               </Link>
             </div>
@@ -225,15 +225,15 @@ const Home = () => {
           <div className="box  ">
             <div className=" bg-gray-200 p-6 rounded-lg mx-10">
               <Link to="/gana">
-                <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/img_1.jpg'} alt="content" />
-                <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center ">GANA</h2>
+                <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/singing.jpg'} alt="content" />
+                <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center ">GAANA</h2>
               </Link>
             </div>
           </div>
           <div className="box  ">
             <div className=" bg-gray-200 p-6 rounded-lg mx-10">
               <Link to="/mehandi">
-                <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/img_1.jpg'} alt="content" />
+                <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/mehandi.jpg'} alt="content" />
                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center ">MEHANDI</h2>
               </Link>
             </div>
@@ -241,7 +241,7 @@ const Home = () => {
           <div className=" box ">
             <div className=" bg-gray-200 p-6 rounded-lg mx-10">
               <Link to="/meme-challenge">
-                <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/img_1.jpg'} alt="content" />
+                <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/memechallenge.png'} alt="content" />
                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center ">MEME CHALLENGE</h2>
               </Link>
             </div>
@@ -249,7 +249,7 @@ const Home = () => {
           <div className=" box ">
             <div className=" bg-gray-200 p-6 rounded-lg mx-10">
               <Link to="/pencil-sketch">
-                <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/img_1.jpg'} alt="content" />
+                <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/pencilsketch.jpg'} alt="content" />
                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center ">PENCIL SKETCH</h2>
               </Link>
             </div>
@@ -257,7 +257,7 @@ const Home = () => {
           <div className=" box ">
             <div className=" bg-gray-200 p-6 rounded-lg mx-10">
               <Link to="/period-pain">
-                <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/img_1.jpg'} alt="content" />
+                <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/periodpain.jpg'} alt="content" />
                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center ">PERIOD PAIN</h2>
               </Link>
             </div>
@@ -265,7 +265,7 @@ const Home = () => {
           <div className=" box ">
             <div className=" bg-gray-200 p-6 rounded-lg mx-10">
               <Link to="/poetry-pros">
-                <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/img_1.jpg'} alt="content" />
+                <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/poetry.jpg'} alt="content" />
                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center ">POETRY PROS</h2>
               </Link>
             </div>
@@ -273,15 +273,15 @@ const Home = () => {
           <div className=" box ">
             <div className=" bg-gray-200 p-6 rounded-lg mx-10">
               <Link to="/ramp-walk">
-                <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/img_1.jpg'} alt="content" />
-                <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center ">RAPM WALK</h2>
+                <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/rampwalk.jpg'} alt="content" />
+                <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center ">RAMP WALK</h2>
               </Link>
             </div>
           </div>
           <div className="box ">
             <div className=" bg-gray-200 p-6 rounded-lg mx-10">
               <Link to="/reels">
-                <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/img_1.jpg'} alt="content" />
+                <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/reels.jpg'} alt="content" />
                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center ">REELS</h2>
               </Link>
             </div>
@@ -289,7 +289,7 @@ const Home = () => {
           <div className="box ">
             <div className=" bg-gray-200 p-6 rounded-lg mx-10">
               <Link to="/short-film">
-                <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/img_1.jpg'} alt="content" />
+                <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/shortfilm.jpg'} alt="content" />
                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center ">SHORT FILM</h2>
               </Link>
             </div>
@@ -297,7 +297,7 @@ const Home = () => {
           <div className="box ">
             <div className=" bg-gray-200 p-6 rounded-lg mx-10">
               <Link to="/sound-space">
-                <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/img_1.jpg'} alt="content" />
+                <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/musicalinstrument.jpg'} alt="content" />
                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center ">SOUND SPACE</h2>
               </Link>
             </div>
@@ -305,7 +305,7 @@ const Home = () => {
           <div className="box  ">
             <div className=" bg-gray-200 p-6 rounded-lg mx-10">
               <Link to="/stand-up-comedy">
-                <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/img_1.jpg'} alt="content" />
+                <img className="h-40 rounded w-full object-cover object-center mb-6" src={process.env.PUBLIC_URL + '/images/standupcomedy.jpg'} alt="content" />
                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center ">STAND UP COMEDY</h2>
               </Link>
             </div>

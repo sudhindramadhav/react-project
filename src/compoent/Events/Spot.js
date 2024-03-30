@@ -1,6 +1,9 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from 'react'
 import { Link } from 'react-router-dom'
+import gully_cricket from "../../Assets/images/gully_cricket.jpg"
+import tug_of_war from "../../Assets/images/tug_of_war.jpg"
+
 const Spot = () => {
   return (
     <>
@@ -29,12 +32,8 @@ const Spot = () => {
     <div>
         <Link  to='/gully_cricket' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
 
-        <img src={process.env.PUBLIC_URL + '/images/gully_cricket.jpg'} loading="lazy"
-                  alt="Description of the image"
-                  className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
-                />
 
-          <img src={process.env.PUBLIC_URL + '/images/gully_cricket.jpg'} loading="lazy" alt="  by Austin Wade" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+          <img src={gully_cricket}   alt="  by Austin Wade" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
 
           <div class="relative flex w-full flex-col rounded-lg bg-white p-4 text-center">
             <span class="text-lg font-bold text-gray-800 lg:text-xl">Gully Circket</span>
@@ -45,11 +44,8 @@ const Spot = () => {
       <div>
         <Link  to='/tug_of_war' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
 
-        <img src={process.env.PUBLIC_URL + '/images/tug_of_war.jpg'} loading="lazy"
-                  alt="Description of the image"
-                  className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
-                />
-          <img src={process.env.PUBLIC_URL + '/images/tug_of_war.jpg'} loading="lazy" alt="  by Austin Wade" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+          <img src={tug_of_war}   alt="  by Austin Wade" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
           <div class="relative flex w-full flex-col rounded-lg bg-white p-4 text-center">
             <span class="text-lg font-bold text-gray-800 lg:text-xl">Tug Of War</span>
           </div>

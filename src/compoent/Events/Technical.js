@@ -1,6 +1,8 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from 'react'
 import { Link } from 'react-router-dom'
+
+
 const Technical = () => {
   return (
     <>
@@ -25,7 +27,7 @@ const Technical = () => {
 
             <div>
               <Link to='/bwb' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
-              <img src={process.env.PUBLIC_URL + '/images/build_with_bits.jpg'} loading="lazy"
+              <img src={build_with_bits}  
                   alt="Description of the image"
                   className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                 />
@@ -37,7 +39,7 @@ const Technical = () => {
 
             <div>
               <Link to='/circut_trace' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
-              <img src={process.env.PUBLIC_URL + '/images/circut_trace.jpg'} loading="lazy"
+              <img src={circut_trace}  
                   alt="Description of the image"
                   className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                 />
@@ -49,7 +51,7 @@ const Technical = () => {
 
             <div>
               <Link to='/coding_automata' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
-              <img src={process.env.PUBLIC_URL + '/images/coding_automata.jpg'} loading="lazy"
+              <img src={coding_automata}  
                   alt="Description of the image"
                   className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                 />
@@ -61,7 +63,7 @@ const Technical = () => {
 
             <div>
               <Link to='/coding_contest' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
-              <img src={process.env.PUBLIC_URL + '/images/codingcontest.jpg'} loading="lazy"
+              <img src={coding_contest}  
                   alt="Description of the image"
                   className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                 />
@@ -73,7 +75,7 @@ const Technical = () => {
 
             <div>
               <Link to='/idea_blitz' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
-              <img src={process.env.PUBLIC_URL + '/images/idea_blitz.jpeg'} loading="lazy"
+              <img src={idea_blitz}  
                   alt="Description of the image"
                   className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                 />
@@ -85,7 +87,7 @@ const Technical = () => {
 
             <div>
               <Link to='/kahoot_quiz' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
-              <img src={process.env.PUBLIC_URL + '/images/kahoot_quiz.png'} loading="lazy"
+              <img src={kahoot_quiz}  
                   alt="Description of the image"
                   className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                 />
@@ -97,7 +99,7 @@ const Technical = () => {
 
             <div>
               <Link to='/robo_talk' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
-              <img src={process.env.PUBLIC_URL + '/images/robotalk.jpg'} loading="lazy"
+              <img src={robo_talk}  
                   alt="Description of the image"
                   className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                 />

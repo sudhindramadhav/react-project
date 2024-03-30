@@ -1,6 +1,24 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from 'react'
 import { Link } from 'react-router-dom'
+import color_paint from "../../Assets/images/color_paint.jpg"
+import dialoguewar from "../../Assets/images/dialoguewar.jpg"
+import dillse from "../../Assets/images/classicaldance.jpg"
+import dumbcharades from "../../Assets/images/dumbcharades.jpg"
+import face_paint from "../../Assets/images/face_paint.jpg"
+import gana from "../../Assets/images/singing.jpg"
+import mehandi from "../../Assets/images/mehandi.jpg"
+import memechallenge from "../../Assets/images/memechallenge.png"
+import pencilsketch from "../../Assets/images/pencilsketch.jpg"
+import periodpain from "../../Assets/images/periodpain.jpg"
+import poetry from "../../Assets/images/poetry.jpg"
+import rampwalk from "../../Assets/images/rampwalk.jpg"
+import reels from "../../Assets/images/reels.jpg"
+import shortfilm from "../../Assets/images/shortfilm.jpg"
+import sound_space from "../../Assets/images/musicalinstrument.jpg"
+import standupcomedy from "../../Assets/images/standupcomedy.jpg"
+
+
 const Non_technical = () => {
   return (
     <>
@@ -28,7 +46,7 @@ const Non_technical = () => {
 
             <div>
               <Link to='/colour-paint' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
-                <img src={process.env.PUBLIC_URL + '/images/color_paint.jpg'} loading="lazy"
+                <img src={color_paint}  
                   alt="Description of the image"
                   className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                 />
@@ -40,7 +58,7 @@ const Non_technical = () => {
 
             <div>
               <Link to='/dialogue-war' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
-                <img src={process.env.PUBLIC_URL + '/images/dialoguewar.jpg'} loading="lazy"
+                <img src={dialoguewar}  
                   alt="Description of the image"
                   className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                 />
@@ -52,7 +70,7 @@ const Non_technical = () => {
 
             <div>
               <Link to='/dillse-dance' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
-                <img src={process.env.PUBLIC_URL + '/images/classicaldance.jpg'} loading="lazy"
+                <img src={dillse}  
                   alt="Description of the image"
                   className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                 />
@@ -64,7 +82,7 @@ const Non_technical = () => {
 
             <div>
               <Link to='/dumb-charades' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
-                <img src={process.env.PUBLIC_URL + '/images/dumbcharades.jpg'} loading="lazy"
+                <img src={dumbcharades}  
                   alt="Description of the image"
                   className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                 />
@@ -76,7 +94,7 @@ const Non_technical = () => {
 
             <div>
               <Link to='/face-paint' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
-                <img src={process.env.PUBLIC_URL + '/images/face_paint.jpg'} loading="lazy"
+                <img src={face_paint}  
                   alt="Description of the image"
                   className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                 />
@@ -88,7 +106,7 @@ const Non_technical = () => {
 
             <div>
               <Link to='/gana' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
-                <img src={process.env.PUBLIC_URL + '/images/singing.jpg'} loading="lazy"
+                <img src={gana}  
                   alt="Description of the image"
                   className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                 />
@@ -100,7 +118,7 @@ const Non_technical = () => {
 
             <div>
               <Link to='/mehandi' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
-                <img src={process.env.PUBLIC_URL + '/images/mehandi.jpg'} loading="lazy"
+                <img src={mehandi}  
                   alt="Description of the image"
                   className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                 />
@@ -112,7 +130,7 @@ const Non_technical = () => {
 
             <div>
               <Link to='/meme-challenge' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
-                <img src={process.env.PUBLIC_URL + '/images/memechallenge.png'} loading="lazy"
+                <img src={memechallenge}  
                   alt="Description of the image"
                   className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                 />
@@ -124,7 +142,7 @@ const Non_technical = () => {
 
             <div>
               <Link to='/pencil-sketch' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
-                <img src={process.env.PUBLIC_URL + '/images/pencilsketch.jpg'} loading="lazy"
+                <img src={pencilsketch}  
                   alt="Description of the image"
                   className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                 />
@@ -136,7 +154,7 @@ const Non_technical = () => {
 
             <div>
               <Link to='/period-pain' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
-                <img src={process.env.PUBLIC_URL + '/images/periodpain.jpg'} loading="lazy"
+                <img src={periodpain}  
                   alt="Description of the image"
                   className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                 />
@@ -148,7 +166,7 @@ const Non_technical = () => {
 
             <div>
               <Link to='/poetry-pros' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
-                <img src={process.env.PUBLIC_URL + '/images/poetry.jpg'} loading="lazy"
+                <img src={poetry}  
                   alt="Description of the image"
                   className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                 />
@@ -160,7 +178,7 @@ const Non_technical = () => {
 
             <div>
               <Link to='/ramp-walk' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
-                <img src={process.env.PUBLIC_URL + '/images/rampwalk.jpg'} loading="lazy"
+                <img src={rampwalk}  
                   alt="Description of the image"
                   className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                 />
@@ -172,7 +190,7 @@ const Non_technical = () => {
 
             <div>
               <Link to='/reels' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
-                <img src={process.env.PUBLIC_URL + '/images/reels.jpg'} loading="lazy"
+                <img src={reels}  
                   alt="Description of the image"
                   className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                 />
@@ -184,7 +202,7 @@ const Non_technical = () => {
 
             <div>
               <Link to='/short-film' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
-                <img src={process.env.PUBLIC_URL + '/images/shortfilm.jpg'} loading="lazy"
+                <img src={shortfilm}  
                   alt="Description of the image"
                   className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                 />
@@ -196,7 +214,7 @@ const Non_technical = () => {
 
             <div>
               <Link to='/sound-sapce' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
-                <img src={process.env.PUBLIC_URL + '/images/musicalinstrument.jpg'} loading="lazy"
+                <img src={sound_space}  
                   alt="Description of the image"
                   className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                 />
@@ -208,7 +226,7 @@ const Non_technical = () => {
 
             <div>
               <Link to='/stand-up-comedy' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
-                <img src={process.env.PUBLIC_URL + '/images/standupcomedy.jpg'} loading="lazy"
+                <img src={standupcomedy}  
                   alt="Description of the image"
                   className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                 />

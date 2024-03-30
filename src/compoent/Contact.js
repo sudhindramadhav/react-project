@@ -1,6 +1,9 @@
 import React from "react";
  // Import CSS file for styling
 import './Contact.css';
+import murali from "../Assets/images/murali.jpg"
+import sudhindra from "../Assets/images/Sudhindra1.jpeg"
+import praveen from "../Assets/images/praveen.jpg"
 const Contact = () => {
   return (
     <>
@@ -18,7 +21,7 @@ const Contact = () => {
          
               <div class="flex flex-col items-center gap-2 sm:flex-row md:gap-4">
                 <div class="h-30 w-24 overflow-hidden rounded-full bg-gray-100 shadow-lg md:h-40 md:w-32">
-                  <img src={process.env.PUBLIC_URL + '/images/praveen.jpg'} loading="lazy" alt=" by Radu Florin" class="h-full w-full object-cover object-center" />
+                  <img src={praveen}   alt=" by Radu Florin" class="h-full w-full object-cover object-center" />
                 </div>
 
                 <div>
@@ -28,8 +31,8 @@ const Contact = () => {
               </div>
              
               <div class="flex flex-col items-center gap-2 sm:flex-row md:gap-4">
-                <div class="h-30 w-24 overflow-hidden rounded-full bg-gray-100 shadow-lg md:h-32 md:w-32">
-                  <img src={process.env.PUBLIC_URL + '/images/murali.jpeg'} loading="lazy" alt=" by christian ferrer" class="h-full w-full object-cover object-center" />
+                <div class="h-30 w-24 overflow-hidden rounded-full bg-gray-100 shadow-lg md:h-38 md:w-32 ">
+                  <img src={murali}   alt=" by christian ferrer" class="h-full w-full object-cover object-center" />
                 </div>
 
                 <div>
@@ -40,7 +43,7 @@ const Contact = () => {
           
               <div class="flex flex-col items-center gap-2 sm:flex-row md:gap-4">
                 <div class="h-30 w-24 overflow-hidden rounded-full bg-gray-100 shadow-lg md:h-40 md:w-32">
-                  <img src={process.env.PUBLIC_URL + '/images/Sudhindra1.jpeg'} loading="lazy" alt=" by Ayo Ogunseinde" class="h-full w-full object-cover object-center" />
+                  <img src={sudhindra}   alt=" by Ayo Ogunseinde" class="h-full w-full object-cover object-center" />
                 </div>
 
                 <div>
@@ -51,7 +54,7 @@ const Contact = () => {
           
               <div class="flex flex-col items-center gap-2 sm:flex-row md:gap-4">
                 <div class="h-30 w-24 overflow-hidden rounded-full bg-gray-100 shadow-lg md:h-40 md:w-32">
-                  <img src={process.env.PUBLIC_URL + '/images/praveen.jpg'} loading="lazy" alt=" by Midas Hofstra" class="h-full w-full object-cover object-center" />
+                  <img src={process.env.PUBLIC_URL + '/images/praveen.jpg'}   alt=" by Midas Hofstra" class="h-full w-full object-cover object-center" />
                 </div>
 
                 <div>
@@ -62,7 +65,7 @@ const Contact = () => {
              
               <div class="flex flex-col items-center gap-2 sm:flex-row md:gap-4">
                 <div class="h-30 w-24 overflow-hidden rounded-full bg-gray-100 shadow-lg md:h-32 md:w-32">
-                  <img src={process.env.PUBLIC_URL + '/images/praveen.jpg'} loading="lazy" alt=" by Elizeu Dias" class="h-full w-full object-cover object-center" />
+                  <img src={process.env.PUBLIC_URL + '/images/praveen.jpg'}   alt=" by Elizeu Dias" class="h-full w-full object-cover object-center" />
                 </div>
 
                 <div>
@@ -73,7 +76,7 @@ const Contact = () => {
        
               <div class="flex flex-col items-center gap-2 sm:flex-row md:gap-4">
                 <div class="h-30 w-24 overflow-hidden rounded-full bg-gray-100 shadow-lg md:h-32 md:w-32">
-                  <img src={process.env.PUBLIC_URL + '/images/praveen.jpg'} loading="lazy" alt=" by Matheus Ferrero" class="h-full w-full object-cover object-center" />
+                  <img src={process.env.PUBLIC_URL + '/images/praveen.jpg'}   alt=" by Matheus Ferrero" class="h-full w-full object-cover object-center" />
                 </div>
 
                 <div>

@@ -3,13 +3,13 @@ import "./navbar.css"
 import { Link } from "react-router-dom"
 import { FaBars } from "react-icons/fa"
 import { ImCross } from "react-icons/im"
-
+import img1 from "../Assets/images/svcelogo.png"
 const Navbar = () => {
   const [Mobile, setMobile] = useState(false)
   return (
     <>
       <nav className='navbar w-full mb-4'>
-      <img src={process.env.PUBLIC_URL + '/images/svcelogo.png'}  alt=" by Magicle" className="logo p-0 m-0" />
+      <img src={img1}  alt=" by Magicle" className="logo p-0 m-0" />
         {/*
         if large screen ma xa bhane Mobile add huxa
         if mobile screen ma xa bhane nav-links-mobile add huxa

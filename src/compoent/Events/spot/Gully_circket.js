@@ -1,5 +1,6 @@
 import React from 'react'
 import { useEffect } from 'react';
+import gully_cricket from "../../../Assets/images/gully_cricket.jpg"
 const Gully_circket = () => {
     useEffect(() => {
       window.scrollTo(0, 0); // Scrolls to the top of the page
@@ -9,7 +10,7 @@ const Gully_circket = () => {
         <section class="text-gray-600 body-font">
         <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
             <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-            <img class="object-cover object-center rounded" alt="hero" src={process.env.PUBLIC_URL + '/images/gully_cricket.jpg'}/>
+            <img class="object-cover object-center rounded" alt="hero" src={gully_cricket}/>
             </div>
             <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
             <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">GULLY CIRCKET

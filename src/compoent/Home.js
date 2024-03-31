@@ -76,11 +76,15 @@ const Home = () => {
     ]
   };
   const row1 = [
-    "https://logos-world.net/wp-content/uploads/2020/03/Coca-Cola-Logo.png",
-    "https://xlprojects.net/wp-content/uploads/2023/05/fortune-global-1024x564.png",
-    "https://xlprojects.net/wp-content/uploads/2023/05/fortune-global-1024x564.png",
-    "https://1000logos.net/wp-content/uploads/2022/09/Unacademy-Logo-2048x1153.png",
-    "https://1000logos.net/wp-content/uploads/2022/09/Unacademy-Logo-2048x1153.png",
+    "https://res.cloudinary.com/dcurthbq9/image/upload/v1711860726/tc527oanclpt0r10qvf1.png",
+    "https://res.cloudinary.com/dcurthbq9/image/upload/v1711860725/z2meprrkdrq9pr00tq2r.jpg",
+    "https://res.cloudinary.com/dcurthbq9/image/upload/v1711860926/urzbqwwrbnwqhtmvmrs0.png",
+    "https://res.cloudinary.com/dcurthbq9/image/upload/v1711860726/tc527oanclpt0r10qvf1.png",
+    "https://res.cloudinary.com/dcurthbq9/image/upload/v1711860725/z2meprrkdrq9pr00tq2r.jpg",
+    "https://res.cloudinary.com/dcurthbq9/image/upload/v1711860926/urzbqwwrbnwqhtmvmrs0.png",
+    "https://res.cloudinary.com/dcurthbq9/image/upload/v1711860726/tc527oanclpt0r10qvf1.png"
+    
+    
 
 
   ];
@@ -388,10 +392,6 @@ const Home = () => {
         </Wrapper>
       </AppContainer>
 
-
-     
-
-          
     </>
   )
 }

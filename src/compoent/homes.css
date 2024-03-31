@@ -79,3 +79,33 @@ button.slick-arrow.slick-prev {
         transform: translateX(-50%);
     }
 }
+
+@media (min-width: 1440px) {
+    .sc-eDLKkx.iSOgXa {
+        height: 30vh;
+    }
+    .sc-eDLKkx.hMzrAq {
+        height: 30vh;
+    }
+    
+.sc-guDLey.dYPMoJ {
+    margin-bottom: 30px;
+}
+
+
+}
+
+@media (max-width: 786px) {
+    img.sc-iBdnpw.jLYbrn {
+        padding: 0px;
+    }
+    .sc-hLQSwg.kJPsWj {
+        margin-bottom: 30px;
+    }
+    .relative.flex.flex-col.items-center.p-4.sm\:max-w-xl {
+        top:125px
+    }
+    section.min-h-90.relative.flex.flex-1.shrink-0.items-center.justify-center.overflow-hidden.bg-gray-2000.py-10.shadow-lg.md\:py-20.xl\:py-48 {
+        padding-bottom: 17.5rem;
+    }
+}

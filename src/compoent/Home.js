@@ -78,10 +78,8 @@ const Home = () => {
   const row1 = [
     "https://res.cloudinary.com/dcurthbq9/image/upload/v1711860726/tc527oanclpt0r10qvf1.png",
     "https://res.cloudinary.com/dcurthbq9/image/upload/v1711860725/z2meprrkdrq9pr00tq2r.jpg",
-    "https://res.cloudinary.com/dcurthbq9/image/upload/v1711860926/urzbqwwrbnwqhtmvmrs0.png",
     "https://res.cloudinary.com/dcurthbq9/image/upload/v1711860726/tc527oanclpt0r10qvf1.png",
     "https://res.cloudinary.com/dcurthbq9/image/upload/v1711860725/z2meprrkdrq9pr00tq2r.jpg",
-    "https://res.cloudinary.com/dcurthbq9/image/upload/v1711860926/urzbqwwrbnwqhtmvmrs0.png",
     "https://res.cloudinary.com/dcurthbq9/image/upload/v1711860726/tc527oanclpt0r10qvf1.png"
     
     
@@ -419,8 +417,8 @@ const Wrapper = styled.div`
 `;
 
 const Text = styled.div`
-  font-size: 35px;
-  font-weight: 500;
+  font-size: 30px;
+  font-weight: 430;
   margin-bottom: 10px;
   color: #02203c;
 `;
@@ -428,13 +426,12 @@ const Text = styled.div`
 const Note = styled.div`
   font-size: 18px;
   font-weight: 200;
-  margin-bottom: 40px;
   color: #7c8e9a;
 `;
 
 const Marquee = styled.div`
   display: flex;
-  width: 100%;
+  width: 85%;
   overflow: hidden;
   user-select: none;
 

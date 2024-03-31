@@ -17,7 +17,9 @@ const Ramp_walk = () => {
             </h1>
             <p class="mb-8 leading-relaxed">RAMP WALK: also known as a runway walk, is a term primarily used in the context of fashion shows. It refers to the walk that models take on a raised platform or runway to showcase clothing and accessories to an audience. Ramp walks are a key component of fashion shows, allowing designers to display their creations in a dynamic and theatrical manner. Models often undergo specific training to perfect their ramp walk, which involves a particular style of walking that highlights the clothing and exudes confidence and grace.</p>
             <div class="flex justify-center">
+              <a href='https://docs.google.com/forms/d/e/1FAIpQLSfSIaZwifAR8TTReVb-0Pgkp-iBl2XeIvFYZ8DkQEnGCynxsw/viewform?usp=sf_link '>
                 <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Register Now</button> 
+                </a>
             </div>
             </div>
         </div>
@@ -35,7 +37,7 @@ const Ramp_walk = () => {
                     • Which is considered as final round and winner deciding round.<br/>
                     • The student has to answer Confidently & Relatable to the question asked. <br/>
                     </p>
-                    <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">CO-ORDINATORS:</h2>
+                    <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">CO-ORDINATORS :</h2>
               
                     <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
                     • Chaitanya - 8019527077 - 4th ECE.<br/>

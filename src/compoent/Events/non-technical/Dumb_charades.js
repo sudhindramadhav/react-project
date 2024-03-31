@@ -15,9 +15,11 @@ const Dumb_charades = () => {
             <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
             <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">DUMB CHARADES
             </h1>
-            <p class="mb-8 leading-relaxed">Build With Bits: A compact, engaging brainstorming event, where participants in groups of 3-5 collaborate on inventive solutions for various problem statements. Prizes and appreciation are given for the most creative, feasible ideas, fostering an atmosphere of innovation and enthusiasm.</p>
+            <p class="mb-8 leading-relaxed">DUMB CHARADES: Dumb Charades is a Movie Name Guessing game where there will be two participants Per team and they will be given the title of a movie and one person in a Team should have to explain the name of the movie through acting while the other member of team try to guess what the Movie name is.</p>
             <div class="flex justify-center">
+              <a href='https://forms.gle/GG7ALnsPh8TWbJNu6'>
                 <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Register Now</button> 
+                </a>
             </div>
             </div>
         </div>
@@ -28,23 +30,22 @@ const Dumb_charades = () => {
                   <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">RULES:</h2>
               
                     <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
-                    • Participants form teams of 3-5 members.<br/>
-                    • A clear and random problem statement from the given list  is provided at the start to each team <br/>
-                    • Teams brainstorm to generate as many ideas as possible.<br/>
-                    • Ideas should be creative and relevant to the problem statement.<br/>
-                    • Each team presents their top ideas in 3 minutes.<br/>
-                    • Awards are given for the most creative and feasible ideas.<br/>
+                    • The Game is Played as Team (2 Participants Per Team).<br/>
+                    • A person is not allowed to talk and is required to act out the name by using different gestures, facial expressions, and body language.<br/>
+                    • The Number of Movie Names Guessed by team for a duration of 2 minutes will be Noted.<br/>
+                    • The team which guess the more number of movie names for a duration of 2 minutes will be declared as a winner and cash prize will be awarded for that team.<br/>
                     </p>
-                    <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">PRE-REQUISITE:</h2>
+                    <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">CO-ORDINATORS :</h2>
               
                     <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
-                    • Projector, Chairs and Benches<br/>
+                    • Mohith - 8074380335<br/>
+                    • Pavan - 8247655251<br/>
                     </p>
 
                     <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">ENTRY FEE:</h2>
               
                     <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
-                    <h4>100/-</h4><br/>
+                    <h4>50/-</h4><br/>
                     </p>
             
                 </div>

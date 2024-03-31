@@ -17,7 +17,9 @@ const Poetry_pros = () => {
             </h1>
             <p class="mb-8 leading-relaxed">POETRY PROS: likely refers to individuals who are skilled or experienced in writing poetry. These are people who have a deep understanding of poetic forms, techniques, and language, and who can effectively express their thoughts and emotions through poetry. Poetry pros may include published poets, spoken word artists, poetry teachers, or anyone who has a strong passion and talent for crafting poems.</p>
             <div class="flex justify-center">
+              <a href='https://forms.gle/rUKgohpVcfUMn8rA8 '>
                 <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Register Now</button> 
+                </a>
             </div>
             </div>
         </div>

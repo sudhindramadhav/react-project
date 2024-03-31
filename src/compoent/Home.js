@@ -471,7 +471,7 @@ const MarqueeGroup = styled.div`
 const ImageGroup = styled.div`
   display: grid;
   place-items: center;
-  height : 60px;
+  height : 100px;
 `;
 
 const Image = styled.img`

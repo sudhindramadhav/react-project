@@ -6,7 +6,7 @@ const Pricing = () => {
     <>
             <div class="bg-white py-6 sm:py-8 lg:py-12">
   <div class="mx-auto max-w-screen-xl px-4 md:px-8">
-    <h2 class="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-8 lg:text-3xl xl:mb-12">Pricing</h2>
+    <h2 class="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-8 lg:text-3xl xl:mb-12">COMBO OFFERS</h2>
 
     <div class="mb-6 grid gap-6 sm:grid-cols-2 md:mb-8 lg:grid-cols-3 lg:gap-8">
    
@@ -15,9 +15,7 @@ const Pricing = () => {
 
         <div class="flex flex-1 flex-col p-6 pt-8">
           <div class="mb-12">
-            <div class="mb-2 text-center text-2xl font-bold text-gray-800">Gold</div>
-
-            <p class="mb-8 px-8 text-center text-gray-500">For individuals and organizations who want to try our system</p>
+            <div class="mb-2 text-center text-2xl font-bold text-gray-800">Explorer</div>
 
             <div class="space-y-4">
            
@@ -61,7 +59,7 @@ const Pricing = () => {
           </div>
 
           <div class="mt-auto">
-            <a class="block rounded-lg bg-gray-200 px-8 py-3 text-center text-sm font-semibold text-gray-500 outline-none ring-indigo-300 transition duration-100 hover:bg-gray-300 focus-visible:ring active:text-gray-700 md:text-base">$0 / Free</a>
+            <a class="block rounded-lg bg-gray-200 px-8 py-3 text-center text-sm font-semibold text-gray-500 outline-none ring-indigo-300 transition duration-100 hover:bg-gray-300 focus-visible:ring active:text-gray-700 md:text-base">300/-</a>
           </div>
         </div>
       </div>
@@ -71,9 +69,7 @@ const Pricing = () => {
 
         <div class="flex flex-1 flex-col p-6 pt-8">
           <div class="mb-12">
-            <div class="mb-2 text-center text-2xl font-bold text-gray-800">Platinum </div>
-
-            <p class="mx-auto mb-8 px-8 text-center text-gray-500">Avanced feaures for Individuals and organizations</p>
+            <div class="mb-2 text-center text-2xl font-bold text-gray-800">Achiever</div>
 
             <div class="space-y-4">
         
@@ -126,7 +122,7 @@ const Pricing = () => {
           </div>
 
           <div class="mt-auto">
-            <a class="block rounded-lg bg-indigo-500 px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-indigo-300 transition duration-100 hover:bg-indigo-600 focus-visible:ring active:bg-indigo-700 md:text-base">$19</a>
+            <a class="block rounded-lg bg-indigo-500 px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-indigo-300 transition duration-100 hover:bg-indigo-600 focus-visible:ring active:bg-indigo-700 md:text-base">400/-</a>
           </div>
         </div>
       </div>
@@ -138,9 +134,7 @@ const Pricing = () => {
 
         <div class="flex flex-1 flex-col p-6 pt-8">
           <div class="mb-12">
-            <div class="mb-2 text-center text-2xl font-bold text-gray-800">Diamond</div>
-
-            <p class="mx-auto mb-8 px-8 text-center text-gray-500">Maximum performace for organisations</p>
+            <div class="mb-2 text-center text-2xl font-bold text-gray-800">Champion</div>
 
             <div class="space-y-4">
        
@@ -193,7 +187,7 @@ const Pricing = () => {
           </div>
 
           <div class="mt-auto">
-            <a class="block rounded-lg bg-gray-800 px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-indigo-300 transition duration-100 hover:bg-gray-700 focus-visible:ring active:bg-gray-600 md:text-base">$49</a>
+            <a class="block rounded-lg bg-gray-800 px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-indigo-300 transition duration-100 hover:bg-gray-700 focus-visible:ring active:bg-gray-600 md:text-base">500/-</a>
           </div>
         </div>
       </div>

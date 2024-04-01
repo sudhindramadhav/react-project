@@ -7,7 +7,7 @@
 .carousel{
     background-color: #fcfcfc;
     color: #080808;
-    width: 100vw;
+    width: 100%;
 }
 
 .box{
@@ -49,7 +49,7 @@ button.slick-arrow.slick-next {
     height: 44px;
     z-index: 1;
     background-color: gray;
-    right: 20px;
+    right: 18px;
 }
 
 button.slick-arrow.slick-prev {
@@ -96,6 +96,9 @@ button.slick-arrow.slick-prev {
 }
 
 @media (max-width: 786px) {
+    button.slick-arrow.slick-next {
+        right: 22px;
+    }
     img.sc-iBdnpw.jLYbrn {
         padding: 0px;
     }

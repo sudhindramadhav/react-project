@@ -109,6 +109,8 @@ const Technical = () => {
               </Link>
             </div>
 
+            
+
           </div>
         </div>
       </div>

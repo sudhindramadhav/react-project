@@ -22,7 +22,7 @@ const Navbar = () => {
             <li>About</li>
           </Link>
           <Link to='/gallery' className='gallery'>
-            <li>AMPLE 2k23</li>
+            <li>Gallery</li>
           </Link>
           <Link to='/sponsers' className='sponsers'>
             <li>Sponsers</li>

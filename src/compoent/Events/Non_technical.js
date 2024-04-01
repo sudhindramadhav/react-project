@@ -7,14 +7,11 @@ import dillse from "../../Assets/images/classicaldance.jpg"
 import dumbcharades from "../../Assets/images/dumbcharades.jpg"
 import face_paint from "../../Assets/images/face_paint.jpg"
 import gana from "../../Assets/images/singing.jpg"
-import mehandi from "../../Assets/images/mehandi.jpg"
-import memechallenge from "../../Assets/images/memechallenge.jpg"
-import pencilsketch from "../../Assets/images/pencilsketch.jpg"
-import periodpain from "../../Assets/images/periodpain.jpg"
+
 import poetry from "../../Assets/images/poetry.jpg"
 import rampwalk from "../../Assets/images/rampwalk.jpg"
 import reels from "../../Assets/images/reels.jpg"
-import shortfilm from "../../Assets/images/shortfilm.jpg"
+
 import sound_space from "../../Assets/images/musicalinstrument.jpg"
 import standupcomedy from "../../Assets/images/standupcomedy.jpg"
 
@@ -51,7 +48,7 @@ const Non_technical = () => {
                   className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                 />
                 <div class="relative flex w-full flex-col rounded-lg bg-white p-4 text-center">
-                  <span class="text-lg font-bold text-gray-800 lg:text-xl">Color Paint</span>
+                  <span class="text-lg font-bold text-gray-800 lg:text-xl">One Minute Drawing</span>
                 </div>
               </Link>
             </div>
@@ -99,7 +96,7 @@ const Non_technical = () => {
                   className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                 />
                 <div class="relative flex w-full flex-col rounded-lg bg-white p-4 text-center">
-                  <span class="text-lg font-bold text-gray-800 lg:text-xl">Face Paint</span>
+                  <span class="text-lg font-bold text-gray-800 lg:text-xl">MINI POLAROID PAINTING</span>
                 </div>
               </Link>
             </div>
@@ -112,54 +109,6 @@ const Non_technical = () => {
                 />
                 <div class="relative flex w-full flex-col rounded-lg bg-white p-4 text-center">
                   <span class="text-lg font-bold text-gray-800 lg:text-xl">Gaana</span>
-                </div>
-              </Link>
-            </div>
-
-            <div>
-              <Link to='/mehandi' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
-                <img src={mehandi}  
-                  alt="Description of the image"
-                  className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
-                />
-                <div class="relative flex w-full flex-col rounded-lg bg-white p-4 text-center">
-                  <span class="text-lg font-bold text-gray-800 lg:text-xl">Mehandi</span>
-                </div>
-              </Link>
-            </div>
-
-            <div>
-              <Link to='/meme-challenge' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
-                <img src={memechallenge}  
-                  alt="Description of the image"
-                  className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
-                />
-                <div class="relative flex w-full flex-col rounded-lg bg-white p-4 text-center">
-                  <span class="text-lg font-bold text-gray-800 lg:text-xl">Meme challenge</span>
-                </div>
-              </Link>
-            </div>
-
-            <div>
-              <Link to='/pencil-sketch' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
-                <img src={pencilsketch}  
-                  alt="Description of the image"
-                  className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
-                />
-                <div class="relative flex w-full flex-col rounded-lg bg-white p-4 text-center">
-                  <span class="text-lg font-bold text-gray-800 lg:text-xl">Pencil Sketch</span>
-                </div>
-              </Link>
-            </div>
-
-            <div>
-              <Link to='/period-pain' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
-                <img src={periodpain}  
-                  alt="Description of the image"
-                  className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
-                />
-                <div class="relative flex w-full flex-col rounded-lg bg-white p-4 text-center">
-                  <span class="text-lg font-bold text-gray-800 lg:text-xl">Period Pain</span>
                 </div>
               </Link>
             </div>
@@ -201,19 +150,7 @@ const Non_technical = () => {
             </div>
 
             <div>
-              <Link to='/short-film' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
-                <img src={shortfilm}  
-                  alt="Description of the image"
-                  className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
-                />
-                <div class="relative flex w-full flex-col rounded-lg bg-white p-4 text-center">
-                  <span class="text-lg font-bold text-gray-800 lg:text-xl">Short Film</span>
-                </div>
-              </Link>
-            </div>
-
-            <div>
-              <Link to='/sound-sapce' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
+              <Link to='/sound_space' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
                 <img src={sound_space}  
                   alt="Description of the image"
                   className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"

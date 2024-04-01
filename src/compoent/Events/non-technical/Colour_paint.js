@@ -13,7 +13,7 @@ const Colour_paint = () => {
             <img class="object-cover object-center rounded" alt="hero" src={colour_paint}/>
             </div>
             <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">COLOUR PAINT
+            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">ONE MINUTE DRAWING
             </h1>
             <p class="mb-8 leading-relaxed">Build With Bits: A compact, engaging brainstorming event, where participants in groups of 3-5 collaborate on inventive solutions for various problem statements. Prizes and appreciation are given for the most creative, feasible ideas, fostering an atmosphere of innovation and enthusiasm.</p>
             <div class="flex justify-center">

@@ -3,7 +3,9 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import gully_cricket from "../../Assets/images/gully_cricket.jpg"
 import tug_of_war from "../../Assets/images/tug_of_war.jpg"
-
+import bgmi from "../../Assets/images/bgmi.jpeg"
+import ff from "../../Assets/images/FreeFire.jpg"
+import movieQuiz from "../../Assets/images/movieQuiz.jpeg"
 const Spot = () => {
   return (
     <>
@@ -48,6 +50,39 @@ const Spot = () => {
           <img src={tug_of_war}   alt="  by Austin Wade" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
           <div class="relative flex w-full flex-col rounded-lg bg-white p-4 text-center">
             <span class="text-lg font-bold text-gray-800 lg:text-xl">Tug Of War</span>
+          </div>
+        </Link>
+      </div>
+
+      <div>
+        <Link  to='/bgmi' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
+
+
+          <img src={bgmi}   alt="  by Austin Wade" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+          <div class="relative flex w-full flex-col rounded-lg bg-white p-4 text-center">
+            <span class="text-lg font-bold text-gray-800 lg:text-xl">BGMI</span>
+          </div>
+        </Link>
+      </div>
+
+      <div>
+        <Link  to='/ff' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
+
+
+          <img src={ff}   alt="  by Austin Wade" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+          <div class="relative flex w-full flex-col rounded-lg bg-white p-4 text-center">
+            <span class="text-lg font-bold text-gray-800 lg:text-xl">FREE FIRE</span>
+          </div>
+        </Link>
+      </div>
+
+      <div>
+        <Link  to='/movieQuiz' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
+
+
+          <img src={movieQuiz}   alt="  by Austin Wade" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+          <div class="relative flex w-full flex-col rounded-lg bg-white p-4 text-center">
+            <span class="text-lg font-bold text-gray-800 lg:text-xl">MOVIE QUIZ</span>
           </div>
         </Link>
       </div>

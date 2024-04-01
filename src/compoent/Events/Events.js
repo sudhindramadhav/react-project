@@ -3,12 +3,17 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import build_with_bits from "../../Assets/images/build_with_bits.jpg"
-import circut_trace from "../../Assets/images/circut_trace.jpg"
+
 import coding_automata from "../../Assets/images/coding_automata.jpg"
 import coding_contest from "../../Assets/images/codingcontest.jpg"
 import idea_blitz from "../../Assets/images/idea_blitz.jpeg"
 import kahoot_quiz from "../../Assets/images/kahoot_quiz.png"
 import robo_talk from "../../Assets/images/robotalk.jpg"
+import poster from "../../Assets/images/poster.png"
+import paper from "../../Assets/images/paper.jpeg"
+import technical_quiz from "../../Assets/images/quiz.jpg"
+import expo from "../../Assets/images/expo.jpeg"
+import flipIt from "../../Assets/images/flipIt.jpeg"
 
 const Events = () => {
   return (
@@ -43,17 +48,7 @@ const Events = () => {
               </Link>
             </div>
 
-            <div>
-              <Link to='/circut_trace' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
-              <img src={circut_trace}  
-                  alt="Description of the image"
-                  className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
-                />
-                <div class="relative flex w-full flex-col rounded-lg bg-white p-4 text-center">
-                  <span class="text-lg font-bold text-gray-800 lg:text-xl">CIRCUT TRACE</span>
-                </div>
-              </Link>
-            </div>
+
 
             <div>
               <Link to='/coding_automata' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
@@ -111,6 +106,66 @@ const Events = () => {
                 />
                 <div class="relative flex w-full flex-col rounded-lg bg-white p-4 text-center">
                   <span class="text-lg font-bold text-gray-800 lg:text-xl">ROBO TALK</span>
+                </div>
+              </Link>
+            </div>
+
+            <div>
+              <Link to='/poster' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
+              <img src={poster}  
+                  alt="Description of the image"
+                  className="absolute inset-0 h-4/5 w-full object-cover object-center transition duration-200 group-hover:scale-110"
+                />
+                <div class="relative flex w-full flex-col rounded-lg bg-white p-4 text-center">
+                  <span class="text-lg font-bold text-gray-800 lg:text-xl">POSTER PRESENTATION</span>
+                </div>
+              </Link>
+            </div>
+
+            <div>
+              <Link to='/paper' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
+              <img src={paper}  
+                  alt="Description of the image"
+                  className="absolute inset-0 h-3/4 w-6/7 object-cover object-center transition duration-200 group-hover:scale-110"
+                />
+                <div class="relative flex w-full flex-col rounded-lg bg-white p-4 text-center">
+                  <span class="text-lg font-bold text-gray-800 lg:text-xl">PARER PRESENTATION</span>
+                </div>
+              </Link>
+            </div>
+
+            <div>
+              <Link to='/technical_quiz' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
+              <img src={technical_quiz}  
+                  alt="Description of the image"
+                  className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
+                />
+                <div class="relative flex w-full flex-col rounded-lg bg-white p-4 text-center">
+                  <span class="text-lg font-bold text-gray-800 lg:text-xl">TECHNICAL QUIZ</span>
+                </div>
+              </Link>
+            </div>
+
+            <div>
+              <Link to='/project' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
+              <img src={expo}  
+                  alt="Description of the image"
+                  className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
+                />
+                <div class="relative flex w-full flex-col rounded-lg bg-white p-4 text-center">
+                  <span class="text-lg font-bold text-gray-800 lg:text-xl">PROJECT EXPO</span>
+                </div>
+              </Link>
+            </div>
+
+            <div>
+              <Link to='/flipIt' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
+              <img src={flipIt}  
+                  alt="Description of the image"
+                  className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
+                />
+                <div class="relative flex w-full flex-col rounded-lg bg-white p-4 text-center">
+                  <span class="text-lg font-bold text-gray-800 lg:text-xl">FLIP_IT & PITCH_IT</span>
                 </div>
               </Link>
             </div>

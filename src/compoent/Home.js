@@ -9,12 +9,14 @@ import styled, { keyframes, css } from "styled-components"
 import examplev from "../Assets/video/example.mp4"
 
 import build_with_bits from "../Assets/images/build_with_bits.jpg"
-import circut_trace from "../Assets/images/circut_trace.jpg"
 import coding_automata from "../Assets/images/coding_automata.jpg"
 import coding_contest from "../Assets/images/codingcontest.jpg"
 import idea_blitz from "../Assets/images/idea_blitz.jpeg"
 import kahoot_quiz from "../Assets/images/kahoot_quiz.png"
 import robo_talk from "../Assets/images/robotalk.jpg"
+import paper from "../Assets/images/paper.jpeg"
+import poster from "../Assets/images/poster.png"
+import quiz from "../Assets/images/quiz.jpg"
 
 
 import color_paint from "../Assets/images/color_paint.jpg"
@@ -23,20 +25,21 @@ import dillse from "../Assets/images/classicaldance.jpg"
 import dumbcharades from "../Assets/images/dumbcharades.jpg"
 import face_paint from "../Assets/images/face_paint.jpg"
 import gana from "../Assets/images/singing.jpg"
-import mehandi from "../Assets/images/mehandi.jpg"
-import memechallenge from "../Assets/images/memechallenge.jpg"
-import pencilsketch from "../Assets/images/pencilsketch.jpg"
-import periodpain from "../Assets/images/periodpain.jpg"
+
 import poetry from "../Assets/images/poetry.jpg"
 import rampwalk from "../Assets/images/rampwalk.jpg"
 import reels from "../Assets/images/reels.jpg"
-import shortfilm from "../Assets/images/shortfilm.jpg"
+
 import sound_space from "../Assets/images/musicalinstrument.jpg"
 import standupcomedy from "../Assets/images/standupcomedy.jpg"
+import flipIt from "../Assets/images/flipIt.jpeg"
 
 
 import gully_cricket from "../Assets/images/gully_cricket.jpg"
 import tug_of_war from "../Assets/images/tug_of_war.jpg"
+import bgmi from "../Assets/images/bgmi.jpeg"
+import ff from "../Assets/images/FreeFire.jpg"
+import movieQuiz from "../Assets/images/movieQuiz.jpeg"
 import Pricing from "./Pricing"
 
 const Home = () => {
@@ -103,7 +106,7 @@ const Home = () => {
 
       {/* Content */}
       <div className="relative flex flex-col items-center p-4 sm:max-w-xl">
-        <h1 className="mb-8 text-center text-4xl font-bold text-white sm:text-5xl md:mb-12 md:text-6xl">SVCE SPARk</h1>
+        <h1 className="mb-8 text-center text-4xl font-bold text-white sm:text-5xl md:mb-12 md:text-6xl">SVCE SPARK</h1>
         <div className="flex flex-col gap-2.5 sm:flex-row sm:justify-center">
           <Link to='/events'>
             <Link to="/events" className="rounded-lg bg-indigo-500 px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-indigo-300 transition duration-100 hover:bg-indigo-600 focus-visible:ring active:bg-indigo-700 md:text-base">Register Now</Link>
@@ -117,8 +120,8 @@ const Home = () => {
 
 
 
-      <div className="carousel mt-6 py-6">
-        <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900 m-8 ">Technical Events</h1>
+      <div className="carousel py-6">
+        <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900 mx-8 ">Technical Events</h1>
         <div className="h-1 w-20 bg-indigo-500 rounded mx-16"></div>
         <br></br>
         <Slider {...settings}>
@@ -127,14 +130,6 @@ const Home = () => {
               <Link to="/bwb">
                 <img className="h-40 rounded w-full object-cover object-center mb-6" src={build_with_bits} alt="content" />
                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center ">BUILD WITH BITS</h2>
-              </Link>
-            </div>
-          </div>
-          <div className="circut_trace">
-            <div className=" bg-gray-200 p-6 rounded-lg mx-10">
-              <Link to="/circut_trace">
-                <img className="h-40 rounded w-full object-cover object-center mb-6" src={circut_trace} alt="content" />
-                <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center ">CIRCUT TRACE</h2>
               </Link>
             </div>
           </div>
@@ -179,12 +174,47 @@ const Home = () => {
             </div>
           </div>
 
+          <div className="box ">
+            <div className=" bg-gray-200 p-6 rounded-lg mx-10">
+              <Link to="/poster">
+                <img className="h-40 rounded w-full object-cover object-center mb-6" src={poster} alt="content" />
+                <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center ">POSTER PRESENTATION</h2>
+              </Link>
+            </div>
+          </div>
+
+          <div className="box ">
+            <div className=" bg-gray-200 p-6 rounded-lg mx-10">
+              <Link to="/paper">
+                <img className="h-40 rounded w-full object-cover object-center mb-6" src={paper} alt="content" />
+                <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center ">PAPER PRESENTATION</h2>
+              </Link>
+            </div>
+          </div>
+
+          <div className="box ">
+            <div className=" bg-gray-200 p-6 rounded-lg mx-10">
+              <Link to="/technical_quiz">
+                <img className="h-40 rounded w-full object-cover object-center mb-6" src={quiz} alt="content" />
+                <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center ">TECHNICAL QUIZ</h2>
+              </Link>
+            </div>
+          </div>
+
+          <div className="box ">
+            <div className=" bg-gray-200 p-6 rounded-lg mx-10">
+              <Link to="/flipIt">
+                <img className="h-40 rounded w-full object-cover object-center mb-6" src={flipIt} alt="content" />
+                <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center ">FLIP_IT & PITCH_IT</h2>
+              </Link>
+            </div>
+          </div>
         </Slider>
       </div>
 
 
-      <div className="carousel mt-6 py-6">
-        <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900 m-8 ">Non Technical</h1>
+      <div className="carousel py-6">
+        <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900 mx-8 ">Non Technical</h1>
         <div className="h-1 w-20 bg-indigo-500 rounded mx-16"></div>
         <br></br>
         <Slider {...settings}>
@@ -192,7 +222,7 @@ const Home = () => {
             <div className=" bg-gray-200 p-6 rounded-lg mx-10">
               <Link to="/colour-paint">
                 <img className="h-40 rounded w-full object-cover object-center mb-6" src={color_paint} alt="content" />
-                <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center ">COLOUR PAINT</h2>
+                <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center ">ONE MINUTE DRAWING</h2>
               </Link>
             </div>
           </div>
@@ -236,38 +266,8 @@ const Home = () => {
               </Link>
             </div>
           </div>
-          <div className="box  ">
-            <div className=" bg-gray-200 p-6 rounded-lg mx-10">
-              <Link to="/mehandi">
-                <img className="h-40 rounded w-full object-cover object-center mb-6" src={mehandi} alt="content" />
-                <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center ">MEHANDI</h2>
-              </Link>
-            </div>
-          </div>
-          <div className=" box ">
-            <div className=" bg-gray-200 p-6 rounded-lg mx-10">
-              <Link to="/meme-challenge">
-                <img className="h-40 rounded w-full object-cover object-center mb-6" src={memechallenge} alt="content" />
-                <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center ">MEME CHALLENGE</h2>
-              </Link>
-            </div>
-          </div>
-          <div className=" box ">
-            <div className=" bg-gray-200 p-6 rounded-lg mx-10">
-              <Link to="/pencil-sketch">
-                <img className="h-40 rounded w-full object-cover object-center mb-6" src={pencilsketch} alt="content" />
-                <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center ">PENCIL SKETCH</h2>
-              </Link>
-            </div>
-          </div>
-          <div className=" box ">
-            <div className=" bg-gray-200 p-6 rounded-lg mx-10">
-              <Link to="/period-pain">
-                <img className="h-40 rounded w-full object-cover object-center mb-6" src={periodpain} alt="content" />
-                <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center ">PERIOD PAIN</h2>
-              </Link>
-            </div>
-          </div>
+     
+    
           <div className=" box ">
             <div className=" bg-gray-200 p-6 rounded-lg mx-10">
               <Link to="/poetry-pros">
@@ -292,14 +292,7 @@ const Home = () => {
               </Link>
             </div>
           </div>
-          <div className="box ">
-            <div className=" bg-gray-200 p-6 rounded-lg mx-10">
-              <Link to="/short-film">
-                <img className="h-40 rounded w-full object-cover object-center mb-6" src={shortfilm} alt="content" />
-                <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center ">SHORT FILM</h2>
-              </Link>
-            </div>
-          </div>
+
           <div className="box ">
             <div className=" bg-gray-200 p-6 rounded-lg mx-10">
               <Link to="/sound-space">
@@ -320,8 +313,8 @@ const Home = () => {
         </Slider>
       </div>
 
-      <div className="carousel mt-6 py-6">
-        <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900 m-8 ">spot Events</h1>
+      <div className="carousel  py-6">
+        <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900 mx-8 ">spot Events</h1>
         <div className="h-1 w-20 bg-indigo-500 rounded mx-16"></div>
         <br></br>
         <Slider {...settings}>
@@ -346,17 +339,26 @@ const Home = () => {
           
           <div className="box ">
             <div className=" bg-gray-200 p-6 rounded-lg mx-10">
-              <Link to="/kahoot_quiz">
-                <img className="h-40 rounded w-full object-cover object-center mb-6" src={kahoot_quiz} alt="content" />
-                <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center ">KAHOOT QUIZ</h2>
+              <Link to="/bgmi">
+                <img className="h-40 rounded w-full object-cover object-center mb-6" src={bgmi} alt="content" />
+                <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center ">BGMI</h2>
               </Link>
             </div>
           </div>
           <div className="box ">
             <div className=" bg-gray-200 p-6 rounded-lg mx-10">
-              <Link to="/kahoot_quiz">
-                <img className="h-40 rounded w-full object-cover object-center mb-6" src={kahoot_quiz} alt="content" />
-                <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center ">KAHOOT QUIZ</h2>
+              <Link to="/ff">
+                <img className="h-40 rounded w-full object-cover object-center mb-6" src={ff} alt="content" />
+                <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center ">FREE FIRE</h2>
+              </Link>
+            </div>
+          </div>
+
+          <div className="box ">
+            <div className=" bg-gray-200 p-6 rounded-lg mx-10">
+              <Link to="/movieQuiz">
+                <img className="h-40 rounded w-full object-cover object-center mb-6" src={movieQuiz} alt="content" />
+                <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center ">MOVIE QUIZ</h2>
               </Link>
             </div>
           </div>
@@ -397,7 +399,7 @@ export default Home
 
 
 const AppContainer = styled.div`
-  width: 100vw;
+  width: 100%;
   color: #000000;
 
   position: relative;

@@ -18,7 +18,9 @@ const Robo_Talk = () => {
             <p class="mb-8 leading-relaxed">ROBO TALK: is an engaging and educational event designed to explore the fascinating world of robotics. Participants will embark on a two-level journey, starting with Level 1, where they'll be tested on their basic knowledge of robots. Those who excel will progress to Level 2, where they'll identify specific components of robots and explain their functionalities.</p>
             <p class="mb-8 leading-relaxed">This event isn't just about answering questions; it's about understanding the inner workings of robots and how they impact our world. Finalists will have the opportunity to delve deep into the realm of robotics by researching and presenting on an advanced real-life robot, discussing its advantages and disadvantages.</p>
             <div class="flex justify-center">
+              <a href='https://docs.google.com/forms/d/e/1FAIpQLSc9v6fe-zYZ3-SfbXcgUyisaA_ar56behRUC1xKEFZZxtDozQ/viewform?usp=sf_link'>
                 <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Register Now</button> 
+                </a>
             </div>
             </div>
         </div>
@@ -63,10 +65,10 @@ presentation quality.
             
               </p>
 
-                    <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">CO-ORDINATOR:</h2>
+                    <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">CO-ORDINATOR :</h2>
               
                     <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
-                    • <br/>
+                    • K Jayanth - 7013454639<br/>
                     </p>
 
                     <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">ENTRY FEE:</h2>

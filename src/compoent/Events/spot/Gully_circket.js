@@ -17,7 +17,9 @@ const Gully_circket = () => {
             </h1>
             <p class="mb-8 leading-relaxed">Gully Cricket: Refers to a casual form of cricket played in streets, parks, or any open space, rather than in a formal cricket ground. It's popular in many cricket-loving countries, particularly in India. Gully cricket often involves improvised rules, such as fewer players, smaller playing areas, and variations in equipment. It's a fun and accessible way for people to enjoy the sport in a more informal setting.</p>
             <div class="flex justify-center">
+              <a href='https://forms.gle/yQ5YNR4FNUG7xiX46'>
                 <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Register Now</button> 
+                </a>
             </div>
             </div>
         </div>
@@ -34,6 +36,11 @@ const Gully_circket = () => {
                     • Depending on the locality and the preferences of the players, additional rules or modifications to existing rules may be introduced to suit the conditions or enhance the enjoyment of the game.<br/>
                     </p>
                     
+                    <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">CO-ORDINATOR :</h2>
+              
+                    <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
+                    • Praveen - 8179794785<br/>
+                    </p>
 
                     <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">ENTRY FEE:</h2>
               

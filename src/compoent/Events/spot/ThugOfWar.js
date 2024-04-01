@@ -18,7 +18,9 @@ const ThugOfWar = () => {
             <p class="mb-8 leading-relaxed">Tug Of War: is a sport that pits two teams against each other in a test of strength. The teams, which can vary in size but typically have eight members each, stand at opposite ends of a rope and try to pull the other team across a designated line or marker. The team that manages to pull the opposing team past the marker wins.</p>
             <p class="mb-8 leading-relaxed">Tug of war has a long history and is played in various forms around the world, often as a traditional or recreational activity. It is also recognized as a competitive sport with formal rules and competitions at both national and international levels. The sport requires a combination of strength, strategy, and teamwork, making it both physically and mentally demanding.</p>
             <div class="flex justify-center">
+              <a href='https://forms.gle/JJtknkthJH7pgf766'>
                 <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Register Now</button> 
+                </a>
             </div>
             </div>
         </div>
@@ -37,6 +39,11 @@ const ThugOfWar = () => {
                     • The team that successfully pulls their opponents across the center line or into their winning zone is declared the winner.<br/>
                     </p>
                     
+                    <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">CO-ORDINATOR :</h2>
+              
+                    <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
+                    • Kiran - 9491563520<br/>
+                    </p>
 
                     <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">ENTRY FEE:</h2>
               

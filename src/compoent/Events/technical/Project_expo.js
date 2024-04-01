@@ -1,6 +1,10 @@
 import React from 'react'
 import project from "../../../Assets/images/project.jpeg"
+import { useEffect } from 'react';
 const Project_expo = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scrolls to the top of the page
+  }, []);
   return (
     <>
             <section class="text-gray-600 body-font">

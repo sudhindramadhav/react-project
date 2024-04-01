@@ -17,7 +17,9 @@ const Gana = () => {
             </h1>
             <p class="mb-8 leading-relaxed">GAANA: is a Hindi term that translates to "song" in English. It is commonly used in the context of Indian music, particularly in Bollywood and other regional film industries, to refer to a song. In a broader sense, "gaana" can refer to any form of music or song in the Indian context, including traditional, folk, classical, and modern popular music.</p>
             <div class="flex justify-center">
+              <a href='https://docs.google.com/forms/d/e/1FAIpQLSeM1dVykYfRHMC4BGShWdPGZz93q0FfplkFZX2gFw4RGY1Ibg/viewform?vc=0&c=0&w=1&flr=0'>
                 <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Register Now</button> 
+                </a>
             </div>
             </div>
         </div>

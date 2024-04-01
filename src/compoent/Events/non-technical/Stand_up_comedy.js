@@ -18,7 +18,9 @@ const Stand_up_comedy = () => {
             <p class="mb-8 leading-relaxed">STAND UP COMEDY: is a form of entertainment where a comedian performs in front of a live audience, usually speaking directly to them. The comedian typically delivers a series of humorous stories, jokes, one-liners, or anecdotes, often based on personal experiences, observations, or social commentary. Stand-up comedy performances can vary widely in style and content, but the goal is usually to make the audience laugh.</p>
             <p class="mb-8 leading-relaced">Stand-up comedy has a long history and has evolved into various styles and sub-genres, including observational comedy, satire, improvisational comedy, and storytelling. Successful stand-up comedians often have strong stage presence, timing, and the ability to connect with the audience, making them effective entertainers.</p>
             <div class="flex justify-center">
+              <a href='https://forms.gle/1h6LvwaR2ZFkutG6A'>
                 <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Register Now</button> 
+                </a>
             </div>
             </div>
         </div>

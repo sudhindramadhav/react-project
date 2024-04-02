@@ -1,6 +1,6 @@
 import React from 'react'
 import { useEffect } from 'react';
-import paper from "../../../Assets/images/paper.jpeg"
+import paper from "../../../Assets/images/paperpresentation.jpg"
 const Paper_persentation = () => {
     useEffect(() => {
         window.scrollTo(0, 0); // Scrolls to the top of the page
@@ -104,32 +104,27 @@ const Paper_persentation = () => {
 
             </div>
         
-
-
-
-
-    
             </section>
-                <div class="bg-white py-6 sm:py-8 lg:py-12">
+                <div class="bg-white py-4 sm:py-4 lg:py-6">
                 <div class="mx-auto max-w-screen-md px-4 md:px-8">
 
                     <p>
-                    <h4 className='text-red-500'>Instructions to Candidates:</h4><br/>
-                            1.Open to all B.E/B.Tech Students<br/>
-                            2. A paper/Poster can have maximum of two authors.<br/>
-                            3. Papers must be in IEEE Format<br/>
-                            4. Papers should be sent through E-mail only<br/>
-                            5. No accommodation will be <br/>
+                    <h4 className='text-red-500'>Instructions to Candidates :</h4><br/>
+                            1. Open for all Students.<br/>
+                            2. A Paper can have maximum of two authors.<br/>
+                            3. Papers must be in IEEE Format.<br/>
+                            4. Papers should be sent through E-mail only.<br/>
+                            5. No accommodation will be provided.<br/><br/>
                               <strong> • Registration Fee and mode of payment</strong><br/>
                             Registration Fee has to be paid in online
                             payment after confirmation. Account details
-                            are available in the website.<br/>
+                            are available in the website.<br/><br/>
                               <strong> • Last date for Registration :</strong>  25th February, 2023
-                            Intimation of Confirmation: 26th February, 2023 <br/>
+                            Intimation of Confirmation: 26th February, 2023 <br/><br/>
                             <strong>Registration Fee and mode of payment:</strong> <br/>
                             Registration Fee has to be paid in online
                             payment after confirmation. Account details
-                            are available in the website.<br />
+                            are available in the website.<br /><br/>
                             <strong>Send your papers to</strong> <br/>
                             • CE : ample.ce@svcolleges.edu.in<br/>
                             • EEE : ample.eee@svcolleges.edu.in<br/>
@@ -147,19 +142,19 @@ const Paper_persentation = () => {
                     <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
                           <h4 className='text-black-800'> Purpose:</h4> <br/>
                             • To enhance participant’s ability in Writing or making papers in English as well as to present it, and also to broaden the mind of the participants.<br/>
-                            <strong className='text-red-300'> Team Formation: </strong><br/>
+                            <strong className='text-red-300'>➤ Team Formation: </strong><br/>
                             • 1. Team can have maximum of 2 participants from B.Tech/B. E/ Diploma.<br/>
                         2. No participants can be part of more than one team.<br/>
                         3. It is not necessary that the participants forming a team should be from the same college.<br/>
                         4. There is no restriction on the number of teams from the same college.<br/>
-                        <strong className='text-red-300'> Presentation Rules: </strong><br/>
+                        <strong className='text-red-300'>➤ Presentation Rules: </strong><br/>
                             • 1. The paper submitted will have to be presented during the event.<br/>
                         2. Hard copies of the same are to be submitted before presentation to Judges.<br/>
                         3. The Teams will get 8 minutes to present their paper. And 2 minutes will be for questioning by judges.<br/>
                         4. The participants will have to present their papers in MS-Power Point (ppt) format only.<br/>
                         5. Violation of any rule can result in rejection of paper.<br/>
                         6. The organizers reserve the right to change/update the rules of the contest at any point of time and will do their best to inform to participants of the same. However, it is ultimately the responsibility of the teams to keep themselves updated.<br/>
-                           <strong className='text-red-300'>Paper Format Rules:</strong><br/>
+                           <strong className='text-red-300'>➤ Paper Format Rules:</strong><br/>
                             • The paper should be in IEEE format.<br/>
                         1. Abstract may not exceed the limit of two Pages.<br/>
                         2. The front page should have title of paper on the top and the details of the team members at the bottom. (As mentioned in abstract)<br/>
@@ -171,10 +166,10 @@ const Paper_persentation = () => {
                         8. Margin of 1 inches from all sides.<br/>
                     </p>
 
-                    <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">ENTRY FEE:</h2>
+                    <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">REGSITRATION FEE:</h2>
               
                     <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
-                    <h4>100/- per team.</h4><br/>
+                    <h4><strong>• 100/- Per Team.</strong></h4><br/>
                     </p>
                     <div class="flex justify-center">
                 <a href='https://docs.google.com/forms/d/e/1FAIpQLSf0BpGl0pBSYvy5GLp-m0f1dWBq_kZjwzR30JGZZaoX_QF6kQ/viewform?usp=sf_link'><button  class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Register Now</button> </a> 

@@ -24,19 +24,19 @@ const Kahoot_quiz = () => {
             </div>
         </div>
     </section>
-                <div class="bg-white py-6 sm:py-8 lg:py-12">
+                <div class="bg-white py-4 sm:py-4 lg:py-6">
                 <div class="mx-auto max-w-screen-md px-4 md:px-8">
               
                   <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">RULES:</h2>
               
                     <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
-                    <strong>• Each team should consist of a maximum two members.</strong><br/>
-                    • The quiz will be conducted on a platform designed for fast-paced answering. <br/>
+                    <strong>➤ Each team should consist of a maximum two members.</strong><br/>
+                    ➤ The quiz will be conducted on a platform designed for fast-paced answering. <br/>
                     
-                    • Questions will cover various aspects of computer science and technology.
+                    ➤ Questions will cover various aspects of computer science and technology.
 <br/>
-                    • Limited time is provided to answer each question.<br/>
-                    • Those who answers all questions within less time will be declared as winner.<br/>
+                    ➤ Limited time is provided to answer each question.<br/>
+                    ➤ Those who answers all questions within less time will be declared as winner.<br/>
                     </p>
                     <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">CO-ORDINATORS :</h2>
               
@@ -45,7 +45,7 @@ const Kahoot_quiz = () => {
                     • Pardhu - 7993003170<br/>
                     </p>
 
-                    <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">ENTRY FEE:</h2>
+                    <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">REGISTRATION FEE:</h2>
               
                     <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
                     <h4><strong>• 100/- per team.</strong></h4><br/>

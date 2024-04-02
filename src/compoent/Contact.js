@@ -37,7 +37,7 @@ const Contact = () => {
 
                 <div>
                   <div class="text-center font-bold text-indigo-500 sm:text-left md:text-lg">DJ Murali Mahes</div>
-                  <p class="text-center text-sm text-gray-500 sm:text-left md:text-base">Website Incharge</p>
+                  <p class="text-center text-sm text-gray-500 sm:text-left md:text-base">Website Designer</p>
                 </div>
               </div>
           
@@ -48,7 +48,7 @@ const Contact = () => {
 
                 <div>
                   <div class="text-center font-bold text-indigo-500 sm:text-left md:text-lg">KKM Sudhindra</div>
-                  <p class="text-center text-sm text-gray-500 sm:text-left md:text-base">Website Inchare</p>
+                  <p class="text-center text-sm text-gray-500 sm:text-left md:text-base">Website Designer</p>
                 </div>
               </div>
           

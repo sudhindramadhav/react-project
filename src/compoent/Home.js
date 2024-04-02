@@ -14,8 +14,8 @@ import coding_contest from "../Assets/images/codingcontest.jpg"
 import idea_blitz from "../Assets/images/idea_blitz.jpeg"
 import kahoot_quiz from "../Assets/images/kahoot_quiz.png"
 import robo_talk from "../Assets/images/robotalk.jpg"
-import paper from "../Assets/images/paper.jpeg"
-import poster from "../Assets/images/poster.png"
+import paper from "../Assets/images/paperpresentation.jpg"
+import poster from "../Assets/images/posterpresentation.jpg"
 import quiz from "../Assets/images/quiz.jpg"
 
 
@@ -34,15 +34,15 @@ import sound_space from "../Assets/images/musicalinstrument.jpg"
 import standupcomedy from "../Assets/images/standupcomedy.jpg"
 import flipIt from "../Assets/images/flipIt.jpeg"
 
-
+import project from "../Assets/images/expo.jpeg"
 import gully_cricket from "../Assets/images/gully_cricket.jpg"
-import tug_of_war from "../Assets/images/tug_of_war.jpg"
+import tug_of_war from "../Assets/images/tug_of_war1.jpg"
 import bgmi from "../Assets/images/bgmi.jpeg"
 import ff from "../Assets/images/FreeFire.jpg"
 import movieQuiz from "../Assets/images/movieQuiz.jpeg"
 import Pricing from "./Pricing"
 
-import akil from "../Assets/images/akil.jpg"
+import akil from "../Assets/images/infuson1.jpeg"
 
 const Home = () => {
 
@@ -123,7 +123,7 @@ const Home = () => {
     <img class="lg:w-4/6 md:w-4/6 w-4/6 mb-10 object-cover object-center rounded" alt="hero" src={akil}/>
     <div class="text-center lg:w-2/3 w-full">
       <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">PRO SHOW</h1>
-      <p class="mb-8 leading-relaxed">A band show is a live performance by a musical group or band. Bands can vary widely in size, style, and genre, ranging from small local bands to large professional groups. Band shows are popular at various events, including concerts, festivals, weddings, parties, and corporate events.
+      <p class="mb-8 leading-relaxed text-justify">A band show is a live performance by a musical group or band. Bands can vary widely in size, style, and genre, ranging from small local bands to large professional groups. Band shows are popular at various events, including concerts, festivals, weddings, parties, and corporate events.
 
 During a band show, the musicians perform a setlist of songs, which may include original compositions, covers of popular songs, or a mix of both. The performance often includes instrumental solos, vocal performances, and interaction with the audience to create an engaging and entertaining experience.
 
@@ -188,6 +188,15 @@ During a band show, the musicians perform a setlist of songs, which may include 
               <Link to="/robo_talk">
                 <img className="h-40 rounded w-full object-cover object-center mb-6" src={robo_talk} alt="content" />
                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center ">ROBO TALK</h2>
+              </Link>
+            </div>
+          </div>
+
+          <div className=" box ">
+            <div className=" bg-gray-200 p-6 rounded-lg mx-10">
+              <Link to="/project">
+                <img className="h-40 rounded w-full object-cover object-center mb-6" src={project} alt="content" />
+                <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center ">PROJECT EXPO</h2>
               </Link>
             </div>
           </div>

@@ -24,25 +24,18 @@ const Coding_automata = () => {
           </div>
         </div>
       </section>
-      <div class="bg-white py-6 sm:py-8 lg:py-12">
+      <div class="bg-white py-4 sm:py-4 lg:py-6">
         <div class="mx-auto max-w-screen-md px-4 md:px-8">
 
-          <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">RULES:</h2>
+          <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">RULES :</h2>
 
-          <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
-            <strong>Each team should consist of a maximum two members.</strong><br />
-            • Participants must register in advance to participate in the Coding Automata:
-            Debugging Edition.<br />
-            • Each participant will be provided with a set of C programs containing bugs to
-            debug.<br />
-            • In the first round, the student must detect the error in the given basic program and
-            get the required output.<br />
-            • The top 10 students are qualified based on the speed they complete the code
-            and promoted to the second round.<br />
-            • In the second round, the student will be given a little trickier program to detect the
-            bug and get the required output.<br />
-            • The student who completes the program faster is considered and the top 3
-            students are declared as winners.<br />
+          <p class="mb-6 text-gray-500 sm:text-lg md:mb-8 text-justify">
+            <strong>➤ Each team should consist of a maximum two members.</strong><br />
+            ➤ Each team will be provided with a set of C programs containing bugs.<br />
+            ➤ In the first round, the team must detect the error in the given basic program and get the required output.<br />
+            ➤ The top 10 teams are qualified based on the speed they debug the code and promoted to the second round.<br />
+            ➤ In the second round, the team will be given a little trickier program to detect the bug and get the required output.<br />
+           
           </p>
           <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">CO-ORDINATORS :</h2>
 
@@ -51,7 +44,7 @@ const Coding_automata = () => {
             • Sahithya - 8143377433 <br />
           </p>
 
-          <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">ENTRY FEE:</h2>
+          <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">REGISTRATION FEE:</h2>
 
           <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
             <h4><strong>• 50/- per head.</strong></h4><br />

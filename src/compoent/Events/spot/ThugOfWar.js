@@ -1,6 +1,6 @@
 import React from 'react'
 import { useEffect } from 'react';
-import tug_of_war from "../../../Assets/images/tug_of_war.jpg"
+import tug_of_war from "../../../Assets/images/tug_of_war1.jpg"
 const ThugOfWar = () => {
   useEffect(() => {
     window.scrollTo(0, 0); // Scrolls to the top of the page
@@ -25,18 +25,18 @@ const ThugOfWar = () => {
             </div>
         </div>
     </section>
-                <div class="bg-white py-6 sm:py-8 lg:py-12">
+                <div class="bg-white py-4 sm:py-4 lg:py-6">
                 <div class="mx-auto max-w-screen-md px-4 md:px-8">
               
-                  <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">RULES:</h2>
+                  <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">RULES :</h2>
               
                     <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
-                    • Team Contains 5 Members.<br/>
-                    • A level playing surface, free from obstacles, with the center line marked clearly. It's often on grass or another soft surface to minimize injuries.<br/>
-                    • Teams line up evenly on either side of the center line, with each member gripping the rope firmly.<br/>
-                    • A neutral official signals the start of the match, often with a whistle or command.<br/>
-                    • Players pull the rope, trying to drag the opposing team across the center line or into their own designated winning zone.<br/>
-                    • The team that successfully pulls their opponents across the center line or into their winning zone is declared the winner.<br/>
+                    <strong>➤ Team Contains 5 Members.</strong><br/>
+                    ➤ A level playing surface, free from obstacles, with the center line marked clearly. It's often on grass or another soft surface to minimize injuries.<br/>
+                    ➤ Teams line up evenly on either side of the center line, with each member gripping the rope firmly.<br/>
+                    ➤ A neutral official signals the start of the match, often with a whistle or command.<br/>
+                    ➤ Players pull the rope, trying to drag the opposing team across the center line or into their own designated winning zone.<br/>
+                    ➤ The team that successfully pulls their opponents across the center line or into their winning zone is declared the winner.<br/>
                     </p>
                     
                     <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">CO-ORDINATOR :</h2>
@@ -45,10 +45,10 @@ const ThugOfWar = () => {
                     • Kiran - 9491563520<br/>
                     </p>
 
-                    <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">ENTRY FEE:</h2>
+                    <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">REGISTRATION FEE:</h2>
               
                     <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
-                    <h4>200/- per Team</h4><br/>
+                    <h4><strong>• 200/- per Team.</strong></h4><br/>
                     </p>
             
                 </div>

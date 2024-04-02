@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-pascal-case */
 import React from "react"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import Navbar from "./compoent/Navbar"
@@ -106,10 +107,7 @@ function App() {
           <Route path='/flipIt' compoent={FilpIt_PitchIt} exact>
             <FilpIt_PitchIt/>
           </Route>
-          
-
-
-
+        
           <Route path='/non_technical' compoent={Non_technical} exact>
             <Non_technical/>
           </Route>

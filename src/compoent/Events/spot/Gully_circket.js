@@ -24,16 +24,16 @@ const Gully_circket = () => {
             </div>
         </div>
     </section>
-                <div class="bg-white py-6 sm:py-8 lg:py-12">
+                <div class="bg-white py-4 sm:py-4 lg:py-6">
                 <div class="mx-auto max-w-screen-md px-4 md:px-8">
               
                   <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">RULES:</h2>
               
                     <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
-                    • Team Contains 5 Members.<br/>
-                    • Gully cricket emphasises fair play and sportsmanship. Players are expected to abide by the rules, respect their opponents, and play in the spirit of the game.<br/>
-                    • There can be variations in the rules regarding boundaries, such as hitting the ball over a certain height or distance being declared as six, or the ball bouncing off a wall counting as runs, etc.<br/>
-                    • Depending on the locality and the preferences of the players, additional rules or modifications to existing rules may be introduced to suit the conditions or enhance the enjoyment of the game.<br/>
+                    <strong>➤ Team Contains 5 Members.</strong><br/>
+                    ➤ Gully cricket emphasises fair play and sportsmanship. Players are expected to abide by the rules, respect their opponents, and play in the spirit of the game.<br/>
+                    ➤ There can be variations in the rules regarding boundaries, such as hitting the ball over a certain height or distance being declared as six, or the ball bouncing off a wall counting as runs, etc.<br/>
+                    ➤ Depending on the locality and the preferences of the players, additional rules or modifications to existing rules may be introduced to suit the conditions or enhance the enjoyment of the game.<br/>
                     </p>
                     
                     <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">CO-ORDINATOR :</h2>
@@ -42,10 +42,10 @@ const Gully_circket = () => {
                     • Praveen - 8179794785<br/>
                     </p>
 
-                    <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">ENTRY FEE:</h2>
+                    <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">REGISTRATION FEE:</h2>
               
                     <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
-                    <h4>200/- per Team</h4><br/>
+                    <h4><strong>• 200/- per Team.</strong></h4><br/>
                     </p>
             
                 </div>

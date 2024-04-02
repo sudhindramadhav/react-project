@@ -69,7 +69,7 @@ const Pricing = () => {
 
         <div class="flex flex-1 flex-col p-6 pt-8">
           <div class="mb-12">
-            <div class="mb-2 text-center text-2xl font-bold text-gray-800">Achiever</div>
+            <div class="mb-6 text-center text-2xl font-bold text-gray-800">Champion</div>
 
             <div class="space-y-4">
         
@@ -79,7 +79,7 @@ const Pricing = () => {
                   <circle cx="8" cy="8" r="3" fill="currentColor" class="text-gray-500" />
                 </svg>
 
-                <span class="text-gray-600">Unlimited file storage</span>
+                <span class="text-gray-600">2 Technical Events</span>
               </div>
    
               <div class="flex items-center gap-2">
@@ -122,7 +122,7 @@ const Pricing = () => {
           </div>
 
           <div class="mt-auto">
-            <a class="block rounded-lg bg-indigo-500 px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-indigo-300 transition duration-100 hover:bg-indigo-600 focus-visible:ring active:bg-indigo-700 md:text-base">400/-</a>
+            <a class="block rounded-lg bg-indigo-500 px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-indigo-300 transition duration-100 hover:bg-indigo-600 focus-visible:ring active:bg-indigo-700 md:text-base">500/-</a>
           </div>
         </div>
       </div>
@@ -134,7 +134,7 @@ const Pricing = () => {
 
         <div class="flex flex-1 flex-col p-6 pt-8">
           <div class="mb-12">
-            <div class="mb-2 text-center text-2xl font-bold text-gray-800">Champion</div>
+            <div class="mb-2 text-center text-2xl font-bold text-gray-800">Achiever</div>
 
             <div class="space-y-4">
        
@@ -187,7 +187,7 @@ const Pricing = () => {
           </div>
 
           <div class="mt-auto">
-            <a class="block rounded-lg bg-gray-800 px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-indigo-300 transition duration-100 hover:bg-gray-700 focus-visible:ring active:bg-gray-600 md:text-base">500/-</a>
+            <a class="block rounded-lg bg-gray-800 px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-indigo-300 transition duration-100 hover:bg-gray-700 focus-visible:ring active:bg-gray-600 md:text-base">400/-</a>
           </div>
         </div>
       </div>

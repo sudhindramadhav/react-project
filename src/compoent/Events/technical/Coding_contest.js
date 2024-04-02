@@ -27,20 +27,20 @@ const Coding_contest = () => {
           </div>
         </div>
       </section>
-      <div class="bg-white py-6 sm:py-8 lg:py-12">
+      <div class="bg-white py-4 sm:py-4 lg:py-6">
         <div class="mx-auto max-w-screen-md px-4 md:px-8">
 
           <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">RULES:</h2>
 
           <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
-            <strong>• Each team should consist of a maximum two members.<br/></strong>
-            • Teams will be provided with a set of coding questions to solve within a specified
+            <strong>➤ Each team should consist of a maximum two members.<br/></strong>
+            ➤ Teams will be provided with a set of coding questions to solve within a specified
             time limit for each round.<br />
-            • Code submissions must adhere to the given problem statements and meet all
+            ➤ Code submissions must adhere to the given problem statements and meet all
             specified requirements.<br />
-            • Teams will be ranked as per the number of problems solved.<br />
-            • Ties will be broken by the total time for each user in ascending order of time.<br />
-            • The contest will consist of multiple rounds, with teams progressing in every
+            ➤ Teams will be ranked as per the number of problems solved.<br />
+            ➤ Ties will be broken by the total time for each user in ascending order of time.<br />
+            ➤ The contest will consist of multiple rounds, with teams progressing in every
             round.<br />
           </p>
           <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">CO-ORDINATORS :</h2>

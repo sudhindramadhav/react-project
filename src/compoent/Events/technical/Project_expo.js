@@ -23,29 +23,29 @@ const Project_expo = () => {
             </div>
         </div>
     </section>
-                <div class="bg-white py-6 sm:py-8 lg:py-12">
+                <div class="bg-white py-4 sm:py-4 lg:py-6">
                 <div class="mx-auto max-w-screen-md px-4 md:px-8">
               
-                  <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">RULES:</h2>
+                  <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">RULES :</h2>
               
                     <p class="mb-6 text-gray-500 sm:text-lg md:mb-8 leading-relaxed">
                     <strong className='text-red-400'>General Rules and Guidelines for competition:</strong><br/>
-                                • Each team can have maximum of 4 members.<br/>
-                                • The competition is open to only under graduate students.<br/>
-                                • Members should have a valid student ID card of their college.<br/>
-                                • A team member can participate in only one project presentation.<br/>
+                    <strong>➤ Each team can have maximum of 4 members.</strong><br/>
+                    ➤ The competition is open to only under graduate students.<br/>
+                    ➤ Members should have a valid student ID card of their college.<br/>
+                    ➤ A team member can participate in only one project presentation.<br/><br/>
                                 <strong className='text-red-400'> Regulations for  competition and display of Project :</strong><br/>
                             Student taking part in project exhibition event should follow certain rules regarding the event.<br/>
-                            1  The project for competition must be displayed and presented with an effective power point presentation.<br/>
-                            2  The presentation  should  contain  a  simple description  about  their  project.<br/>
-                            3  The  candidates  can  take help of following points to describe their project in the ppt.<br/>
-                                • Introduction<br/>
-                                • Block diagram<br/>
-                                • Working principle.<br/>
-                                • Its advantage and disadvantages<br/>
-                                • Future Work<br/>
-                            4  Participants  must  exhibit  their  project  in   the  event of Engineers day on September 15th 2K17.<br/>
-                            5  Teams will be given a space to set up their model/design at the venue, center-3  for exhibition and for judging.<br/>
+                            1. The project for competition must be displayed and presented with an effective power point presentation.<br/>
+                            2. The presentation  should  contain  a  simple description  about  their  project.<br/>
+                            3. The  candidates  can  take help of following points to describe their project in the ppt.<br/>
+                                <strong>• Introduction</strong><br/>
+                                <strong>• Block diagram</strong><br/>
+                                <strong>• Working principle</strong><br/>
+                                <strong>• Its advantage and disadvantages</strong><br/>
+                                <strong>• Future Work</strong><br/><br/>
+                            4. Participants  must  exhibit  their  project  in   the  event of Engineers day on September 15th 2K17.<br/>
+                            5.Teams will be given a space to set up their model/design at the venue, center-3  for exhibition and for judging.<br/><br/>
                             <strong className='text-red-400'>Important note:</strong><br/>
                                 • Partial outputs are considered.<br/>
                                 • All selected participants will receive participation certificate.<br/>
@@ -53,7 +53,7 @@ const Project_expo = () => {
                                 • Participants should  bring  all  their requirements to execute their project.<br/>
                                 • The decision of the judges shall be treated as final and binding.<br/>
                                 • The panel  of  judges  consists  of  subject  experts from  our college.<br/>
-                                • The organizers  reserve the  rights  to  change  any  or  all  of  the  above  rules  as  they  deem fit<br/>
+                                • The organizers  reserve the  rights  to  change  any  or  all  of  the  above  rules  as  they  deem fit<br/><br/>
                                 <strong className='text-red-400'>Judging:  Key Evaluation Criteria would be</strong><br/>
                                 • Innovation<br/>
                                 • Design (Compactness and the efficiency of work done)<br/>
@@ -61,10 +61,10 @@ const Project_expo = () => {
                                 • Relevance with practical need<br/>
                     </p>
 
-                    <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">ENTRY FEE:</h2>
+                    <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">REGISTRATION FEE:</h2>
               
                     <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
-                    <h4>100/- per team</h4><br/>
+                    <h4><strong>• 100/- Per Team.</strong></h4><br/>
                     </p>
             
                 </div>

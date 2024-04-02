@@ -2,7 +2,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import gully_cricket from "../../Assets/images/gully_cricket.jpg"
-import tug_of_war from "../../Assets/images/tug_of_war.jpg"
+import tug_of_war from "../../Assets/images/tug_of_war1.jpg"
 import bgmi from "../../Assets/images/bgmi.jpeg"
 import ff from "../../Assets/images/FreeFire.jpg"
 import movieQuiz from "../../Assets/images/movieQuiz.jpeg"

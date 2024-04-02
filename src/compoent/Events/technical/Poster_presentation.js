@@ -1,6 +1,6 @@
 import React from 'react'
 import { useEffect } from 'react';
-import poster from "../../../Assets/images/poster.png"
+import poster from "../../../Assets/images/posterpresentation.jpg"
 const Poster_presentation = () => {
     useEffect(() => {
         window.scrollTo(0, 0); // Scrolls to the top of the page
@@ -106,7 +106,7 @@ Posters have become an increasingly popular method for presentation at conferenc
 
 
     </section>
-                <div class="bg-white py-6 sm:py-8 lg:py-12">
+                <div class="bg-white py-4 sm:py-4 lg:py-6">
                 <div class="mx-auto max-w-screen-md px-4 md:px-8">
 
                     <p>

@@ -42,7 +42,7 @@ import ff from "../Assets/images/FreeFire.jpg"
 import movieQuiz from "../Assets/images/movieQuiz.jpeg"
 import Pricing from "./Pricing"
 
-import akil from "../Assets/images/infuson1.jpeg"
+import akil from "../Assets/images/infusionband.jpeg"
 
 const Home = () => {
 

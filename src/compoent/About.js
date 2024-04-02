@@ -57,7 +57,7 @@ const About = () => {
                 <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-6 pb-10 rounded-lg overflow-hidden text-center relative">
                   {/* <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">Technical Events</h2> */}
                   <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Technical Events</h1>
-                  <p class="leading-relaxed mb-3">Explore our exciting lineup of technical events designed to challenge your skills and expand your knowledge. From coding competitions to hackathons and workshops, these events are perfect for tech enthusiasts looking to push their boundaries and learn something new.
+                  <p class="leading-relaxed mb-3 text-justify">Explore our exciting lineup of technical events designed to challenge your skills and expand your knowledge. From coding competitions to hackathons and workshops, these events are perfect for tech enthusiasts looking to push their boundaries and learn something new.
                   </p>
                   <div className="flex w-full flex-col gap-2.5 sm:flex-row sm:justify-center pt-2">
                     <Link to='/events'>
@@ -70,7 +70,7 @@ const About = () => {
                 <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-6 pb-10 rounded-lg overflow-hidden text-center relative">
                   {/* <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2> */}
                   <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Non-Technical Events</h1>
-                  <p class="leading-relaxed mb-3">Dive into our array of non-technical events designed to inspire creativity and foster a sense of community. From art and music competitions to gaming tournaments and leadership workshops, there's something for everyone to enjoy and participate in.
+                  <p class="leading-relaxed mb-3 text-justify">Dive into our array of non-technical events designed to inspire creativity and foster a sense of community. From art and music competitions to gaming tournaments and exciting events, there's something for everyone to enjoy and participate in.
                   </p>
                   <div className="flex w-full flex-col gap-2.5 sm:flex-row sm:justify-center pt-2">
                     <Link to='/non_technical'>
@@ -84,7 +84,7 @@ const About = () => {
                 <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-6 pb-10 rounded-lg overflow-hidden text-center relative">
                   {/* <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2> */}
                   <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Spot Events</h1>
-                  <p class="leading-relaxed mb-3">"Spot Events at SPARK bring quick, surprising challenges, enabling participants to showcase their skills, spark creativity, and compete in a fun, on-the-spot manner, enhancing the overall experience."
+                  <p class="leading-relaxed mb-3 text-justify">"Spot Events at SPARK bring quick, surprising challenges, enabling participants to showcase their skills, spark creativity, and compete in a fun, on-the-spot manner, enhancing the overall experience."
                   </p>
                   <div className="flex w-full flex-col gap-2.5 sm:flex-row sm:justify-center pt-8">
                     <Link to='/spot'>

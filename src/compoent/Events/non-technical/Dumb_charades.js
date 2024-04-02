@@ -24,16 +24,16 @@ const Dumb_charades = () => {
             </div>
         </div>
     </section>
-                <div class="bg-white py-6 sm:py-8 lg:py-12">
+                <div class="bg-white py-4 sm:py-4 lg:py-6">
                 <div class="mx-auto max-w-screen-md px-4 md:px-8">
               
                   <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">RULES:</h2>
               
                     <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
-                    • The Game is Played as Team (2 Participants Per Team).<br/>
-                    • A person is not allowed to talk and is required to act out the name by using different gestures, facial expressions, and body language.<br/>
-                    • The Number of Movie Names Guessed by team for a duration of 2 minutes will be Noted.<br/>
-                    • The team which guess the more number of movie names for a duration of 2 minutes will be declared as a winner and cash prize will be awarded for that team.<br/>
+                    ➤ The Game is Played as Team (2 Participants Per Team).<br/>
+                    ➤ A person is not allowed to talk and is required to act out the name by using different gestures, facial expressions, and body language.<br/>
+                    ➤ The Number of Movie Names Guessed by team for a duration of 2 minutes will be Noted.<br/>
+                    ➤ The team which guess the more number of movie names for a duration of 2 minutes will be declared as a winner and cash prize will be awarded for that team.<br/>
                     </p>
                     <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">CO-ORDINATORS :</h2>
               
@@ -42,10 +42,10 @@ const Dumb_charades = () => {
                     • Pavan - 8247655251<br/>
                     </p>
 
-                    <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">ENTRY FEE:</h2>
+                    <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">REGISTRATION FEE:</h2>
               
                     <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
-                    <h4>50/-</h4><br/>
+                    <strong>50/- Per Team</strong><br/>
                     </p>
             
                 </div>

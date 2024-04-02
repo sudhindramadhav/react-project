@@ -13,7 +13,7 @@ const Reels = () => {
             <img class="object-cover object-center rounded" alt="hero" src={reels}/>
             </div>
             <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">REELS
+            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">INSTAGRAM REELS
             </h1>
             <p class="mb-8 leading-relaxed">REELS: The Contest is based on Instagram Reels.</p>
             <div class="flex justify-center">
@@ -24,22 +24,25 @@ const Reels = () => {
             </div>
         </div>
     </section>
-                <div class="bg-white py-6 sm:py-8 lg:py-12">
+                <div class="bg-white py-4 sm:py-4 lg:py-6">
                 <div class="mx-auto max-w-screen-md px-4 md:px-8">
               
                   <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">RULES:</h2>
               
                     <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
-                    • The reel must be an original creation.  Plagiarized content lead to disqualification.<br/>
-                    • Each Participant will accept only one entry, and a second entry will lead to disqualification.<br/>
-                    • The Cash Prize is Given to Top 2 Winners of the Overall Contest.<br/>
-                    • The decision of the Judging panel will be final.<br/>
-                    • Share your reels to theatreclub_svcolleges Instagram Page with following details: <br/>
-                    •	Name of the participant <br/>
-                    •	College Name <br/>
-                    •	Branch/Year  <br/>
-                    •	Email Id     <br/><br/>
-                    • Winning Criteria:<br/>
+                    ➤ The reel must be an original creation.<br/>
+                    ➤  Plagiarized content lead to disqualification.<br/>
+                    ➤ Each Participant will accept only one entry, and a second entry will lead to disqualification.<br/>
+                    ➤ The Cash Prize is Given to Top 2 Winners of the Overall Contest.<br/>
+                    ➤ The decision of the Judging panel will be final.<br/>
+                    ➤ Share your reels to theatreclub_svcolleges Instagram Page with following details: <br/>
+                    <p className='ps-6'>
+                    ➤	Name of the participant <br/>
+                    ➤	College Name <br/>
+                    ➤	Branch/Year  <br/>
+                    ➤	Email Id     <br/>
+                    ➤ Winning Criteria:<br/><br/>
+                      </p>
                     1.There Will be Two Winners of Overall Contest<br/>
 2.Post With Highest Views Will be Declared as One Winner<br/>
 3.Top 20 Posts Will be shown to judges and another winner will be decided<br/>
@@ -53,10 +56,10 @@ const Reels = () => {
                     • Pavan - 8247655251<br/>
                     </p>
 
-                    <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">ENTRY FEE:</h2>
+                    <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">REGISTRATION FEE:</h2>
               
                     <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
-                    <h4>50/-</h4><br/>
+                    <strong>50/- Per Head</strong><br/>
                     </p>
             
                 </div>

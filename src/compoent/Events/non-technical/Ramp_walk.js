@@ -24,30 +24,30 @@ const Ramp_walk = () => {
             </div>
         </div>
     </section>
-                <div class="bg-white py-6 sm:py-8 lg:py-12">
+                <div class="bg-white py-4 sm:py-4 lg:py-6">
                 <div class="mx-auto max-w-screen-md px-4 md:px-8">
               
                   <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">RULES:</h2>
               
                     <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
-                    • There will be 2 rounds conducted.<br/>
-                    • In 1st round the students has to walk on a ramp. <br/>
-                    • And the further round selected students will be shortlisted by their way of walking and presenting themselves there.<br/>
-                    • Students who got qualified for 2nd round will undergo a question-and-answer round.<br/>
-                    • Which is considered as final round and winner deciding round.<br/>
-                    • The student has to answer Confidently & Relatable to the question asked. <br/>
+                    ➤ 2 rounds will be conducted.<br/>
+                    ➤ In 1st round the students has to walk on a ramp. <br/>
+                    ➤ And the further round selected students will be shortlisted by their way of walking and presenting themselves .<br/>
+                    ➤ Students who got qualified for 2nd round will undergo a question-and-answer round.<br/>
+                    ➤ Which is considered as final round and winner deciding round.<br/>
+                    ➤ The student has to answer Confidently & Relatable to the question asked. <br/>
                     </p>
                     <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">CO-ORDINATORS :</h2>
               
                     <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
-                    • Chaitanya - 8019527077 - 4th ECE.<br/>
-                    • Surya Vardhan - 6302256802 - 4th ECE.<br/>
+                    ➤ K. CHAITANYA - 80195 27077 – 4th ECE.<br/>
+                    ➤ K. SURYA VARDHAN - 6302 256 802 – 4TH ECE.<br/>
                     </p>
 
-                    <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">ENTRY FEE:</h2>
+                    <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">REGISTRATION FEE:</h2>
               
                     <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
-                    <h4>100/-</h4><br/>
+                    <strong>100/- Per Head</strong><br/>
                     </p>
             
                 </div>

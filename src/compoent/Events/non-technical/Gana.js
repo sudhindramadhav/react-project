@@ -24,13 +24,13 @@ const Gana = () => {
             </div>
         </div>
     </section>
-                <div class="bg-white py-6 sm:py-8 lg:py-12">
+                <div class="bg-white py-4 sm:py-4 lg:py-6">
                 <div class="mx-auto max-w-screen-md px-4 md:px-8">
               
                   <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">RULES:</h2>
               
                     <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
-                    • The participant should sing his/her favourite song track for 2-3mins.<br/>
+                    ➤ The participant should sing his/her favourite song track for 2-3mins.<br/>
                                         </p>
                     <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">CO-ORDINATOR:</h2>
               
@@ -38,10 +38,10 @@ const Gana = () => {
                     • Manaswitha - 8555983669 - 2nd CSE.<br/>
                     </p>
 
-                    <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">ENTRY FEE:</h2>
+                    <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">REGISTRATION FEE:</h2>
               
                     <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
-                    <h4>50/-</h4><br/>
+                    <strong>50/- Per Head</strong><br/>
                     </p>
             
                 </div>

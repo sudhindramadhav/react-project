@@ -24,26 +24,26 @@ const Sound_Space = () => {
             </div>
         </div>
     </section>
-                <div class="bg-white py-6 sm:py-8 lg:py-12">
+                <div class="bg-white py-4 sm:py-4 lg:py-6">
                 <div class="mx-auto max-w-screen-md px-4 md:px-8">
               
                   <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">RULES:</h2>
               
                     <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
-                    • The participant has to play his favourite song or music in instrument.<br/>
-                    • Instruments has to bring on their own.<br/>
-                    • No instruments are provided.<br/>
+                    ➤ The participant has to play his favourite song or music in instrument.<br/>
+                    ➤ Instruments has to bring on their own.<br/>
+                    ➤ No instruments are provided.<br/>
                     </p>
                     <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">C0-0RDINATOR:</h2>
               
                     <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
-                    • Alwin Raj - 6281984480 - 2nd CSA.<br/>
+                    • A. ALWIN RAJ – 62819 84480 – 2ND CSA.<br/>
                     </p>
 
-                    <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">ENTRY FEE:</h2>
+                    <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">REGISTRATION FEE:</h2>
               
                     <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
-                    <h4>100/-</h4><br/>
+                    <h4>100/- Per Head</h4><br/>
                     </p>
             
                 </div>

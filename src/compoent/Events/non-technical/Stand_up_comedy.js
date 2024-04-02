@@ -16,7 +16,7 @@ const Stand_up_comedy = () => {
             <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">STAND UP COMEDY
             </h1>
             <p class="mb-8 leading-relaxed">STAND UP COMEDY: is a form of entertainment where a comedian performs in front of a live audience, usually speaking directly to them. The comedian typically delivers a series of humorous stories, jokes, one-liners, or anecdotes, often based on personal experiences, observations, or social commentary. Stand-up comedy performances can vary widely in style and content, but the goal is usually to make the audience laugh.</p>
-            <p class="mb-8 leading-relaced">Stand-up comedy has a long history and has evolved into various styles and sub-genres, including observational comedy, satire, improvisational comedy, and storytelling. Successful stand-up comedians often have strong stage presence, timing, and the ability to connect with the audience, making them effective entertainers.</p>
+            
             <div class="flex justify-center">
               <a href='https://forms.gle/1h6LvwaR2ZFkutG6A'>
                 <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Register Now</button> 
@@ -25,29 +25,29 @@ const Stand_up_comedy = () => {
             </div>
         </div>
     </section>
-                <div class="bg-white py-6 sm:py-8 lg:py-12">
+                <div class="bg-white py-4 sm:py-4 lg:py-6">
                 <div class="mx-auto max-w-screen-md px-4 md:px-8">
               
                   <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">RULES:</h2>
               
                     <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
-                    • Only one round is conducted.<br/>
-                    • The student has to generate fun using any language.<br/>
-                    • But most priorly they have to use Telugu and English.<br/>
-                    • And the words shouldn’t be offended.<br/>
-                    • Foul language should be avoided, shouldn’t disrespect any institution or college.<br/>
-                    • Judges decision is final.<br/>
+                    ➤ Only one round is conducted.<br/>
+                    ➤ The student has to generate fun using any language.<br/>
+                    ➤ But most priorly they have to use Telugu and English.<br/>
+                    ➤ And the words shouldn’t be offended.<br/>
+                    ➤ Foul language should be avoided, shouldn’t disrespect any institution or college.<br/>
+                    ➤ Judges decision is final.<br/>
                     </p>
                     <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">CO-ORDINATORS:</h2>
               
                     <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
-                    • Narasimha - 7032829039 - 2nd ECE.<br/>
+                    • M. VENKATA NARASIMHA - 70328 29039 – 2ND ECE.<br/>
                     </p>
 
                     <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">ENTRY FEE:</h2>
               
                     <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
-                    <h4>100/-</h4><br/>
+                    <strong>100/- Per Head</strong><br/>
                     </p>
             
                 </div>

@@ -120,7 +120,7 @@ const Home = () => {
 
     <section class="text-gray-600 body-font">
   <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
-    <img class="lg:w-4/6 md:w-4/6 w-4/6 mb-10 object-cover object-center rounded" alt="hero" src={akil}/>
+    <img class="lg:w-4/6 md:w-4/6 w-6/7 mb-10 object-cover object-center rounded" alt="hero" src={akil}/>
     <div class="text-center lg:w-2/3 w-full">
       <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">PRO SHOW</h1>
       <p class="mb-8 leading-relaxed text-justify">A band show is a live performance by a musical group or band. Bands can vary widely in size, style, and genre, ranging from small local bands to large professional groups. Band shows are popular at various events, including concerts, festivals, weddings, parties, and corporate events.
@@ -241,7 +241,7 @@ During a band show, the musicians perform a setlist of songs, which may include 
 
 
       <div className="carousel py-6">
-        <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900 mx-8 ">Non Technical</h1>
+        <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900 mx-8 ">Non Technical Events</h1>
         <div className="h-1 w-20 bg-indigo-500 rounded mx-16"></div>
         <br></br>
         <Slider {...settings}>
@@ -281,7 +281,7 @@ During a band show, the musicians perform a setlist of songs, which may include 
             <div className=" bg-gray-200 p-6 rounded-lg mx-10">
               <Link to="/face-paint">
                 <img className="h-40 rounded w-full object-cover object-center mb-6" src={face_paint} alt="content" />
-                <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center ">FACE PAINT</h2>
+                <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center ">MINI POLAROID PAINTING</h2>
               </Link>
             </div>
           </div>
@@ -341,7 +341,7 @@ During a band show, the musicians perform a setlist of songs, which may include 
       </div>
 
       <div className="carousel  py-6">
-        <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900 mx-8 ">spot Events</h1>
+        <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900 mx-8 ">Spot Events</h1>
         <div className="h-1 w-20 bg-indigo-500 rounded mx-16"></div>
         <br></br>
         <Slider {...settings}>

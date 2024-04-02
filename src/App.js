@@ -26,7 +26,6 @@ import Dillse_Dance from "./compoent/Events/non-technical/Dillse_Dance"
 import Dumb_charades from "./compoent/Events/non-technical/Dumb_charades"
 import Face_paint from "./compoent/Events/non-technical/Face_paint"
 import Gana from "./compoent/Events/non-technical/Gana"
-import Period_pain from "./compoent/Events/non-technical/Period_pain"
 import Poetry_pros from "./compoent/Events/non-technical/Poetry_pros"
 import Ramp_walk from "./compoent/Events/non-technical/Ramp_walk"
 import Reels from "./compoent/Events/non-technical/Reels"
@@ -129,9 +128,7 @@ function App() {
           <Route path='/gana' compoent={Gana} exact>
             <Gana/>
           </Route>
-          <Route path='/period-pain' compoent={Period_pain} exact>
-            <Period_pain/>
-          </Route>
+  
           <Route path='/poetry-pros' compoent={Poetry_pros} exact>
             <Poetry_pros/>
           </Route>

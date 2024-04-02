@@ -24,33 +24,33 @@ const Dialogue_war = () => {
             </div>
         </div>
     </section>
-                <div class="bg-white py-6 sm:py-8 lg:py-12">
+                <div class="bg-white py-6 sm:py-4 lg:py-6">
                 <div class="mx-auto max-w-screen-md px-4 md:px-8">
               
                   <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">RULES:</h2>
               
                     <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
-                    • A team should consist 2 members.<br/>
-                    • 2 teams will face each other.<br/>
-                    • Each team should accurately guess or translate the dialogue.<br/>
-                    • Round 1: A Telugu dialogue is translated into English and it will be provided by the coordinator.<br/>
-                    • Participants has to translate the dialogue into Telugu (original).<br/>
-                    • In 1st round total of 5 dialogues are provided.<br/>
-                    • In order to win the tie, they have to answer 3 correctly.<br/>
-                    • Those who have qualified for 2nd round.<br/>
-                    • The coordinators will provide MOVIE NAME & HERO - The participant has to guess the famous dialogue in that movie.<br/>
+                    ➤ A team should consist 2 members.<br/>
+                    ➤ 2 teams will face each other.<br/>
+                    ➤ Each team should accurately guess or translate the dialogue.<br/>
+                    ➤ Round 1: A Telugu dialogue is translated into English and it will be provided by the coordinator.<br/>
+                    ➤ Participants has to translate the dialogue into Telugu (original).<br/>
+                    ➤ In 1st round total of 5 dialogues are provided.<br/>
+                    ➤ In order to win the tie, they have to answer 3 correctly.<br/>
+                    ➤ Those who have qualified for 2nd round.<br/>
+                    ➤ The coordinators will provide MOVIE NAME & HERO - The participant has to guess the famous dialogue in that movie.<br/>
                     </p>
                     <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">CO-ORDINATORS:</h2>
               
                     <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
-                    • Prashanthi - 7569563542 - 2nd ECE.<br/>
-                    • Sai Gayathri - 8639057352 - 2nd ECE.<br/>
+                    • T. PRASHANTHI - 75695 63542 – 2ND ECE.<br/>
+                    • V.SAI GAYATHRI - 86390 57352 – 2ND CSE.<br/>
                     </p>
 
-                    <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">ENTRY FEE:</h2>
+                    <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">REGISTRATION FEE:</h2>
               
                     <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
-                    <h4>100/-</h4><br/>
+                    <strong>100/- Per Team</strong><br/>
                     </p>
             
                 </div>

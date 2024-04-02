@@ -13,9 +13,9 @@ const Ff = () => {
             <img class="object-cover object-center rounded" alt="hero" src={ff}/>
             </div>
             <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">RAMP WALK
+            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">FREE FIRE
             </h1>
-            <p class="mb-8 leading-relaxed">RAMP WALK: also known as a runway walk, is a term primarily used in the context of fashion shows. It refers to the walk that models take on a raised platform or runway to showcase clothing and accessories to an audience. Ramp walks are a key component of fashion shows, allowing designers to display their creations in a dynamic and theatrical manner. Models often undergo specific training to perfect their ramp walk, which involves a particular style of walking that highlights the clothing and exudes confidence and grace.</p>
+            <p class="mb-8 leading-relaxed">FREE FIRE: also known as a runway walk, is a term primarily used in the context of fashion shows. It refers to the walk that models take on a raised platform or runway to showcase clothing and accessories to an audience. Ramp walks are a key component of fashion shows, allowing designers to display their creations in a dynamic and theatrical manner. Models often undergo specific training to perfect their ramp walk, which involves a particular style of walking that highlights the clothing and exudes confidence and grace.</p>
             <div class="flex justify-center">
                 <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Register Now</button> 
             </div>

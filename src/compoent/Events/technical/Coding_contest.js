@@ -33,7 +33,7 @@ const Coding_contest = () => {
           <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">RULES:</h2>
 
           <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
-            • Each team should consist of a maximum two members.<br />
+            <strong>• Each team should consist of a maximum two members.<br/></strong>
             • Teams will be provided with a set of coding questions to solve within a specified
             time limit for each round.<br />
             • Code submissions must adhere to the given problem statements and meet all
@@ -43,17 +43,17 @@ const Coding_contest = () => {
             • The contest will consist of multiple rounds, with teams progressing in every
             round.<br />
           </p>
-          <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">CO-ORDINATORs :</h2>
+          <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">CO-ORDINATORS :</h2>
 
           <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
             • Tharun Sai - 9491237041<br />
             • Moulikaa - 9121991326<br />
           </p>
 
-          <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">ENTRY FEE:</h2>
+          <h2 class="mb-2 text-xl font-bold text-gray-800 sm:text-2xl md:mb-4">REGISTRATION FEE:</h2>
 
           <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
-            <h4>100/- per team.</h4><br />
+            <h4><strong>• 100/- per team.</strong></h4><br />
           </p>
 
         </div>

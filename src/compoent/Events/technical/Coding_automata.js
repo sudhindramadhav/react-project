@@ -30,7 +30,7 @@ const Coding_automata = () => {
           <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">RULES:</h2>
 
           <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
-            • Each team should consist of a maximum two members.<br />
+            <strong>• Each team should consist of a maximum two members.</strong><br />
             • Participants must register in advance to participate in the Coding Automata:
             Debugging Edition.<br />
             • Each participant will be provided with a set of C programs containing bugs to
@@ -44,7 +44,7 @@ const Coding_automata = () => {
             • The student who completes the program faster is considered and the top 3
             students are declared as winners.<br />
           </p>
-          <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">CO-ORDINATOR:</h2>
+          <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">CO-ORDINATORS :</h2>
 
           <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
             • Jaya Lakshmi - 9347902488 <br />
@@ -54,7 +54,7 @@ const Coding_automata = () => {
           <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">ENTRY FEE:</h2>
 
           <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
-            <h4>50/- per head</h4><br />
+            <h4><strong>• 50/- per head.</strong></h4><br />
           </p>
 
         </div>

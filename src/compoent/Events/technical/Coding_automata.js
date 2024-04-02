@@ -30,7 +30,7 @@ const Coding_automata = () => {
           <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">RULES:</h2>
 
           <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
-            <strong>• Each team should consist of a maximum two members.</strong><br />
+            <strong>Each team should consist of a maximum two members.</strong><br />
             • Participants must register in advance to participate in the Coding Automata:
             Debugging Edition.<br />
             • Each participant will be provided with a set of C programs containing bugs to

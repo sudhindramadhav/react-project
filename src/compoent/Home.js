@@ -20,17 +20,17 @@ import quiz from "../Assets/images/quiz.jpg"
 
 
 import color_paint from "../Assets/images/color_paint.jpg"
-import dialoguewar from "../Assets/images/dialoguewar.jpg"
-import dillse from "../Assets/images/classicaldance.jpg"
+import dialoguewar from "../Assets/images/dialoguewar.jpeg"
+import dillse from "../Assets/images/dliise.jpg"
 import dumbcharades from "../Assets/images/dumbcharades.jpg"
-import face_paint from "../Assets/images/face_paint.jpg"
+import face_paint from "../Assets/images/minipolaroid.jpg"
 import gana from "../Assets/images/singing.jpg"
 
 import poetry from "../Assets/images/poetry.jpg"
 import rampwalk from "../Assets/images/rampwalk.jpg"
 import reels from "../Assets/images/reels.jpg"
 
-import sound_space from "../Assets/images/musicalinstrument.jpg"
+import sound_space from "../Assets/images/musicialinstrument.jpeg"
 import standupcomedy from "../Assets/images/standupcomedy.jpg"
 import flipIt from "../Assets/images/flipIt.jpeg"
 
@@ -42,7 +42,9 @@ import ff from "../Assets/images/FreeFire.jpg"
 import movieQuiz from "../Assets/images/movieQuiz.jpeg"
 import Pricing from "./Pricing"
 
-import akil from "../Assets/images/infusionband.jpeg"
+import akil from "../Assets/images/infusion.jpg"
+import TimingDeadline from "./TimingDeadline"
+import RegisterButton from "./Registerbutton"
 
 const Home = () => {
 
@@ -109,10 +111,11 @@ const Home = () => {
       {/* Content */}
       <div className="relative flex flex-col items-center p-4 sm:max-w-xl">
         <h1 className="mb-8 text-center text-4xl font-bold text-white sm:text-5xl md:mb-12 md:text-6xl">SVCE SPARK</h1>
+        <TimingDeadline/>
         <div className="flex flex-col gap-2.5 sm:flex-row sm:justify-center">
-          <Link to='/events'>
+          {/* <Link to='/events'>
             <Link to="/events" className="rounded-lg bg-indigo-500 px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-indigo-300 transition duration-100 hover:bg-indigo-600 focus-visible:ring active:bg-indigo-700 md:text-base">Register Now</Link>
-          </Link>
+          </Link> */}
         </div>
       </div>
     </section>
@@ -122,8 +125,8 @@ const Home = () => {
   <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
     <img class="lg:w-4/6 md:w-4/6 w-6/7 mb-10 object-cover object-center rounded" alt="hero" src={akil}/>
     <div class="text-center lg:w-2/3 w-full">
-      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">PRO SHOW</h1>
-      <p class="mb-8 leading-relaxed text-justify">A band show is a live performance by a musical group or band. Bands can vary widely in size, style, and genre, ranging from small local bands to large professional groups. Band shows are popular at various events, including concerts, festivals, weddings, parties, and corporate events.
+      <h1 class="title-font sm:text-4xl text-3xl mb-2 font-medium text-gray-900">PRO SHOW</h1>
+      <p class="mb-4 leading-relaxed text-justify">A band show is a live performance by a musical group or band. Bands can vary widely in size, style, and genre, ranging from small local bands to large professional groups. Band shows are popular at various events, including concerts, festivals, weddings, parties, and corporate events.
 
 During a band show, the musicians perform a setlist of songs, which may include original compositions, covers of popular songs, or a mix of both. The performance often includes instrumental solos, vocal performances, and interaction with the audience to create an engaging and entertaining experience.
 
@@ -398,7 +401,7 @@ During a band show, the musicians perform a setlist of songs, which may include 
       <AppContainer>
         <Wrapper>
           <Text>Special Thanks to</Text>
-          <Note>Our honorable Sponsers</Note>
+          <Note>Our honorable Sponsors</Note>
           <Marquee>
             <MarqueeGroup>
               {row1.map((el) => (

@@ -15,7 +15,7 @@ const Gana = () => {
             <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
             <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">GAANA
             </h1>
-            <p class="mb-8 leading-relaxed">GAANA: is a Hindi term that translates to "song" in English. It is commonly used in the context of Indian music, particularly in Bollywood and other regional film industries, to refer to a song. In a broader sense, "gaana" can refer to any form of music or song in the Indian context, including traditional, folk, classical, and modern popular music.</p>
+            <p class="mb-8 leading-relaxed text-justify">GAANA: is a Hindi term that translates to "song" in English. It is commonly used in the context of Indian music, particularly in Bollywood and other regional film industries, to refer to a song. In a broader sense, "gaana" can refer to any form of music or song in the Indian context, including traditional, folk, classical, and modern popular music.</p>
             <div class="flex justify-center">
               <a href='https://docs.google.com/forms/d/e/1FAIpQLSeM1dVykYfRHMC4BGShWdPGZz93q0FfplkFZX2gFw4RGY1Ibg/viewform?vc=0&c=0&w=1&flr=0'>
                 <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Register Now</button> 
@@ -32,7 +32,7 @@ const Gana = () => {
                     <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
                     ➤ The participant should sing his/her favourite song track for 2-3mins.<br/>
                                         </p>
-                    <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">CO-ORDINATOR:</h2>
+                    <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">CO-ORDINATOR :</h2>
               
                     <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
                     • Manaswitha - 8555983669 - 2nd CSE.<br/>
@@ -41,7 +41,7 @@ const Gana = () => {
                     <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">REGISTRATION FEE:</h2>
               
                     <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
-                    <strong>50/- Per Head</strong><br/>
+                    <strong>• 50/- Per Head.</strong><br/>
                     </p>
             
                 </div>

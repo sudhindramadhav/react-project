@@ -15,7 +15,7 @@ const Dumb_charades = () => {
             <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
             <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">DUMB CHARADES
             </h1>
-            <p class="mb-8 leading-relaxed">DUMB CHARADES: Dumb Charades is a Movie Name Guessing game where there will be two participants Per team and they will be given the title of a movie and one person in a Team should have to explain the name of the movie through acting while the other member of team try to guess what the Movie name is.</p>
+            <p class="mb-8 leading-relaxed text-justify">DUMB CHARADES: Dumb Charades is a Movie Name Guessing game where there will be two participants Per team and they will be given the title of a movie and one person in a Team should have to explain the name of the movie through acting while the other member of team try to guess what the Movie name is.</p>
             <div class="flex justify-center">
               <a href='https://forms.gle/GG7ALnsPh8TWbJNu6'>
                 <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Register Now</button> 
@@ -27,25 +27,24 @@ const Dumb_charades = () => {
                 <div class="bg-white py-4 sm:py-4 lg:py-6">
                 <div class="mx-auto max-w-screen-md px-4 md:px-8">
               
-                  <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">RULES:</h2>
+                  <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">RULES :</h2>
               
                     <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
-                    ➤ The Game is Played as Team (2 Participants Per Team).<br/>
+                    ➤ The game is played as team (2 Participants Per Team).<br/>
                     ➤ A person is not allowed to talk and is required to act out the name by using different gestures, facial expressions, and body language.<br/>
-                    ➤ The Number of Movie Names Guessed by team for a duration of 2 minutes will be Noted.<br/>
+                    ➤ The number of movie names guessed by team for a duration of 2 minutes will be noted.<br/>
                     ➤ The team which guess the more number of movie names for a duration of 2 minutes will be declared as a winner and cash prize will be awarded for that team.<br/>
                     </p>
-                    <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">CO-ORDINATORS :</h2>
+                    <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">CO-ORDINATOR :</h2>
               
                     <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
-                    • Mohith - 8074380335<br/>
                     • Pavan - 8247655251<br/>
                     </p>
 
                     <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">REGISTRATION FEE:</h2>
               
                     <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
-                    <strong>50/- Per Team</strong><br/>
+                    <strong>• 50/- Per Team.</strong><br/>
                     </p>
             
                 </div>

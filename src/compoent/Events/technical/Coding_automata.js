@@ -30,24 +30,23 @@ const Coding_automata = () => {
           <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">RULES :</h2>
 
           <p class="mb-6 text-gray-500 sm:text-lg md:mb-8 text-justify">
-            <strong>➤ Each team should consist of a maximum two members.</strong><br />
-            ➤ Each team will be provided with a set of C programs containing bugs.<br />
-            ➤ In the first round, the team must detect the error in the given basic program and get the required output.<br />
-            ➤ The top 10 teams are qualified based on the speed they debug the code and promoted to the second round.<br />
-            ➤ In the second round, the team will be given a little trickier program to detect the bug and get the required output.<br />
+            ➤ Each participant will be provided with a set of C programs containing bugs.<br />
+            ➤ In the first round, the participant must detect the error in the given basic program and get the required output.<br />
+            ➤ The top 10 participants will be qualified based on the speed they debug the code and promoted to the second round.<br />
+            ➤ In the second round, the participant will be given a little trickier program to detect the bug and get the required output.<br />
            
           </p>
           <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">CO-ORDINATORS :</h2>
 
           <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
-            • Jaya Lakshmi - 9347902488 <br />
-            • Sahithya - 8143377433 <br />
+            • L. Jaya Lakshmi - 9347902488 <br />
+            • N. Sahithya - 8143377433 <br />
           </p>
 
           <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">REGISTRATION FEE:</h2>
 
           <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
-            <h4><strong>• 50/- per head.</strong></h4><br />
+            <h4><strong>• 50/- per participant.</strong></h4><br />
           </p>
 
         </div>

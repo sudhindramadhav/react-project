@@ -16,7 +16,7 @@ const Poster_presentation = () => {
             <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
             <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">POSTER PRESENTATION
             </h1>
-            <p class="mb-8 leading-relaxed">Poster Presentation
+            <p class="mb-8 leading-relaxed text-justify">Poster Presentation
 Posters have become an increasingly popular method for presentation at conferences, as they promote greater interaction between researchers and conference participants.</p>
             <div class="flex justify-center">
                 <a href='https://docs.google.com/forms/d/e/1FAIpQLSf0BpGl0pBSYvy5GLp-m0f1dWBq_kZjwzR30JGZZaoX_QF6kQ/viewform?usp=sf_link'><button  class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Register Now</button> </a> 
@@ -36,7 +36,7 @@ Posters have become an increasingly popular method for presentation at conferenc
                 <td className='text-center' >CSE</td>
                 <td  >    • ETHICAL HACKING <br/>
                 • CLOUD COMPUTING <br/>
-                • IOT & ITS APPLICATIONS <br/>
+                • IOT & IT'S APPLICATIONS <br/>
                 • WEB DEVELOPMENT <br/>
                 • FRONT END TECHNOLOGES<br/>
                 </td>
@@ -44,7 +44,7 @@ Posters have become an increasingly popular method for presentation at conferenc
                 </tr>
                 <tr>
                 <td className='text-center' >ECE</td>
-                <td  >    • SIGNAL & IMAGE PROCESSING<br/>
+                <td  >    • SIGNAL / IMAGE & VIDEO PROCESSING<br/>
     • COMMUNICATION SYSTEMS<br/>
     • EMBEDDED SYSTEMS<br/>
     • VLSI<br/>
@@ -72,9 +72,9 @@ Posters have become an increasingly popular method for presentation at conferenc
                 <tr>
                 <td className='text-center' >EEE</td>
                 <td  >    • SMART GRIDS<br/>
-    • RENEWABLE POWER CONVERSION TECHNOLOGIES<br/>
+    • ELECTRIC VEICHLE TECHNOLOGIES<br/>
     • POWER QUALITY IMPROVEMENT TECHNIQUES<br/>
-    • POWER SYSTEM STABILITY<br/>
+    • BATTERY MANAGMENT SYSTEM<br/>
     • SOFT COMPUTING TECHNIQUES<br/></td>
                 
                 </tr>
@@ -90,11 +90,22 @@ Posters have become an increasingly popular method for presentation at conferenc
                 </tr>
 
                 <tr>
-                <td className='text-center' >CSA & IT</td>
-                <td  >       • MACHINE LEARNING<br/>
-    • DEEP LEARNING<br/>
+                <td className='text-center' >IT</td>
+                <td  >       • BLOCK CHAIN TECHNOLOGIES<br/>
+    • IOT(INTERNET OF THINGS)<br/>
     • BIG DATA<br/>
     • CYBER SECURITY<br/>
+    • CLOUD COMPUTING<br/>
+    • AUGMENTED REALITY & VIRTUAL REALITY<br/></td>
+                
+                </tr>
+                <tr>
+                <td className='text-center' >CSA</td>
+                <td  >       • MACHINE LEARNING<br/>• BLOCK CHAIN TECHNOLOGIES<br/>
+    • DEVOOPS<br/>
+    • BIG DATA<br/>
+    • CYBER SECURITY<br/>
+    • QUATUM COMPUTING<br/>
     • DATA ANALYTICS<br/></td>
                 
                 </tr>
@@ -110,31 +121,31 @@ Posters have become an increasingly popular method for presentation at conferenc
                 <div class="mx-auto max-w-screen-md px-4 md:px-8">
 
                     <p>
-                    <h4 className='text-red-500'>Instructions to Candidates:</h4><br/>
+                    <h4 className='text-red-500'>Instructions to Candidates:</h4><br/><p className='ps-4'>
                             1.Open to all B.E/B.Tech Students<br/>
                             2. A paper/Poster can have maximum of two authors.<br/>
                             3. Papers must be in IEEE Format<br/>
                             4. Papers should be sent through E-mail only<br/>
-                            5. No accommodation will be <br/>
-                              <strong> • Registration Fee and mode of payment</strong><br/>
+                            5. No accommodation will be <br/></p>
+                              <strong> • Registration Fee and mode of payment</strong><br/><p className='ps-4'>
                             Registration Fee has to be paid in online
                             payment after confirmation. Account details
-                            are available in the website.<br/>
-                              <strong> • Last date for Registration :</strong>  25th February, 2023
-                            Intimation of Confirmation: 26th February, 2023 <br/>
-                            <strong>Registration Fee and mode of payment:</strong> <br/>
+                            are available in the website.<br/></p>
+                              <strong> • Last date for Registration :</strong><p className='ps-4'>  20th April, 2024
+                            Intimation of Confirmation: 21th April, 2024 <br/></p>
+                            <strong>Registration Fee and mode of payment:</strong> <br/><p className='ps-4'>
                             Registration Fee has to be paid in online
                             payment after confirmation. Account details
-                            are available in the website.<br />
-                            <strong>Send your papers to</strong> <br/>
-                            • CE : ample.ce@svcolleges.edu.in<br/>
-                            • EEE : ample.eee@svcolleges.edu.in<br/>
-                            • ME : ample.me@svcolleges.edu.in<br/>
-                            • ECE : ample.ece@svcolleges.edu.in<br/>
-                            • CSE : ample.cse@svcolleges.edu.in <br/>
-                            • CSA : ample.csa@svcolleges.edu.in<br/>
-                            • HS :ample.sh@svcolleges.edu.in<br/>
-                            • IT/CSM/CSD/CSC: ample.it@svcolleges.edu.in<br/>
+                            are available in the website.<br /></p>
+                            <strong>Send your papers to</strong> <br/><p className='ps-4'>
+                            • CE : svcesaprk.ce@svcolleges.edu.in<br/>
+                            • EEE : svcesaprk.eee@svcolleges.edu.in<br/>
+                            • ME : svcesaprk.me@svcolleges.edu.in<br/>
+                            • ECE : svcesaprk.ece@svcolleges.edu.in<br/>
+                            • CSE : svcesaprk.cse@svcolleges.edu.in <br/>
+                            • CSA : svcesaprk.csa@svcolleges.edu.in<br/>
+                            • HS :svcesaprk.sh@svcolleges.edu.in<br/>
+                            • IT/CSM/CSD/CSC: svcesaprk.it@svcolleges.edu.in<br/></p>
 
                     </p>
               
@@ -167,7 +178,7 @@ Posters have become an increasingly popular method for presentation at conferenc
                         8. Margin of 1 inches from all sides.<br/>
                     </p>
 
-                    <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">ENTRY FEE:</h2>
+                    <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4"> REGSITRATION FEE:</h2>
               
                     <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
                     <h4><strong>• 200/- Per Team.</strong></h4><br/>

@@ -138,7 +138,7 @@ function App() {
           <Route path='/reels' compoent={Reels} exact>
             <Reels/>
           </Route>
-          <Route path='/sound_space' compoent={Sound_Space} exact>
+          <Route path='/sound-space' compoent={Sound_Space} exact>
             <Sound_Space/>
           </Route>
           <Route path='/stand-up-comedy' compoent={Stand_up_comedy} exact>

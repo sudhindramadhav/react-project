@@ -15,8 +15,7 @@ const ThugOfWar = () => {
             <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
             <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">TUG OF WAR
             </h1>
-            <p class="mb-8 leading-relaxed">Tug Of War: is a sport that pits two teams against each other in a test of strength. The teams, which can vary in size but typically have eight members each, stand at opposite ends of a rope and try to pull the other team across a designated line or marker. The team that manages to pull the opposing team past the marker wins.</p>
-            <p class="mb-8 leading-relaxed">Tug of war has a long history and is played in various forms around the world, often as a traditional or recreational activity. It is also recognized as a competitive sport with formal rules and competitions at both national and international levels. The sport requires a combination of strength, strategy, and teamwork, making it both physically and mentally demanding.</p>
+            <p class="mb-8 leading-relaxed text-justify">Tug Of War: is a sport that pits two teams against each other in a test of strength. The teams, which can vary in size but typically have eight members each, stand at opposite ends of a rope and try to pull the other team across a designated line or marker. The team that manages to pull the opposing team past the marker wins.</p>
             <div class="flex justify-center">
               <a href='https://forms.gle/JJtknkthJH7pgf766'>
                 <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Register Now</button> 
@@ -42,13 +41,13 @@ const ThugOfWar = () => {
                     <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">CO-ORDINATOR :</h2>
               
                     <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
-                    • Kiran - 9491563520<br/>
+                    • C.R. Kiran Kumar - 9491563520<br/>
                     </p>
 
                     <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">REGISTRATION FEE:</h2>
               
                     <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
-                    <h4><strong>• 200/- per Team.</strong></h4><br/>
+                    <h4><strong>• 200/- Per Team.</strong></h4><br/>
                     </p>
             
                 </div>

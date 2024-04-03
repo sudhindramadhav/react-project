@@ -19,7 +19,7 @@ const Pricing = () => {
 
               <div class="flex flex-1 flex-col p-6 pt-8">
                 <div class="mb-12">
-                  <div class="mb-4 text-center text-2xl font-bold text-gray-800">Champion</div>
+                  <div class="mb-4 text-center text-2xl font-bold text-gray-800">Explorer </div>
                   <div style={{ display: 'flex', justifyContent: 'center' }}>
                     <img alt="hero" src={brass} style={{ height: '150px' }} />
                   </div>
@@ -58,16 +58,16 @@ const Pricing = () => {
                 <div class="mt-auto">
                   <a class="block rounded-lg bg-gray-200 px-8 py-3 text-center text-sm font-semibold text-red-500 outline-none ring-indigo-300 transition duration-100 hover:bg-gray-300 focus-visible:ring active:text-gray-700 md:text-base flex justify-center"><div class="text-red-500 line-through text-xl pe-2 mt-1.5">₹500</div>
                     <div class="text-black text-3xl">₹300</div></a>
-                </div>
+                </div>``
               </div>
             </div>
 
             <div class="flex flex-col overflow-hidden rounded-lg border-2 border-gray-500">
-              <div class="bg-gray-400 py-2 text-center text-sm font-semibold uppercase tracking-widest text-white">Popular choise</div>
+              <div class="bg-gray-400 py-2 text-center text-sm font-semibold uppercase tracking-widest text-white">Popular choice</div>
 
               <div class="flex flex-1 flex-col p-6 pt-8">
                 <div class="mb-12">
-                  <div class="mb-2 text-center text-2xl font-bold text-gray-800">Achiever</div>
+                  <div class="mb-2 text-center text-2xl font-bold text-gray-800">Champion</div>
                   <div style={{ display: 'flex', justifyContent: 'center' }}>
                     <img alt="hero" src={silver} style={{ height: '150px' }} />
                   </div>
@@ -120,7 +120,7 @@ const Pricing = () => {
 
               <div class="flex flex-1 flex-col p-6 pt-8">
                 <div class="mb-12">
-                  <div class="mb-2 text-center text-2xl font-bold text-gray-800">Explorer</div>
+                  <div class="mb-2 text-center text-2xl font-bold text-gray-800">Achiever</div>
                   <div style={{ display: 'flex', justifyContent: 'center' }}>
                     <img alt="hero" src={gold} style={{ height: '150px' }} />
                   </div>

@@ -2,17 +2,17 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import color_paint from "../../Assets/images/color_paint.jpg"
-import dialoguewar from "../../Assets/images/dialoguewar.jpg"
-import dillse from "../../Assets/images/classicaldance.jpg"
+import dialoguewar from "../../Assets/images/dialoguewar.jpeg"
+import dillse from "../../Assets/images/dliise.jpg"
 import dumbcharades from "../../Assets/images/dumbcharades.jpg"
-import face_paint from "../../Assets/images/face_paint.jpg"
+import face_paint from "../../Assets/images/minipolaroid.jpg"
 import gana from "../../Assets/images/singing.jpg"
 
 import poetry from "../../Assets/images/poetry.jpg"
 import rampwalk from "../../Assets/images/rampwalk.jpg"
 import reels from "../../Assets/images/reels.jpg"
 
-import sound_space from "../../Assets/images/musicalinstrument.jpg"
+import sound_space from "../../Assets/images/musicialinstrument.jpeg"
 import standupcomedy from "../../Assets/images/standupcomedy.jpg"
 
 
@@ -150,7 +150,7 @@ const Non_technical = () => {
             </div>
 
             <div>
-              <Link to='/sound_space' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
+              <Link to='/sound-space' class="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
                 <img src={sound_space}  
                   alt="Description of the image"
                   className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"

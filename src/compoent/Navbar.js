@@ -25,7 +25,7 @@ const Navbar = () => {
             <li>Gallery</li>
           </Link>
           <Link to='/sponsers' className='sponsers'>
-            <li>Sponsers</li>
+            <li>Sponsors</li>
           </Link>
           <Link to='/events' className='events'>
             <li>Events

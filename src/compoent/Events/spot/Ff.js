@@ -15,9 +15,11 @@ const Ff = () => {
             <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
             <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">FREE FIRE
             </h1>
-            <p class="mb-8 leading-relaxed">FREE FIRE: Free Fire is the ultimate survival shooter game available on mobile. Each 10-minute game places you on a remote island where you are pit against 49 other players, all seeking survival. Players freely choose their starting point with their parachute, and aim to stay in the safe zone for as long as possible.</p>
+            <p class="mb-8 leading-relaxed text-justify">FREE FIRE: Free Fire is the ultimate survival shooter game available on mobile. Each 10-minute game places you on a remote island where you are pit against 49 other players, all seeking survival. Players freely choose their starting point with their parachute, and aim to stay in the safe zone for as long as possible.</p>
             <div class="flex justify-center">
+              <a href='https://docs.google.com/forms/d/e/1FAIpQLSdNyMAGNl0tqpVRxPEDt9WwGMGVwiz5iK5_BapUrxu8yEduNg/viewform?pli=1'>
                 <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Register Now</button> 
+                </a>
             </div>
             </div>
         </div>

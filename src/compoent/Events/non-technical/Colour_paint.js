@@ -15,7 +15,7 @@ const Colour_paint = () => {
             <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
             <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">ONE MINUTE DRAWING
             </h1>
-            <p class="mb-8 leading-relaxed">A simple drawing will be shown to the participants. They will be given one minute time to draw. The evaluation will be based on which participant completed the drawing within the given timeline.</p>
+            <p class="mb-8 leading-relaxed text-justify">A simple drawing will be shown to the participants. They will be given one minute time to draw. The evaluation will be based on which participant completed the drawing within the given timeline.</p>
             <div class="flex justify-end">
                 <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Register Now</button> 
             </div>
@@ -25,7 +25,7 @@ const Colour_paint = () => {
                 <div class="bg-white py-6 sm:py-4 lg:py-6">
                 <div class="mx-auto max-w-screen-md px-4 md:px-8">
               
-                  <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">RULES:</h2>
+                  <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">RULES :</h2>
               
                     <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
                     ➤   The time given for drawing will be only one minute.<br/>
@@ -35,10 +35,16 @@ const Colour_paint = () => {
                     ➤   Only individual participants are allowed.<br/>
                     </p>
 
+                    <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">CO-ORDINATOR :</h2>
+              
+                    <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
+                    • B. Prathyusha - 8247274024<br/>
+                    </p>
+
                     <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">REGISTRATION FEE:</h2>
               
                     <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
-                    <strong>• 100/- Per Head.</strong><br/>
+                    <strong>• 50/- Per Head.</strong><br/>
                     </p>
             
                 </div>

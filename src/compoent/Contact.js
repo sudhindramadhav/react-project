@@ -3,7 +3,6 @@ import React from "react";
 import './Contact.css';
 import murali from "../Assets/images/murali.jpeg"
 import sudhindra from "../Assets/images/Sudhindra1.jpeg"
-import praveen from "../Assets/images/praveen.jpg"
 const Contact = () => {
   return (
     <>
@@ -21,7 +20,7 @@ const Contact = () => {
          
               <div class="flex flex-col items-center gap-2 sm:flex-row md:gap-4">
                 <div class="h-30 w-24 overflow-hidden rounded-full bg-gray-100 shadow-lg md:h-40 md:w-32">
-                  <img src={praveen}   alt=" by Radu Florin" class="h-full w-full object-cover object-center" />
+                  <img  alt=" by Radu Florin" class="h-full w-full object-cover object-center" />
                 </div>
 
                 <div>

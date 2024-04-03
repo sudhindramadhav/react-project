@@ -11,7 +11,7 @@ const Footer = () => {
    
       <nav className="mb-4 flex flex-wrap justify-center gap-x-4 gap-y-2 md:justify-start md:gap-6">
         <Link to='/about' className="about text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">About</Link>
-        <Link to='/sponsers' className="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Sponsers</Link>
+        <Link to='/sponsers' className="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Sponsors</Link>
         <Link to='/events'className="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Events</Link>
         <Link to='/contact'className="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Contact Us</Link>
    
@@ -45,7 +45,7 @@ const Footer = () => {
   
     </div>
 
-    <div className="py-8 text-center text-sm text-gray-400">Copyright © sv colleges all rights are reserved  <br/> DJ MURALI MAHESH || KKM SUDHINDRA</div>
+    <div className="py-8 text-center text-sm text-gray-400">Copyright © sv colleges all rights are reserved  <br/><strong>DJ MURALI MAHESH</strong> || <strong>KKM SUDHINDRA</strong>    </div>
   </footer>
 </div>
     

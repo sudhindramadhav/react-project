@@ -15,7 +15,7 @@ const Reels = () => {
             <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
             <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">INSTAGRAM REELS
             </h1>
-            <p class="mb-8 leading-relaxed">REELS: The Contest is based on Instagram Reels.</p>
+            <p class="mb-8 leading-relaxed text-justify">REELS: The Contest is based on Instagram Reels.</p>
             <div class="flex justify-center">
               <a href='https://forms.gle/GG7ALnsPh8TWbJNu6'>
                 <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Register Now</button> 
@@ -31,35 +31,34 @@ const Reels = () => {
               
                     <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
                     ➤ The reel must be an original creation.<br/>
-                    ➤  Plagiarized content lead to disqualification.<br/>
-                    ➤ Each Participant will accept only one entry, and a second entry will lead to disqualification.<br/>
-                    ➤ The Cash Prize is Given to Top 2 Winners of the Overall Contest.<br/>
-                    ➤ The decision of the Judging panel will be final.<br/>
-                    ➤ Share your reels to theatreclub_svcolleges Instagram Page with following details: <br/>
+                    ➤ Plagiarized content lead to disqualification.<br/>
+                    ➤ Only one entry from each participant will be accepted, and a second entry will lead to disqualification.<br/>
+                    ➤ The Cash Prize is Given to Top 2 Winners (1 male, 1 female) of the overall contest.<br/>
+                    ➤ The decision of the judging panel will be final.<br/>
+                    ➤ Share your reels to @theatreclub_svcolleges Instagram page with following details : <br/>
                     <p className='ps-6'>
                     ➤	Name of the participant <br/>
                     ➤	College Name <br/>
                     ➤	Branch/Year  <br/>
                     ➤	Email Id     <br/>
-                    ➤ Winning Criteria:<br/><br/>
+                    ➤ Mobile Number<br/>
+                    ➤ Winning Criteria :<br/><br/>
                       </p>
-                    1.There Will be Two Winners of Overall Contest<br/>
-2.Post With Highest Views Will be Declared as One Winner<br/>
-3.Top 20 Posts Will be shown to judges and another winner will be decided<br/>
-4.Winners will be announced in the page itself also will be notified through mail<br/>
+
+1.Top 20 posts will be shown to judges. Post With Highest Views Will be Declared as One Winner.<br/>
+2.Winners will be announced in the page itself and also will be notified through mail.<br/>
 
                     </p>
-                    <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">CO-ORDINATORS :</h2>
+                    <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">CO-ORDINATOR :</h2>
               
                     <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
-                    • Mohith - 8074380335<br/>
-                    • Pavan - 8247655251<br/>
+                    • CH. Govardhan - 8919333975<br/>
                     </p>
 
                     <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">REGISTRATION FEE:</h2>
               
                     <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
-                    <strong>50/- Per Head</strong><br/>
+                    <strong>• 50/- Per Head.</strong><br/>
                     </p>
             
                 </div>

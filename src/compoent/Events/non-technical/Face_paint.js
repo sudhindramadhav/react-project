@@ -1,6 +1,6 @@
 import React from 'react'
 import { useEffect } from 'react';
-import face_paint from "../../../Assets/images/face_paint.jpg"
+import face_paint from "../../../Assets/images/minipolaroid.jpg"
 const Face_paint = () => {
     useEffect(() => {
         window.scrollTo(0, 0); // Scrolls to the top of the page
@@ -15,7 +15,7 @@ const Face_paint = () => {
             <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
             <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">MINI POLAROID PAINTING
             </h1>
-            <p class="mb-8 leading-relaxed">With limited space and boundless imagination, contestants will compete to create captivating scenes, portrait's etc, all with in a polaroid frame. The evaluation will be based on creativity, technique and overall visual impact.</p>
+            <p class="mb-8 leading-relaxed text-justify">With limited space and boundless imagination, contestants will compete to create captivating scenes, portrait's etc, all with in a polaroid frame. The evaluation will be based on creativity, technique and overall visual impact.</p>
             <div class="flex justify-center">
                 <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Register Now</button> 
             </div>
@@ -25,14 +25,14 @@ const Face_paint = () => {
                 <div class="bg-white py-4 sm:py-4 lg:py-6">
                 <div class="mx-auto max-w-screen-md px-4 md:px-8">
               
-                  <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">RULES:</h2>
+                  <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">RULES :</h2>
               
                     <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
-                    ➤ The time given to complete the painting is 45 mins.
+                    ➤ The time given to complete the painting is 45 mins.<br/>
 
-                    ➤  Only individual participants are allowed.
+                    ➤ Only individual participants are allowed.
                     </p>
-                    <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">CO-ORDINATORS :</h2>
+                    <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">CO-ORDINATOR :</h2>
               
                     <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
                     •  P.Hema Sekhar - 9347883828<br/>
@@ -42,7 +42,7 @@ const Face_paint = () => {
                     <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">REGISTRATION FEE:</h2>
               
                     <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
-                    <strong>100/- Per Head</strong><br/>
+                    <strong>• 100/- Per Head.</strong><br/>
                     </p>
             
                 </div>

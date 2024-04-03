@@ -1,6 +1,7 @@
 import React from 'react'
 import { useEffect } from 'react';
 import robo_talk from "../../../Assets/images/robotalk.jpg"
+import RegisterButton from '../../Registerbutton';
 const Robo_Talk = () => {
   useEffect(() => {
     window.scrollTo(0, 0); // Scrolls to the top of the page
@@ -19,7 +20,7 @@ const Robo_Talk = () => {
             <p class="mb-8 leading-relaxed text-justify">This event isn't just about answering questions; it's about understanding the inner workings of robots and how they impact our world. Finalists will have the opportunity to delve deep into the realm of robotics by researching and presenting on an advanced real-life robot, discussing its advantages and disadvantages.</p>
             <div class="flex justify-center">
               <a href='https://forms.gle/kqLgP9urMqWPzNy3A '>
-                <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Register Now</button>
+                <RegisterButton/>
               </a>
             </div>
           </div>

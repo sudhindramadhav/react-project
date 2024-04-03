@@ -1,6 +1,8 @@
+/* eslint-disable jsx-a11y/anchor-has-content */
 import React from 'react'
 import { useEffect } from 'react';
 import poster from "../../../Assets/images/posterpresentation.jpg"
+import RegisterButton from '../../Registerbutton';
 const Poster_presentation = () => {
     useEffect(() => {
         window.scrollTo(0, 0); // Scrolls to the top of the page
@@ -19,7 +21,9 @@ const Poster_presentation = () => {
             <p class="mb-8 leading-relaxed text-justify">Poster Presentation
 Posters have become an increasingly popular method for presentation at conferences, as they promote greater interaction between researchers and conference participants.</p>
             <div class="flex justify-center">
-                <a href='https://docs.google.com/forms/d/e/1FAIpQLSf0BpGl0pBSYvy5GLp-m0f1dWBq_kZjwzR30JGZZaoX_QF6kQ/viewform?usp=sf_link'><button  class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Register Now</button> </a> 
+                <a href='https://docs.google.com/forms/d/e/1FAIpQLSf0BpGl0pBSYvy5GLp-m0f1dWBq_kZjwzR30JGZZaoX_QF6kQ/viewform?usp=sf_link'>
+                  <RegisterButton/>
+                   </a> 
             </div>
             </div>
         </div>
@@ -138,14 +142,14 @@ Posters have become an increasingly popular method for presentation at conferenc
                             payment after confirmation. Account details
                             are available in the website.<br /></p>
                             <strong>Send your papers to</strong> <br/><p className='ps-4'>
-                            • CE : svcesaprk.ce@svcolleges.edu.in<br/>
-                            • EEE : svcesaprk.eee@svcolleges.edu.in<br/>
-                            • ME : svcesaprk.me@svcolleges.edu.in<br/>
-                            • ECE : svcesaprk.ece@svcolleges.edu.in<br/>
-                            • CSE : svcesaprk.cse@svcolleges.edu.in <br/>
-                            • CSA : svcesaprk.csa@svcolleges.edu.in<br/>
-                            • HS :svcesaprk.sh@svcolleges.edu.in<br/>
-                            • IT/CSM/CSD/CSC: svcesaprk.it@svcolleges.edu.in<br/></p>
+                            • CE : <a href='mailto:spark.ce@svce.edu.in' style={{ color: 'blue' }}>spark.ce@svce.edu.in</a><br />
+            • EEE : <a href='mailto:spark.eee@svce.edu.in' style={{ color: 'blue' }}>spark.eee@svce.edu.in</a><br />
+            • ME : <a href='mailto:spark.me@svce.edu.in' style={{ color: 'blue' }}>spark.me@svce.edu.in</a><br />
+            • ECE : <a href='mailto:spark.ece@svce.edu.in' style={{ color: 'blue' }}>spark.ece@svce.edu.in</a><br />
+            • CSE : <a href='mailto:spark.cse@svce.edu.in' style={{ color: 'blue' }}>spark.cse@svce.edu.in</a> <br />
+            • CSA : <a href='mailto:spark.csa@svce.edu.in' style={{ color: 'blue' }}>spark.csa@svce.edu.in</a><br />
+            • HS : <a href='mailto:spark.sh@svce.edu.in' style={{ color: 'blue' }}>spark.sh@svce.edu.in</a><br />
+            • IT/CSM/CSD/CSC: <a href='mailto:spark.it@svce.edu.in' style={{ color: 'blue' }}>spark.it@svce.edu.in</a><br /></p>
 
                     </p>
               

@@ -1,6 +1,7 @@
 import React from 'react'
 import { useEffect } from 'react';
 import gully_cricket from "../../../Assets/images/gully_cricket.jpg"
+import RegisterButton from '../../Registerbutton';
 const Gully_circket = () => {
     useEffect(() => {
       window.scrollTo(0, 0); // Scrolls to the top of the page
@@ -18,7 +19,7 @@ const Gully_circket = () => {
             <p class="mb-8 leading-relaxed text-justify">Gully Cricket: Refers to a casual form of cricket played in streets, parks, or any open space, rather than in a formal cricket ground. It's popular in many cricket-loving countries, particularly in India. Gully cricket often involves improvised rules, such as fewer players, smaller playing areas, and variations in equipment. It's a fun and accessible way for people to enjoy the sport in a more informal setting.</p>
             <div class="flex justify-center">
               <a href='https://forms.gle/yQ5YNR4FNUG7xiX46'>
-                <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Register Now</button> 
+                <RegisterButton/>
                 </a>
             </div>
             </div>

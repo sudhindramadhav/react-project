@@ -16,7 +16,7 @@ const Contact = () => {
             </div>
             
 
-            <div class="grid grid-cols-2 gap-x-4 gap-y-6 sm:gap-y-8 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-12">
+            <div class="grid grid-cols-2 gap-x-4 gap-y-6 sm:gap-y-8 lg:grid-cols-2 lg:gap-x-8 lg:gap-y-12">
          
               <div class="flex flex-col items-center gap-2 sm:flex-row md:gap-4">
                 <div class="h-30 w-24 overflow-hidden rounded-full bg-gray-100 shadow-lg md:h-40 md:w-32">
@@ -87,6 +87,87 @@ const Contact = () => {
             </div>
           </div>
         </div>
+
+        <div class="flex flex-col md:flex-row">
+  <div class="overflow-x-auto mb-8 md:w-1/3 md:pr-4">
+    <h2 class="text-center text-xl font-bold mb-4">Technical Event</h2>
+    <table class="table-auto min-w-full">
+      <thead>
+        <tr>
+          <th class="px-4 py-2">Event Name</th>
+          <th class="px-4 py-2">Coordinator's Name</th>
+          <th class="px-4 py-2">Phone Number</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="border px-4 py-2">Event 1</td>
+          <td class="border px-4 py-2">John Doe</td>
+          <td class="border px-4 py-2"><a href="tel:+919039086072" class="text-blue-500">+91 9039086072</a></td>
+        </tr>
+        <tr>
+          <td class="border px-4 py-2">Event 2</td>
+          <td class="border px-4 py-2">Jane Smith</td>
+          <td class="border px-4 py-2"><a href="tel:+919039086073" class="text-blue-500">+91 9039086073</a></td>
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+  <div class="overflow-x-auto mb-8 md:w-1/3 md:px-2">
+    <h2 class="text-center text-xl font-bold mb-4">Non Technical Event</h2>
+    <table class="table-auto min-w-full">
+    <thead>
+        <tr>
+          <th class="px-4 py-2">Event Name</th>
+          <th class="px-4 py-2">Coordinator's Name</th>
+          <th class="px-4 py-2">Phone Number</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="border px-4 py-2">Event 1</td>
+          <td class="border px-4 py-2">John Doe</td>
+          <td class="border px-4 py-2"><a href="tel:+919039086072" class="text-blue-500">+91 9039086072</a></td>
+        </tr>
+        <tr>
+          <td class="border px-4 py-2">Event 2</td>
+          <td class="border px-4 py-2">Jane Smith</td>
+          <td class="border px-4 py-2"><a href="tel:+919039086073" class="text-blue-500">+91 9039086073</a></td>
+        </tr>
+
+      </tbody>
+
+    </table>
+  </div>
+  <div class="overflow-x-auto mb-8 md:w-1/3 md:pl-4">
+    <h2 class="text-center text-xl font-bold mb-4">Spot Event</h2>
+    <table class="table-auto min-w-full">
+    <thead>
+        <tr>
+          <th class="px-4 py-2">Event Name</th>
+          <th class="px-4 py-2">Coordinator's Name</th>
+          <th class="px-4 py-2">Phone Number</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="border px-4 py-2">Event 1</td>
+          <td class="border px-4 py-2">John Doe</td>
+          <td class="border px-4 py-2"><a href="tel:+919039086072" class="text-blue-500">+91 9039086072</a></td>
+        </tr>
+        <tr>
+          <td class="border px-4 py-2">Event 2</td>
+          <td class="border px-4 py-2">Jane Smith</td>
+          <td class="border px-4 py-2"><a href="tel:+919039086073" class="text-blue-500">+91 9039086073</a></td>
+        </tr>
+
+      </tbody>
+
+    </table>
+  </div>
+</div>
+
     </>
   );
 };

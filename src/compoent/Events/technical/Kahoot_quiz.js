@@ -1,6 +1,7 @@
 import React from 'react'
 import { useEffect } from 'react';
 import kahoot_quiz from "../../../Assets/images/kahoot_quiz.png"
+import RegisterButton from '../../Registerbutton';
 const Kahoot_quiz = () => {
   useEffect(() => {
     window.scrollTo(0, 0); // Scrolls to the top of the page
@@ -18,7 +19,7 @@ const Kahoot_quiz = () => {
             <p class="mb-8 leading-relaxed text-justify">KAHOOT QUIZ: are known for their engaging and interactive format, making them a fun and effective way to learn and review information. They can be used in classrooms, meetings, and events to assess knowledge, spark discussion, and liven up the learning experience.It's commonly used in educational settings, corporate training, and social gatherings. Kahoot quizzes, also known as Kahoots, can be created on a wide range of topics and can include multiple-choice questions, true or false questions, and other interactive elements.</p>
             <div class="flex justify-center">
                 <a href='https://docs.google.com/forms/d/e/1FAIpQLSdTxv7Ou3uMGJsuhNw0EfA7saHN2XP-FdUKM4kthC9kpzsgsQ/viewform?usp=sf_link '>
-                <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Register Now</button> 
+                <RegisterButton/>
                 </a>
             </div>
             </div>

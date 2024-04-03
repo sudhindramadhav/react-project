@@ -1,6 +1,7 @@
 import React from 'react'
 import { useEffect } from 'react';
 import flipIt from '../../../Assets/images/flipIt.jpeg';
+import RegisterButton from '../../Registerbutton';
 const FilpIt_PitchIt = () => {
   useEffect(() => {
     window.scrollTo(0, 0); // Scrolls to the top of the page
@@ -20,7 +21,9 @@ const FilpIt_PitchIt = () => {
               and every line of code brings you closer to victory! Register your team today and
               let the coding battle begin!</p>
             <div class="flex justify-center">
-              <a href='https://docs.google.com/forms/d/e/1FAIpQLScC9x9g1_9_8OtVyHuj0LwHdyLnHMkN2UDOZaHO21l2DrJsPA/viewform?usp=sf_link'><button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Register Now</button> </a>
+              <a href='https://docs.google.com/forms/d/e/1FAIpQLScC9x9g1_9_8OtVyHuj0LwHdyLnHMkN2UDOZaHO21l2DrJsPA/viewform?usp=sf_link'>
+                <RegisterButton/>
+                 </a>
             </div>
           </div>
         </div>

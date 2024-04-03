@@ -1,6 +1,8 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import { useEffect } from 'react';
 import colour_paint from "../../../Assets/images/color_paint.jpg"
+import RegisterButton from '../../Registerbutton';
 const Colour_paint = () => {
     useEffect(() => {
         window.scrollTo(0, 0); // Scrolls to the top of the page
@@ -17,7 +19,9 @@ const Colour_paint = () => {
             </h1>
             <p class="mb-8 leading-relaxed text-justify">A simple drawing will be shown to the participants. They will be given one minute time to draw. The evaluation will be based on which participant completed the drawing within the given timeline.</p>
             <div class="flex justify-end">
-                <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Register Now</button> 
+              <a href=''>
+                <RegisterButton/>
+                </a>
             </div>
             </div>
         </div>

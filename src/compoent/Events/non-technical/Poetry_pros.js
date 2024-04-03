@@ -1,6 +1,7 @@
 import React from 'react'
 import { useEffect } from 'react';
 import poetry from "../../../Assets/images/poetry.jpg"
+import RegisterButton from '../../Registerbutton';
 const Poetry_pros = () => {
     useEffect(() => {
         window.scrollTo(0, 0); // Scrolls to the top of the page
@@ -18,7 +19,7 @@ const Poetry_pros = () => {
             <p class="mb-8 leading-relaxed text-justify">POETRY PROS: likely refers to individuals who are skilled or experienced in writing poetry. These are people who have a deep understanding of poetic forms, techniques, and language, and who can effectively express their thoughts and emotions through poetry. Poetry pros may include published poets, spoken word artists, poetry teachers, or anyone who has a strong passion and talent for crafting poems.</p>
             <div class="flex justify-center">
               <a href='https://forms.gle/rUKgohpVcfUMn8rA8 '>
-                <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Register Now</button> 
+                <RegisterButton/>
                 </a>
             </div>
             </div>

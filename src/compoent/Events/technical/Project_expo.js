@@ -1,6 +1,8 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import project from "../../../Assets/images/project.jpeg"
 import { useEffect } from 'react';
+import RegisterButton from '../../Registerbutton';
 const Project_expo = () => {
   useEffect(() => {
     window.scrollTo(0, 0); // Scrolls to the top of the page
@@ -18,7 +20,9 @@ const Project_expo = () => {
             <p class="mb-8 text-justify">    • Project Expo is a technical event in which the participants  should prepare  their project at home and they have to  bring the project to demonstrate before the judges.<br/>
     • There is only one round and the best is chosen by the judges and the respective prizes are given away.</p>
             <div class="flex justify-center">
-                <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Register Now</button> 
+                <a href=''>
+                  <RegisterButton/>
+                  </a> 
             </div>
             </div>
         </div>

@@ -1,6 +1,7 @@
 import React from 'react'
 import { useEffect } from 'react';
 import reels from "../../../Assets/images/reels.jpg"
+import RegisterButton from '../../Registerbutton';
 const Reels = () => {
     useEffect(() => {
         window.scrollTo(0, 0); // Scrolls to the top of the page
@@ -18,7 +19,7 @@ const Reels = () => {
             <p class="mb-8 leading-relaxed text-justify">REELS: The Contest is based on Instagram Reels.</p>
             <div class="flex justify-center">
               <a href='https://forms.gle/GG7ALnsPh8TWbJNu6'>
-                <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Register Now</button> 
+                <RegisterButton/>
                 </a>
             </div>
             </div>

@@ -1,6 +1,7 @@
 import React from 'react'
 import { useEffect } from 'react';
 import dialoguewar from "../../../Assets/images/dialoguewar.jpeg"
+import RegisterButton from '../../Registerbutton';
 const Dialogue_war = () => {
     useEffect(() => {
         window.scrollTo(0, 0); // Scrolls to the top of the page
@@ -18,7 +19,7 @@ const Dialogue_war = () => {
             <p class="mb-8 leading-relaxed text-justify">DIALOGUE WAR: is not a standard term or concept. It could potentially refer to a situation where individuals or groups engage in a verbal or written exchange of arguments, opinions, or ideas, often in a competitive or confrontational manner. This could occur in various contexts, such as debates, discussions, or online forums, where participants aim to persuade others or defend their own viewpoints through dialogue.</p>
             <div class="flex justify-center">
               <a href='https://forms.gle/WHtWFXGUBxPqsTCN8'>
-                <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Register Now</button> 
+                <RegisterButton/>
                 </a>
             </div>
             </div>

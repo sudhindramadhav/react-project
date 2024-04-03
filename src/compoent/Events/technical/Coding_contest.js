@@ -1,6 +1,7 @@
 import React from 'react'
 import { useEffect } from 'react';
 import coding_contest from "../../../Assets/images/codingcontest.jpg"
+import RegisterButton from '../../Registerbutton';
 const Coding_contest = () => {
   useEffect(() => {
     window.scrollTo(0, 0); // Scrolls to the top of the page
@@ -21,8 +22,8 @@ const Coding_contest = () => {
               let the coding battle begin!</p>
             <div class="flex justify-center">
               <a href='https://docs.google.com/forms/d/e/1FAIpQLSf0BpGl0pBSYvy5GLp-m0f1dWBq_kZjwzR30JGZZaoX_QF6kQ/viewform?usp=sf_link'>
-                <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Register Now</button>
-              </a>
+                <RegisterButton/>
+                </a>
             </div>
           </div>
         </div>

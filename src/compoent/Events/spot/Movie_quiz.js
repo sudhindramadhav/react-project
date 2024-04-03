@@ -1,6 +1,7 @@
 import React from 'react'
 import { useEffect } from 'react';
 import movieQuiz from "../../../Assets/images/movieQuiz.jpeg"
+import RegisterButton from '../../Registerbutton';
 const Movie_quiz = () => {
   useEffect(() => {
     window.scrollTo(0, 0); // Scrolls to the top of the page
@@ -18,8 +19,8 @@ const Movie_quiz = () => {
             <p class="mb-8 leading-relaxed text-justify">MOVIE QUIZ : Movie Quiz is a game where there will be two participants Per team. A Movie Clip Is Showed to the Participant Team and Questions were asked based on the Movie Clip. The Team must be answered for question within the given time limit.</p>
             <div class="flex justify-center">
               <a href='https://forms.gle/GG7ALnsPh8TWbJNu6'>
-                <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Register Now</button>
-              </a>
+                <RegisterButton/>
+                </a>
             </div>
           </div>
         </div>

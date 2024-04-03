@@ -44,7 +44,6 @@ import Pricing from "./Pricing"
 
 import akil from "../Assets/images/infusion.jpg"
 import TimingDeadline from "./TimingDeadline"
-import RegisterButton from "./Registerbutton"
 
 const Home = () => {
 

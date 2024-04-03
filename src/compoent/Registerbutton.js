@@ -28,6 +28,12 @@ const RegisterButton = () => {
     return () => clearInterval(timer);
   }, [deadline]);
 
+  const handleClick = () => {
+    if (!registrationEnabled) {
+      alert("Please contact the coordinators");
+    }
+  };
+
   return (
     <div id="box" className="flex flex-col items-center justify-center p-4 text-white">
       {registrationEnabled && (
@@ -35,13 +41,9 @@ const RegisterButton = () => {
           {message}
         </p>
       )}
-      {registrationEnabled && (
-        <p id="time" className="text-4xl font-bold text-center">
-          {timeLeft}
-        </p>
-      )}
       <Link
         to={registrationEnabled ? "/events" : "#"} // Redirect only if registration is enabled
+        onClick={handleClick}
         className={`rounded-lg px-8 py-3 text-center text-sm font-semibold outline-none transition duration-100 focus-visible:ring md:text-base ${
           registrationEnabled
             ? "bg-indigo-500 text-white hover:bg-indigo-600 active:bg-indigo-700"
@@ -51,9 +53,11 @@ const RegisterButton = () => {
       >
         Register Now
       </Link>
+      {!registrationEnabled && (
+        <div className="text-center mt-2 text-xl text-red-500">NOTE : Please contact the coordinators</div>
+      )}
     </div>
   );
 };
 
 export default RegisterButton;
-

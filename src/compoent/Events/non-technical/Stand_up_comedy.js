@@ -1,6 +1,7 @@
 import React from 'react'
 import { useEffect } from 'react';
 import standupcomedy from "../../../Assets/images/standupcomedy.jpg"
+import RegisterButton from '../../Registerbutton';
 const Stand_up_comedy = () => {
     useEffect(() => {
         window.scrollTo(0, 0); // Scrolls to the top of the page
@@ -19,7 +20,7 @@ const Stand_up_comedy = () => {
             
             <div class="flex justify-center">
               <a href='https://forms.gle/1h6LvwaR2ZFkutG6A'>
-                <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Register Now</button> 
+                <RegisterButton/>
                 </a>
             </div>
             </div>

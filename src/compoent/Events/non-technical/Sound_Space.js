@@ -1,6 +1,7 @@
 import React from 'react'
 import { useEffect } from 'react';
 import sound_space from "../../../Assets/images/musicialinstrument.jpeg"
+import RegisterButton from '../../Registerbutton';
 const Sound_Space = () => {
     useEffect(() => {
         window.scrollTo(0, 0); // Scrolls to the top of the page
@@ -18,7 +19,7 @@ const Sound_Space = () => {
             <p class="mb-8 leading-relaxed text-justify">SOUND SPACE: can refer to the perception of sound in a physical or virtual environment. In the context of music, sound space is often used to describe the spatial characteristics of sound, including its directionality, distance, and location within a three-dimensional space.</p>
             <div class="flex justify-center">
               <a href='https://docs.google.com/forms/d/e/1FAIpQLSduhlXxgX7Ic1qX7B7LJnODTotIwsZnWOm4aSK2sYjsGxOi4g/viewform?vc=0&c=0&w=1&flr=0'>
-                <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Register Now</button> 
+                <RegisterButton/>
                 </a>
             </div>
             </div>

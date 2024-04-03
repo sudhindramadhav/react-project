@@ -1,6 +1,7 @@
 import React from 'react'
 import { useEffect } from 'react';
 import bgmi from "../../../Assets/images/bgmi.jpeg"
+import RegisterButton from '../../Registerbutton';
 const Bgmi = () => {
     useEffect(() => {
         window.scrollTo(0, 0); // Scrolls to the top of the page
@@ -19,7 +20,7 @@ const Bgmi = () => {
             <p class="mb-8 leading-relaxed text-justify">BGMI : BGMI is a term you must have probably heard by now. It is the abbreviated form of PlayerUnknown's Battleground. Basically, it is a video game which is a multiplayer battle royale game. It is very famous all over the world.</p>
             <div class="flex justify-center">
               <a href='https://docs.google.com/forms/d/e/1FAIpQLSdNyMAGNl0tqpVRxPEDt9WwGMGVwiz5iK5_BapUrxu8yEduNg/viewform?pli=1'>
-                <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Register Now</button> 
+                <RegisterButton/>
                 </a>
             </div>
             </div>

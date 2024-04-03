@@ -1,6 +1,7 @@
 import React from 'react'
 import { useEffect } from 'react';
 import quiz from "../../../Assets/images/quiz.jpg"
+import RegisterButton from '../../Registerbutton';
 const Technical_quiz = () => {
     useEffect(() => {
         window.scrollTo(0, 0); // Scrolls to the top of the page
@@ -17,7 +18,9 @@ const Technical_quiz = () => {
             </h1>
             <p class="mb-8 leading-relaxed text-justify">TECHNICAL QUIZ : A quiz is a game which can also be called a mind sport wherein the players, either as individuals or in teams attempt to answer questions posed to them correctly, in order to win a prize. We designed these to promote, a fun way of study and help in the process of improving one’s general knowledge. On account of Engineers day celebration department wise technical Quiz Competition organized by Co-Curricular committee in association with Student Chapter of Indian Society of Technical Education</p>
             <div class="flex justify-center">
-                <a href='https://docs.google.com/forms/d/e/1FAIpQLScRsuDcwsQKkXH0Ql8Qo6nrK3O4stLHUTSvMJDzK_cyypRq6Q/viewform?usp=sf_link'><button  class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Register Now</button> </a> 
+                <a href='https://docs.google.com/forms/d/e/1FAIpQLScRsuDcwsQKkXH0Ql8Qo6nrK3O4stLHUTSvMJDzK_cyypRq6Q/viewform?usp=sf_link'>
+                  <RegisterButton/>
+                  </a> 
             </div>
             </div>
         </div>

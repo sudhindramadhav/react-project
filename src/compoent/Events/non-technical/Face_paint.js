@@ -1,6 +1,8 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import { useEffect } from 'react';
 import face_paint from "../../../Assets/images/minipolaroid.jpg"
+import RegisterButton from '../../Registerbutton';
 const Face_paint = () => {
     useEffect(() => {
         window.scrollTo(0, 0); // Scrolls to the top of the page
@@ -17,8 +19,10 @@ const Face_paint = () => {
             </h1>
             <p class="mb-8 leading-relaxed text-justify">With limited space and boundless imagination, contestants will compete to create captivating scenes, portrait's etc, all with in a polaroid frame. The evaluation will be based on creativity, technique and overall visual impact.</p>
             <div class="flex justify-center">
-                <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Register Now</button> 
-            </div>
+              <a href=''>
+                <RegisterButton/>
+                </a>
+                </div>
             </div>
         </div>
     </section>

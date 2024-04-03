@@ -1,6 +1,7 @@
 import React from 'react'
 import { useEffect } from 'react';
 import rampwalk from "../../../Assets/images/rampwalk.jpg"
+import RegisterButton from '../../Registerbutton';
 const Ramp_walk = () => {
     useEffect(() => {
         window.scrollTo(0, 0); // Scrolls to the top of the page
@@ -18,7 +19,7 @@ const Ramp_walk = () => {
             <p class="mb-8 leading-relaxed text-justify">RAMP WALK: also known as a runway walk, is a term primarily used in the context of fashion shows. It refers to the walk that models take on a raised platform or runway to showcase clothing and accessories to an audience. Ramp walks are a key component of fashion shows, allowing designers to display their creations in a dynamic and theatrical manner. Models often undergo specific training to perfect their ramp walk, which involves a particular style of walking that highlights the clothing and exudes confidence and grace.</p>
             <div class="flex justify-center">
               <a href='https://docs.google.com/forms/d/e/1FAIpQLSfSIaZwifAR8TTReVb-0Pgkp-iBl2XeIvFYZ8DkQEnGCynxsw/viewform?usp=sf_link '>
-                <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Register Now</button> 
+                <RegisterButton/>
                 </a>
             </div>
             </div>

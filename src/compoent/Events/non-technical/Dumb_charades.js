@@ -1,6 +1,7 @@
 import React from 'react'
 import { useEffect } from 'react';
 import dumbcharades from "../../../Assets/images/dumbcharades.jpg"
+import RegisterButton from '../../Registerbutton';
 const Dumb_charades = () => {
     useEffect(() => {
         window.scrollTo(0, 0); // Scrolls to the top of the page
@@ -18,7 +19,7 @@ const Dumb_charades = () => {
             <p class="mb-8 leading-relaxed text-justify">DUMB CHARADES: Dumb Charades is a Movie Name Guessing game where there will be two participants Per team and they will be given the title of a movie and one person in a Team should have to explain the name of the movie through acting while the other member of team try to guess what the Movie name is.</p>
             <div class="flex justify-center">
               <a href='https://forms.gle/GG7ALnsPh8TWbJNu6'>
-                <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Register Now</button> 
+                <RegisterButton/>
                 </a>
             </div>
             </div>

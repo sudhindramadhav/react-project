@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import { useEffect } from 'react';
 import build_with_bits from "../../../Assets/images/build_with_bits.jpg"

@@ -1,6 +1,7 @@
 import React from 'react'
 import { useEffect } from 'react';
 import dillse from "../../../Assets/images/dliise.jpg"
+import RegisterButton from '../../Registerbutton';
 const Dillse_Dance = () => {
   useEffect(() => {
     window.scrollTo(0, 0); // Scrolls to the top of the page
@@ -18,7 +19,7 @@ const Dillse_Dance = () => {
             <p class="mb-8 leading-relaxed text-justify">DIL-SE(BEATZ BATTLE): is a term that translates to "Dance from the Heart" in Hindi. It generally refers to dancing with passion, emotion, and a genuine expression of one's feelings. The term is often used to describe dance performances or styles that are heartfelt and full of energy, connecting deeply with the audience or viewers. In the context of Indian dance forms, such as Bollywood or classical dances, "Dil Se Dance" emphasizes the emotional and expressive aspect of the performance, along with the technical skills involved.</p>
             <div class="flex justify-center">
               <a href='https://docs.google.com/forms/d/e/1FAIpQLSfD2px5sVz0nFL_cm9b5uzPBzqa3uFxQpVoATbKoopcGF2Xqw/viewform '>
-                <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Register Now</button> 
+                <RegisterButton/>
                 </a>
             </div>
             </div>

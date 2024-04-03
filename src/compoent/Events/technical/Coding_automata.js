@@ -1,6 +1,7 @@
 import React from 'react'
 import { useEffect } from 'react';
 import coding_automata from "../../../Assets/images/coding_automata.jpg"
+import RegisterButton from '../../Registerbutton';
 const Coding_automata = () => {
   useEffect(() => {
     window.scrollTo(0, 0); // Scrolls to the top of the page
@@ -18,7 +19,7 @@ const Coding_automata = () => {
             <p class="mb-8 leading-relaxed text-justify">CODING AUTOMATA: A compact, engaging brainstorming event, where participants in groups of 3-5 collaborate on inventive solutions for various problem statements. Prizes and appreciation are given for the most creative, feasible ideas, fostering an atmosphere of innovation and enthusiasm.</p>
             <div class="flex justify-center">
               <a href='https://docs.google.com/forms/d/e/1FAIpQLSfZgDE3IoRsyn_Rec7OyXYlUfoKGRIn05Iu90h8zeC6morHrA/viewform?usp=sf_link'>
-                <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Register Now</button>
+                <RegisterButton/>
               </a>
             </div>
           </div>

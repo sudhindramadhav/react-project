@@ -1,6 +1,7 @@
 import React from 'react'
 import { useEffect } from 'react';
 import tug_of_war from "../../../Assets/images/tug_of_war1.jpg"
+import RegisterButton from '../../Registerbutton';
 const ThugOfWar = () => {
   useEffect(() => {
     window.scrollTo(0, 0); // Scrolls to the top of the page
@@ -18,7 +19,7 @@ const ThugOfWar = () => {
             <p class="mb-8 leading-relaxed text-justify">Tug Of War: is a sport that pits two teams against each other in a test of strength. The teams, which can vary in size but typically have eight members each, stand at opposite ends of a rope and try to pull the other team across a designated line or marker. The team that manages to pull the opposing team past the marker wins.</p>
             <div class="flex justify-center">
               <a href='https://forms.gle/JJtknkthJH7pgf766'>
-                <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Register Now</button> 
+                <RegisterButton/>
                 </a>
             </div>
             </div>

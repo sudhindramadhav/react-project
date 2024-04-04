@@ -46,7 +46,7 @@ const Movie_quiz = () => {
           <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">REGISTRATION FEE :</h2>
 
           <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
-            <h4><strong>• 200/- per Team.</strong></h4><br />
+            <h4><strong className='text-red-600'>• 200/- per Team.</strong></h4><br />
           </p>
 
         </div>

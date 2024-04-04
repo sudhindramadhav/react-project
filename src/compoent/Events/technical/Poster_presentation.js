@@ -185,11 +185,9 @@ Posters have become an increasingly popular method for presentation at conferenc
                     <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4"> REGSITRATION FEE:</h2>
               
                     <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
-                    <h4><strong>• 200/- Per Team.</strong></h4><br/>
+                    <h4><strong className='text-red-600'>• 200/- Per Team.</strong></h4><br/>
                     </p>
-                    <div class="flex justify-center">
-                <a href='https://docs.google.com/forms/d/e/1FAIpQLSf0BpGl0pBSYvy5GLp-m0f1dWBq_kZjwzR30JGZZaoX_QF6kQ/viewform?usp=sf_link'><button  class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Register Now</button> </a> 
-            </div>
+          
             
                 </div>
               </div>

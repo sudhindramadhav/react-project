@@ -6,7 +6,7 @@ import sudhindra from "../Assets/images/Sudhindra1.jpeg"
 const Contact = () => {
   return (
     <>
-      <div class="bg-white py-6 sm:py-8 lg:py-12">
+      {/*<div class="bg-white py-6 sm:py-8 lg:py-12">
           <div class="mx-auto max-w-screen-xl px-4 md:px-8">
          
             <div class="mb-10 md:mb-16">
@@ -86,7 +86,146 @@ const Contact = () => {
               
             </div>
           </div>
-        </div>
+  </div>*/}
+
+<div class="overflow-x-auto mb-8 md:w-1/2 md:pr-4 mx-auto">
+    <h2 class="text-center text-xl font-bold mb-4">Faculty I/Cs for SPARK Technical Events
+</h2>
+    <table class="table-auto min-w-full">
+      <thead>
+        <tr>
+          <th class="px-4 py-2">S.No</th>
+          <th class="px-4 py-2">Dept</th>
+          <th class="px-4 py-2">Name</th>
+          <th class="px-4 py-2">Phone Number</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="border px-4 py-2">1</td>
+          <td class="border px-4 py-2"> EEE</td>
+          <td class="border px-4 py-2">Dr.A.Sudhakar</td>
+          <td class="border px-4 py-2"><a href="tel:+917013676252" class="text-blue-500">+91 7013676252</a></td>
+        </tr>
+        <tr>
+          <td class="border px-4 py-2">2</td>
+          <td class="border px-4 py-2">ECE</td>
+          <td class="border px-4 py-2">Dr B Shobhan Babu</td>
+          <td class="border px-4 py-2"><a href="tel:+919440483373" class="text-blue-500">+91 9440483373</a></td>
+        </tr>
+        <tr>
+          <td class="border px-4 py-2">3</td>
+          <td class="border px-4 py-2">CSE</td>
+          <td class="border px-4 py-2">Dr.S.Sajida</td>
+          <td class="border px-4 py-2"><a href="tel:+917893337513
+" class="text-blue-500">+91 7893337513
+</a></td>
+        </tr>
+        <tr>
+          <td class="border px-4 py-2">4</td>
+          <td class="border px-4 py-2">CSA</td>
+          <td class="border px-4 py-2">S. Mrudula
+</td>
+          <td class="border px-4 py-2"><a href="tel:+919703064154
+" class="text-blue-500">+91 9703064154
+</a></td>
+        </tr>
+        <tr>
+          <td class="border px-4 py-2">5</td>
+          <td class="border px-4 py-2">IT</td>
+          <td class="border px-4 py-2">Dr P Jaya Prakash
+</td>
+          <td class="border px-4 py-2"><a href="tel:+919908876781
+" class="text-blue-500">+91 9908876781
+</a></td>
+        </tr>
+        <tr>
+          <td class="border px-4 py-2">6</td>
+          <td class="border px-4 py-2">MECH</td>
+          <td class="border px-4 py-2">Dr. N. Rajesh</td>
+          <td class="border px-4 py-2"><a href="tel:+919985289928
+" class="text-blue-500">+91 9985289928
+</a></td>
+        </tr>
+        <tr>
+          <td class="border px-4 py-2">7</td>
+          <td class="border px-4 py-2">CIVIL</td>
+          <td class="border px-4 py-2">V MAHESH
+</td>
+          <td class="border px-4 py-2"><a href="tel:+919652963387
+" class="text-blue-500">+91 9652963387
+</a></td>
+        </tr>
+        <tr>
+          <td class="border px-4 py-2">8</td>
+          <td class="border px-4 py-2">MBA</td>
+          <td class="border px-4 py-2">Dr.Nalla Bala Kalyan</td>
+          <td class="border px-4 py-2"><a href="tel:+919573068980
+" class="text-blue-500">+91 9573068980
+</a></td>
+        </tr>
+        <tr>
+          <td class="border px-4 py-2">9</td>
+          <td class="border px-4 py-2">MCA</td>
+          <td class="border px-4 py-2">K.Sreedevi
+</td>
+          <td class="border px-4 py-2"><a href="tel:+918074682544
+" class="text-blue-500">+91 8074682544
+</a></td>
+        </tr>
+        <tr>
+          <td class="border px-4 py-2">10</td>
+          <td class="border px-4 py-2">Maths</td>
+          <td class="border px-4 py-2">Dr.K.Ananth Kumar
+</td>
+          <td class="border px-4 py-2"><a href="tel:+919000028875" class="text-blue-500">+91 9000028875</a></td>
+        </tr>
+        <tr>
+          <td class="border px-4 py-2">11</td>
+          <td class="border px-4 py-2">Phy & Chemistry</td>
+          <td class="border px-4 py-2">Dr.P.Geetha
+</td>
+          <td class="border px-4 py-2"><a href="tel:+918985909409
+" class="text-blue-500">+91 8985909409
+</a></td>
+        </tr>
+        <tr>
+          <td class="border px-4 py-2">12</td>
+          <td class="border px-4 py-2">English</td>
+          <td class="border px-4 py-2">Dr. Kalyan Kumar
+</td>
+          <td class="border px-4 py-2"><a href="tel:+919573143709" class="text-blue-500">+91 9573143709</a></td>
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+
+  <div class="overflow-x-auto mb-8 md:w-1/3 md:pr-4 mx-auto">
+    <h2 class="text-center text-xl font-bold mb-4">Event Co ordinators</h2>
+    <table class="table-auto min-w-full">
+      <thead>
+        <tr>
+          <th class="px-4 py-2">Event Name</th>
+          <th class="px-4 py-2">Coordinator's Name</th>
+          <th class="px-4 py-2">Phone Number</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="border px-4 py-2">Event 1</td>
+          <td class="border px-4 py-2">John Doe</td>
+          <td class="border px-4 py-2"><a href="tel:+919039086072" class="text-blue-500">+91 9039086072</a></td>
+        </tr>
+        <tr>
+          <td class="border px-4 py-2">Event 2</td>
+          <td class="border px-4 py-2">Jane Smith</td>
+          <td class="border px-4 py-2"><a href="tel:+919039086073" class="text-blue-500">+91 9039086073</a></td>
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
 
         <div class="flex flex-col md:flex-row">
   <div class="overflow-x-auto mb-8 md:w-1/3 md:pr-4">

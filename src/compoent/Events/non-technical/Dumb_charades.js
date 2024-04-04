@@ -45,7 +45,7 @@ const Dumb_charades = () => {
                     <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">REGISTRATION FEE:</h2>
               
                     <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
-                    <strong>• 50/- Per Team.</strong><br/>
+                    <strong className='text-red-600'>• 50/- Per Team.</strong><br/>
                     </p>
             
                 </div>

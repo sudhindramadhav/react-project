@@ -1,22 +1,4 @@
-.table-container {
-    overflow-x: auto; /* Enable horizontal scrolling for small screens */
-  }
-  
-  .table {
-    width: 100%; /* Make the table take up full width of its container */
-    border-collapse: collapse; /* Collapse table borders into a single border */
-  }
-  
-  th, td {
-    border: 1px solid black; /* Add border to cells */
-    padding: 4px; /* Add padding inside cells for spacing */
-    text-align: left; /* Align text to the left within cells */
-  }
-  
-  /* Add responsive styling */
-
-  .h-30.w-24.overflow-hidden.rounded-full.bg-gray-100.shadow-lg.md\:h-38.md\:w-32 {
-    height: 130px;
+th,td{
+  text-align: center;
 }
- 
   

@@ -112,18 +112,18 @@ const Home = () => {
     </section>
 
 
-    <section class="text-gray-600 body-font">
-  <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
-    <img class="lg:w-4/6 md:w-4/6 w-6/7 mb-10 object-cover object-center rounded" alt="hero" src={akil}/>
-    <div class="text-center lg:w-2/3 w-full">
-      <h1 class="title-font sm:text-4xl text-3xl mb-2 font-medium text-gray-900">PRO SHOW</h1>
-      <p class="mb-4 leading-relaxed text-justify">A band show is a live performance by a musical group or band. Bands can vary widely in size, style, and genre, ranging from small local bands to large professional groups. Band shows are popular at various events, including concerts, festivals, weddings, parties, and corporate events.
+    <section className="text-gray-600 body-font">
+  <div className="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
+    <img className="lg:w-4/6 md:w-4/6 w-6/7 mb-10 object-cover object-center rounded" alt="hero" src={akil}/>
+    <div className="text-center lg:w-2/3 w-full">
+      <h1 className="title-font sm:text-4xl text-3xl mb-2 font-medium text-gray-900">PRO SHOW</h1>
+      <p className="mb-4 leading-relaxed text-justify">A band show is a live performance by a musical group or band. Bands can vary widely in size, style, and genre, ranging from small local bands to large professional groups. Band shows are popular at various events, including concerts, festivals, weddings, parties, and corporate events.
 
 During a band show, the musicians perform a setlist of songs, which may include original compositions, covers of popular songs, or a mix of both. The performance often includes instrumental solos, vocal performances, and interaction with the audience to create an engaging and entertaining experience.
 
 </p>
-      <div class="flex justify-center">
-      <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Regsiter Now</button>
+      <div className="flex justify-center">
+      <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Regsiter Now</button>
      
       </div>
     </div>

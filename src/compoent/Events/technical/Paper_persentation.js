@@ -9,17 +9,17 @@ const Paper_persentation = () => {
   }, []);
   return (
     <>
-      <section class="text-gray-600 body-font">
-        <div class="container mx-auto flex px-5 py-10 md:flex-row flex-col items-center">
-          <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-            <img class="object-cover object-center rounded" alt="hero" src={paper} />
+      <section className="text-gray-600 body-font">
+        <div className="container mx-auto flex px-5 py-10 md:flex-row flex-col items-center">
+          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+            <img className="object-cover object-center rounded" alt="hero" src={paper} />
           </div>
-          <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">PAPER PRESENTATION
+          <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">PAPER PRESENTATION
             </h1>
-            <p class="mb-8 leading-relaxed text-justify">Paper Presentation
+            <p className="mb-8 leading-relaxed text-justify">Paper Presentation
               Paper presentation is an individual competition where each participant is required to make a paper about a given topic or area, and then present it in front of the juries.</p>
-            <div class="flex justify-center">
+            <div className="flex justify-center">
             <a href='https://docs.google.com/forms/d/e/1FAIpQLSf0BpGl0pBSYvy5GLp-m0f1dWBq_kZjwzR30JGZZaoX_QF6kQ/viewform?usp=sf_link'>
               <RegisterButton/>
             </a>
@@ -62,6 +62,7 @@ const Paper_persentation = () => {
                   • ENCHANCEMENT OF HEAT TRANSFER TECHNIQUES<br />
                   • ROBOTICS, CAD/CAM&FEA<br />
                   • NANO-COMPOSITES<br />
+                  • CAD modelling<br />
                   • ADDITIVE AND SUSTAINABLE MANUFACTURING TECHNOLOGIES<br /></td>
 
               </tr>
@@ -71,6 +72,7 @@ const Paper_persentation = () => {
                   • GEO-TECHNICAL ENGINEERING<br />
                   • TRANSPORTATION ENGINEERING<br />
                   • WATER RESOURCE ENGINEERING<br />
+                  • CAD modelling<br />
                   • ENVIRONMENTAL ENGINEERING<br /></td>
 
               </tr>
@@ -114,14 +116,32 @@ const Paper_persentation = () => {
                   • DATA ANALYTICS<br /></td>
 
               </tr>
+              <tr>
+                <td className='text-center' >MCA</td>
+                <td  >  • Deep learning ,machine learning <br />
+                • A.I lastest Technologies<br />
+                • Block chain Technologies<br />
+                • Cloud computing , Machine Learning<br /></td>
+
+              </tr>
+              <tr>
+                <td className='text-center' >MBA</td>
+                <td  >  • Sustainable Marketing Strategies<br />
+                • Digital HR<br />
+                • Green Banking<br />
+                • Management New Paradigms<br />
+                • Entrepreneurship<br />
+                • Women Empowerment<br /></td>
+
+              </tr>
             </tbody>
           </table>
 
         </div>
 
       </section>
-      <div class="bg-white py-4 sm:py-4 lg:py-6">
-        <div class="mx-auto max-w-screen-md px-4 md:px-8">
+      <div className="bg-white py-4 sm:py-4 lg:py-6">
+        <div className="mx-auto max-w-screen-md px-4 md:px-8">
 
           <p>
             <h4 className='text-red-500'>Instructions to Candidates :</h4><br />
@@ -152,9 +172,9 @@ const Paper_persentation = () => {
 
           </p>
 
-          <h2 class="my-2 mt-4 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">RULES:</h2>
+          <h2 className="my-2 mt-4 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">RULES:</h2>
 
-          <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
+          <p className="mb-6 text-gray-500 sm:text-lg md:mb-8">
             <h4 className='text-black-800'> Purpose:</h4> <br />
             • To enhance participant’s ability in Writing or making papers in English as well as to present it, and also to broaden the mind of the participants.<br />
             <strong className='text-red-300'>➤ Team Formation: </strong><br />
@@ -181,9 +201,9 @@ const Paper_persentation = () => {
             8. Margin of 1 inches from all sides.<br />
           </p>
 
-          <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">REGSITRATION FEE:</h2>
+          <h2 className="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">REGSITRATION FEE:</h2>
 
-          <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
+          <p className="mb-6 text-gray-500 sm:text-lg md:mb-8">
             <h4><strong className='text-red-600'>• 300/- Per Team.</strong></h4><br />
           </p>
     

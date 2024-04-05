@@ -17,7 +17,7 @@ const TimingDeadline = () => {
       let seconds = Math.floor((t % (1000 * 60)) / 1000);
 
       if (t > 0) {
-        setTimeLeft(`${days}d ${hours}h ${minutes}m ${seconds}s`);
+        setTimeLeft(`${days}D ${hours}H ${minutes}M ${seconds}S`);
       } else {
         clearInterval(timer);
         setMessage("REGISTRATION CLOSED Please contact coordinators");

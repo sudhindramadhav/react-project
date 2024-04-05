@@ -9,17 +9,17 @@ const Project_expo = () => {
   }, []);
   return (
     <>
-            <section class="text-gray-600 body-font">
-        <div class="container mx-auto flex px-5 py-10 md:flex-row flex-col items-center">
-            <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-            <img class="object-cover object-center rounded" alt="hero" src={project}/>
+            <section className="text-gray-600 body-font">
+        <div className="container mx-auto flex px-5 py-10 md:flex-row flex-col items-center">
+            <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+            <img className="object-cover object-center rounded" alt="hero" src={project}/>
             </div>
-            <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Project Expo
+            <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Project Expo
             </h1>
-            <p class="mb-8 text-justify">    • Project Expo is a technical event in which the participants  should prepare  their project at home and they have to  bring the project to demonstrate before the judges.<br/>
+            <p className="mb-8 text-justify">    • Project Expo is a technical event in which the participants  should prepare  their project at home and they have to  bring the project to demonstrate before the judges.<br/>
     • There is only one round and the best is chosen by the judges and the respective prizes are given away.</p>
-            <div class="flex justify-center">
+            <div className="flex justify-center">
                 <a href=''>
                   <RegisterButton/>
                   </a> 
@@ -27,12 +27,12 @@ const Project_expo = () => {
             </div>
         </div>
     </section>
-                <div class="bg-white py-4 sm:py-4 lg:py-6">
-                <div class="mx-auto max-w-screen-md px-4 md:px-8">
+                <div className="bg-white py-4 sm:py-4 lg:py-6">
+                <div className="mx-auto max-w-screen-md px-4 md:px-8">
               
-                  <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">RULES :</h2>
+                  <h2 className="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">RULES :</h2>
               
-                    <p class="mb-6 text-gray-500 sm:text-lg md:mb-8 leading-relaxed">
+                    <p className="mb-6 text-gray-500 sm:text-lg md:mb-8 leading-relaxed">
                     <strong className='text-red-400'>General Rules and Guidelines for competition:</strong><br/>
                     <strong>➤ Each team can have maximum of 4 members.</strong><br/>
                     ➤ The competition is open to only under graduate students.<br/>
@@ -65,9 +65,9 @@ const Project_expo = () => {
                                 • Relevance with practical need<br/>
                     </p>
 
-                    <h2 class="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">REGISTRATION FEE:</h2>
+                    <h2 className="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">REGISTRATION FEE:</h2>
               
-                    <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
+                    <p className="mb-6 text-gray-500 sm:text-lg md:mb-8">
                     <h4><strong className='text-red-600'>• 100/- Per Team.</strong></h4><br/>
                     </p>
             

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const Footer = () => {
   return (
     <>
-          <div className="bg-white pt-4 sm:pt-10 lg:pt-12">
+          <div className="bg-white pt-4 sm:pt-10 lg:pt-12  bottom-0 w-full">
   <footer className="mx-auto max-w-screen-2xl px-4 md:px-8">
     <div className="flex flex-col items-center border-t pt-6">
    
@@ -36,7 +36,7 @@ const Footer = () => {
         </a>
 
         <a href="https://www.facebook.com/SVCETPT"  className="text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600">
-          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+          <svg fill="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">
             <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
           </svg>
         </a>

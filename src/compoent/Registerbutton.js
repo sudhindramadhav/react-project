@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
 
 const RegisterButton = () => {
   const [deadline, setDeadline] = useState(new Date("Apr 20, 2024 23:59:59").getTime());
@@ -21,7 +20,7 @@ const RegisterButton = () => {
       } else {
         clearInterval(timer);
         setMessage("REGISTRATION CLOSED");
-        setRegistrationEnabled(false); // Disable registration button/link
+        setRegistrationEnabled(false); // Disable registration button
       }
     }, 1000);
 
@@ -41,8 +40,7 @@ const RegisterButton = () => {
           {message}
         </p>
       )}
-      <Link
-        to={registrationEnabled ? "/events" : "#"} // Redirect only if registration is enabled
+      <button
         onClick={handleClick}
         className={`rounded-lg px-8 py-3 text-center text-sm font-semibold outline-none transition duration-100 focus-visible:ring md:text-base ${
           registrationEnabled
@@ -52,7 +50,7 @@ const RegisterButton = () => {
         disabled={!registrationEnabled}
       >
         Register Now
-      </Link>
+      </button>
       {!registrationEnabled && (
         <div className="text-center mt-2 text-xl text-red-500">NOTE : Please contact the coordinators</div>
       )}

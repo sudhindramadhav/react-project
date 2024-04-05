@@ -25,7 +25,7 @@ const TableWithTabs = () => {
          <tr>
              <td className="border px-2 py-1.5">1</td>
              <td className="border px-2 py-1.5">S.DHANUSH KUMAR</td>
-             <td className="border px-2 py-1.5">Event Leed</td>
+             <td className="border px-2 py-1.5">Event Lead</td>
              <td className="border px-2 py-1.5">
                <a href="tel:+918247507214" className="text-blue-500">+91 8247507214</a>
              </td>
@@ -33,7 +33,7 @@ const TableWithTabs = () => {
          <tr>
              <td className="border px-2 py-1.5">2</td>
              <td className="border px-2 py-1.5">G.PRAVEEN KUMAR</td>
-             <td className="border px-2 py-1.5">Event Leed</td>
+             <td className="border px-2 py-1.5">Event Lead</td>
              <td className="border px-2 py-1.5">
                <a href="tel:+919346068631" className="text-blue-500">+91 9346068631</a>
              </td>
@@ -41,7 +41,7 @@ const TableWithTabs = () => {
          <tr>
              <td className="border px-2 py-1.5">3</td>
              <td className="border px-2 py-1.5">V.SAI SUBHASH</td>
-             <td className="border px-2 py-1.5">Technical Leed</td>
+             <td className="border px-2 py-1.5">Technical Lead</td>
              <td className="border px-2 py-1.5">
                <a href="tel:+918179537456" className="text-blue-500">+91 8179537456</a>
              </td>
@@ -49,7 +49,7 @@ const TableWithTabs = () => {
          <tr>
              <td className="border px-2 py-1.5">8</td>
              <td className="border px-2 py-1.5">T.TARUN KUMAR</td>
-             <td className="border px-2 py-1.5">Technical Leed</td>
+             <td className="border px-2 py-1.5">Technical Lead</td>
              <td className="border px-2 py-1.5">
                <a href="tel:+919989586692" className="text-blue-500">+91 9989586692</a>
              </td>
@@ -57,7 +57,7 @@ const TableWithTabs = () => {
          <tr>
              <td className="border px-2 py-1.5">4</td>
              <td className="border px-2 py-1.5">V.M.NEHA</td>
-             <td className="border px-2 py-1.5"> cultural Leed</td>
+             <td className="border px-2 py-1.5"> cultural Lead</td>
              <td className="border px-2 py-1.5">
                <a href="tel:+916305820977" className="text-blue-500">+91 6305820977</a>
              </td>
@@ -65,7 +65,7 @@ const TableWithTabs = () => {
          <tr>
              <td className="border px-2 py-1.5">5</td>
              <td className="border px-2 py-1.5">K.JAYAVARDHAN</td>
-             <td className="border px-2 py-1.5">cultural Leed</td>
+             <td className="border px-2 py-1.5">cultural Lead</td>
              <td className="border px-2 py-1.5">
                <a href="tel:+919652775305" className="text-blue-500">+91 9652775305</a>
              </td>

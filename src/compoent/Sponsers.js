@@ -1,6 +1,6 @@
 import React from "react";
-import fgc from "../Assets/images/fgc.jpg"
-import cola from "../Assets/images/Coca_Cola_Logo.png"
+import fgc from "../Assets/images/white.jpg"
+import cola from "../Assets/images/white.jpg"
 
 const sponser = () => {
   return (

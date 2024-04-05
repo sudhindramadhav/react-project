@@ -82,14 +82,6 @@ const Home = () => {
     ]
   };
   const row1 = [
-    "https://res.cloudinary.com/dcurthbq9/image/upload/v1711860726/tc527oanclpt0r10qvf1.png",
-    "https://res.cloudinary.com/dcurthbq9/image/upload/v1711860725/z2meprrkdrq9pr00tq2r.jpg",
-    "https://res.cloudinary.com/dcurthbq9/image/upload/v1711860726/tc527oanclpt0r10qvf1.png",
-    "https://res.cloudinary.com/dcurthbq9/image/upload/v1711860725/z2meprrkdrq9pr00tq2r.jpg",
-    "https://res.cloudinary.com/dcurthbq9/image/upload/v1711860726/tc527oanclpt0r10qvf1.png"
-    
-    
-
 
   ];
 

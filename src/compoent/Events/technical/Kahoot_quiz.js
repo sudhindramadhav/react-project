@@ -18,7 +18,7 @@ const Kahoot_quiz = () => {
             </h1>
             <p className="mb-8 leading-relaxed text-justify">KAHOOT QUIZ: are known for their engaging and interactive format, making them a fun and effective way to learn and review information. They can be used in classNamerooms, meetings, and events to assess knowledge, spark discussion, and liven up the learning experience.It's commonly used in educational settings, corporate training, and social gatherings. Kahoot quizzes, also known as Kahoots, can be created on a wide range of topics and can include multiple-choice questions, true or false questions, and other interactive elements.</p>
             <div className="flex justify-center">
-                <a href='https://docs.google.com/forms/d/e/1FAIpQLSdTxv7Ou3uMGJsuhNw0EfA7saHN2XP-FdUKM4kthC9kpzsgsQ/viewform?usp=sf_link '>
+                <a href='https://docs.google.com/forms/d/e/1FAIpQLSdTxv7Ou3uMGJsuhNw0EfA7saHN2XP-FdUKM4kthC9kpzsgsQ/viewform?usp=sf_link'>
                 <RegisterButton/>
                 </a>
             </div>

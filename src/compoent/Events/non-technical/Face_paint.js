@@ -19,7 +19,7 @@ const Face_paint = () => {
             </h1>
             <p className="mb-8 leading-relaxed text-justify">With limited space and boundless imagination, contestants will compete to create captivating scenes, portrait's etc, all with in a polaroid frame. The evaluation will be based on creativity, technique and overall visual impact.</p>
             <div className="flex justify-center">
-              <a href=''>
+              <a href='https://forms.gle/2KH8xMqTU7bMdXj8A'>
                 <RegisterButton/>
                 </a>
                 </div>

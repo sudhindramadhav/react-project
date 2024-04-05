@@ -19,7 +19,7 @@ const Colour_paint = () => {
             </h1>
             <p className="mb-8 leading-relaxed text-justify">A simple drawing will be shown to the participants. They will be given one minute time to draw. The evaluation will be based on which participant completed the drawing within the given timeline.</p>
             <div className="flex justify-end">
-              <a href=''>
+              <a href='https://forms.gle/nwSnmfiFSGcW7DNq6'>
                 <RegisterButton/>
                 </a>
             </div>

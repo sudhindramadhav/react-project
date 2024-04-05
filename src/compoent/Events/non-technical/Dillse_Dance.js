@@ -18,7 +18,7 @@ const Dillse_Dance = () => {
             </h1>
             <p className="mb-8 leading-relaxed text-justify">DIL-SE(BEATZ BATTLE): is a term that translates to "Dance from the Heart" in Hindi. It generally refers to dancing with passion, emotion, and a genuine expression of one's feelings. The term is often used to describe dance performances or styles that are heartfelt and full of energy, connecting deeply with the audience or viewers. In the context of Indian dance forms, such as Bollywood or classNameical dances, "Dil Se Dance" emphasizes the emotional and expressive aspect of the performance, along with the technical skills involved.</p>
             <div className="flex justify-center">
-              <a href='https://docs.google.com/forms/d/e/1FAIpQLSfD2px5sVz0nFL_cm9b5uzPBzqa3uFxQpVoATbKoopcGF2Xqw/viewform '>
+              <a href='https://docs.google.com/forms/d/e/1FAIpQLSfD2px5sVz0nFL_cm9b5uzPBzqa3uFxQpVoATbKoopcGF2Xqw/viewform'>
                 <RegisterButton/>
                 </a>
             </div>

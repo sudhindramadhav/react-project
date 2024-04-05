@@ -19,7 +19,7 @@ const Bgmi = () => {
 
             <p className="mb-8 leading-relaxed text-justify">BGMI : BGMI is a term you must have probably heard by now. It is the abbreviated form of PlayerUnknown's Battleground. Basically, it is a video game which is a multiplayer battle royale game. It is very famous all over the world.</p>
             <div className="flex justify-center">
-              <a href='https://docs.google.com/forms/d/e/1FAIpQLSdNyMAGNl0tqpVRxPEDt9WwGMGVwiz5iK5_BapUrxu8yEduNg/viewform?pli=1'>
+              <a href='https://docs.google.com/forms/d/e/1FAIpQLSdNyMAGNl0tqpVRxPEDt9WwGMGVwiz5iK5_BapUrxu8yEduNg/viewform'>
                 <RegisterButton/>
                 </a>
             </div>

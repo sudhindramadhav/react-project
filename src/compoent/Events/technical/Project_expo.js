@@ -20,7 +20,7 @@ const Project_expo = () => {
             <p className="mb-8 text-justify">    • Project Expo is a technical event in which the participants  should prepare  their project at home and they have to  bring the project to demonstrate before the judges.<br/>
     • There is only one round and the best is chosen by the judges and the respective prizes are given away.</p>
             <div className="flex justify-center">
-                <a href=''>
+                <a href='https://docs.google.com/forms/d/e/1FAIpQLScRsuDcwsQKkXH0Ql8Qo6nrK3O4stLHUTSvMJDzK_cyypRq6Q/viewform?usp=sf_link'>
                   <RegisterButton/>
                   </a> 
             </div>

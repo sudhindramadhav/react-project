@@ -20,7 +20,7 @@ const Paper_persentation = () => {
             <p className="mb-8 leading-relaxed text-justify">Paper Presentation
               Paper presentation is an individual competition where each participant is required to make a paper about a given topic or area, and then present it in front of the juries.</p>
             <div className="flex justify-center">
-            <a href='https://docs.google.com/forms/d/e/1FAIpQLSf0BpGl0pBSYvy5GLp-m0f1dWBq_kZjwzR30JGZZaoX_QF6kQ/viewform?usp=sf_link'>
+            <a href='https://docs.google.com/forms/d/e/1FAIpQLScRsuDcwsQKkXH0Ql8Qo6nrK3O4stLHUTSvMJDzK_cyypRq6Q/viewform?usp=sf_link'>
               <RegisterButton/>
             </a>
             </div>

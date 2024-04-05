@@ -20,7 +20,7 @@ const Build_With_bits = () => {
             </h1>
             <p className="mb-8 leading-relaxed text-justify">BUILD WITH BITS : A compact, engaging brainstorming event, where participants in groups of 3-5 collaborate on inventive solutions for various problem statements. Prizes and appreciation are given for the most creative, feasible ideas, fostering an atmosphere of innovation and enthusiasm.</p>
             <div className="flex justify-center">
-              <a href=''>
+              <a href='https://docs.google.com/forms/d/e/1FAIpQLSc9v6fe-zYZ3-SfbXcgUyisaA_ar56behRUC1xKEFZZxtDozQ/viewform?usp=sf_link'>
               <RegisterButton/>
               </a>
             </div>

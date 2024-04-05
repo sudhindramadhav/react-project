@@ -18,7 +18,7 @@ const Ramp_walk = () => {
             </h1>
             <p className="mb-8 leading-relaxed text-justify">RAMP WALK: also known as a runway walk, is a term primarily used in the context of fashion shows. It refers to the walk that models take on a raised platform or runway to showcase clothing and accessories to an audience. Ramp walks are a key component of fashion shows, allowing designers to display their creations in a dynamic and theatrical manner. Models often undergo specific training to perfect their ramp walk, which involves a particular style of walking that highlights the clothing and exudes confidence and grace.</p>
             <div className="flex justify-center">
-              <a href='https://docs.google.com/forms/d/e/1FAIpQLSfSIaZwifAR8TTReVb-0Pgkp-iBl2XeIvFYZ8DkQEnGCynxsw/viewform?usp=sf_link '>
+              <a href='https://docs.google.com/forms/d/e/1FAIpQLSfSIaZwifAR8TTReVb-0Pgkp-iBl2XeIvFYZ8DkQEnGCynxsw/viewform?usp=sf_link'>
                 <RegisterButton/>
                 </a>
             </div>

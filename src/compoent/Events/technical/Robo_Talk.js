@@ -19,7 +19,7 @@ const Robo_Talk = () => {
             <p className="mb-8 leading-relaxed text-justify">ROBO TALK: is an engaging and educational event designed to explore the fascinating world of robotics. Participants will embark on a two-level journey, starting with Level 1, where they'll be tested on their basic knowledge of robots. Those who excel will progress to Level 2, where they'll identify specific components of robots and explain their functionalities.</p>
             <p className="mb-8 leading-relaxed text-justify">This event isn't just about answering questions; it's about understanding the inner workings of robots and how they impact our world. Finalists will have the opportunity to delve deep into the realm of robotics by researching and presenting on an advanced real-life robot, discussing its advantages and disadvantages.</p>
             <div className="flex justify-center">
-              <a href='https://forms.gle/kqLgP9urMqWPzNy3A '>
+              <a href='https://forms.gle/kqLgP9urMqWPzNy3A'>
                 <RegisterButton/>
               </a>
             </div>

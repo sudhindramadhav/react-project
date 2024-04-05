@@ -21,7 +21,7 @@ const Poster_presentation = () => {
             <p className="mb-8 leading-relaxed text-justify">Poster Presentation
 Posters have become an increasingly popular method for presentation at conferences, as they promote greater interaction between researchers and conference participants.</p>
             <div className="flex justify-center">
-                <a href='https://docs.google.com/forms/d/e/1FAIpQLSf0BpGl0pBSYvy5GLp-m0f1dWBq_kZjwzR30JGZZaoX_QF6kQ/viewform?usp=sf_link'>
+                <a href='https://docs.google.com/forms/d/e/1FAIpQLScRs7uDcwsQKkXH0Ql8Qo6nrK3O4stLHUTSvMJDzK_cyypRq6Q/viewform?usp=sf_link'>
                   <RegisterButton/>
                    </a> 
             </div>

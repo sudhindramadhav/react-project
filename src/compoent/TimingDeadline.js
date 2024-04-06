@@ -29,7 +29,7 @@ const TimingDeadline = () => {
   }, [deadline]);
 
   return (
-    <div id="box" className="flex flex-col items-center justify-center p-4 text-white">
+    <div id="box" className="flex flex-col items-center justify-center  text-white">
       <p id="text" className={`text-2xl font-bold text-center ${!registrationEnabled ? 'text-red-500' : ''}`}>
         {message}
       </p>

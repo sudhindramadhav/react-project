@@ -7,7 +7,7 @@ const Pricing = () => {
   const [buttonDisabled, setButtonDisabled] = useState(false);
 
   useEffect(() => {
-    const targetDate = new Date('2024-04-04T10:05:00Z');
+    const targetDate = new Date('2024-04-20T10:05:00Z');
     const currentDate = new Date();
 
     const remainingTime = targetDate.getTime() - currentDate.getTime();
@@ -72,7 +72,7 @@ const Pricing = () => {
                 </div>
 
                 <div className="mt-auto flex justify-center">
-                <a href='https://docs.google.com/forms/d/e/1FAIpQLScRsuDcwsQKkXH0Ql8Qo6nrK3O4stLHUTSvMJDzK_cyypRq6Q/viewform?usp=sf_link'>
+                <a href='https://docs.google.com/forms/d/e/1FAIpQLSdJmsfz-_2KK8JmeF1VqDD_YBI7B2TTQIvoxVtNansCa0g83Q/viewform?usp=sf_link'>
                   <button
                     className={`block rounded-lg bg-gray-200 px-8 py-3 text-center text-sm font-semibold text-red-500 outline-none ring-indigo-300 transition duration-100 hover:bg-gray-300 focus-visible:ring active:text-gray-700 md:text-base flex justify-center ${buttonDisabled ? 'cursor-not-allowed opacity-50' : ''}`}
                     disabled={buttonDisabled}
@@ -89,7 +89,7 @@ const Pricing = () => {
 
               <div className="flex flex-1 flex-col p-6 pt-8">
                 <div className="mb-12">
-                  <div className="mb-2 text-center text-2xl font-bold text-gray-800">Champion</div>
+                  <div className="mb-2 text-center text-2xl font-bold text-gray-800">Achiver</div>
                   <div style={{ display: 'flex', justifyContent: 'center' }}>
                     <img alt="hero" src={silver} style={{ height: '150px' }} />
                   </div>
@@ -128,14 +128,14 @@ const Pricing = () => {
                   </div>
                 </div>
 
-                <div className="mt-auto flex justify-center">
+                <div className="mt-auto flex justify-center"><a href='https://docs.google.com/forms/d/e/1FAIpQLSddHBkExqgusFeaHM1EM4pdphwsYqpAjUWRvwH48n199MZE9w/viewform?usp=sf_link'>
                   <button
                     className={`block rounded-lg bg-gray-200 px-8 py-3 text-center text-sm font-semibold text-red-500 outline-none ring-indigo-300 transition duration-100 hover:bg-gray-300 focus-visible:ring active:text-gray-700 md:text-base flex justify-center ${buttonDisabled ? 'cursor-not-allowed opacity-50' : ''}`}
                     disabled={buttonDisabled}
                   >
                     <div className="text-red-500 line-through text-xl pe-2 mt-1.5">₹700</div>
                     <div className="text-black text-3xl">₹400</div>
-                  </button>
+                  </button></a>
                 </div>
               </div>
             </div>
@@ -145,7 +145,7 @@ const Pricing = () => {
 
               <div className="flex flex-1 flex-col p-6 pt-8">
                 <div className="mb-12">
-                  <div className="mb-2 text-center text-2xl font-bold text-gray-800">Achiever</div>
+                  <div className="mb-2 text-center text-2xl font-bold text-gray-800">Champion</div>
                   <div style={{ display: 'flex', justifyContent: 'center' }}>
                     <img alt="hero" src={gold} style={{ height: '150px' }} />
                   </div>
@@ -182,13 +182,14 @@ const Pricing = () => {
                 </div>
 
                 <div className="mt-auto flex justify-center">
+                  <a href='https://docs.google.com/forms/d/e/1FAIpQLSdGZgUL8qgj3Z8tjYAtxyNgpW8sXxoZt1MhWt0STMjb58Ux9Q/viewform?usp=sf_link'>
                   <button
                     className={`block rounded-lg bg-gray-200 px-8 py-3 text-center text-sm font-semibold text-red-500 outline-none ring-indigo-300 transition duration-100 hover:bg-gray-300 focus-visible:ring active:text-gray-700 md:text-base flex justify-center ${buttonDisabled ? 'cursor-not-allowed opacity-50' : ''}`}
                     disabled={buttonDisabled}
                   >
                     <div className="text-red-500 line-through text-xl pe-2 mt-1.5">₹1000</div>
                     <div className="text-black text-3xl">₹500</div>
-                  </button>
+                  </button></a>
                 </div>
               </div>
             </div>

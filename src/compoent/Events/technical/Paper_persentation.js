@@ -28,116 +28,124 @@ const Paper_persentation = () => {
         </div>
 
 
-        <div className='justify-center mx-4'>
-          <table className=' text-center mx-auto '>
-            <thead >
-              <tr>
-                <th className='text-center mx-6'>DEPARTMENT</th>
-                <th className='text-center'>TOPICS</th>
-              </tr>
-            </thead>
-            <tbody >
-              <tr>
-                <td className='text-center' >CSE</td>
-                <td  >    • ETHICAL HACKING <br />
-                  • CLOUD COMPUTING <br />
-                  • IOT & IT'S APPLICATIONS <br />
-                  • WEB DEVELOPMENT <br />
-                  • FRONT END TECHNOLOGES<br />
-                </td>
-
-              </tr>
-              <tr>
-                <td className='text-center' >ECE</td>
-                <td  >    • SIGNAL / IMAGE & VIDEO PROCESSING<br />
-                  • COMMUNICATION SYSTEMS<br />
-                  • EMBEDDED SYSTEMS<br />
-                  • VLSI<br />
-                  • SENSOR NETWORKING<br /></td>
-
-              </tr>
-              <tr>
-                <td className='text-center' >MECH</td>
-                <td  >    • RECENT TRENDS IN MECHANICAL ENGINEERING<br />
-                  • ENCHANCEMENT OF HEAT TRANSFER TECHNIQUES<br />
-                  • ROBOTICS, CAD/CAM&FEA<br />
-                  • NANO-COMPOSITES<br />
-                  • CAD modelling<br />
-                  • ADDITIVE AND SUSTAINABLE MANUFACTURING TECHNOLOGIES<br /></td>
-
-              </tr>
-              <tr>
-                <td className='text-center' >CIVIL</td>
-                <td  >    • STRUCTURAL ENGINEERING<br />
-                  • GEO-TECHNICAL ENGINEERING<br />
-                  • TRANSPORTATION ENGINEERING<br />
-                  • WATER RESOURCE ENGINEERING<br />
-                  • CAD modelling<br />
-                  • ENVIRONMENTAL ENGINEERING<br /></td>
-
-              </tr>
-              <tr>
-                <td className='text-center' >EEE</td>
-                <td  >    • SMART GRIDS<br />
-                  • ELECTRIC VEICHLE TECHNOLOGIES<br />
-                  • POWER QUALITY IMPROVEMENT TECHNIQUES<br />
-                  • BATTERY MANAGMENT SYSTEM<br />
-                  • SOFT COMPUTING TECHNIQUES<br /></td>
-
-              </tr>
-
-              <tr>
-                <td className='text-center'>S&H</td>
-                <td  >     • NANO MATERIALS<br />
-                  • TRANSFORM TECHNIQUES<br />
-                  • POLYMERS<br />
-                  • APPLICATIONS OF OPTICAL FIBERS & LASERS<br />
-                  • ADVANCED ENGINNERING MATERIALS<br /></td>
-
-              </tr>
-
-              <tr>
-                <td className='text-center' >IT</td>
-                <td  >       • BLOCK CHAIN TECHNOLOGIES<br />
-                  • IOT(INTERNET OF THINGS)<br />
-                  • BIG DATA<br />
-                  • CYBER SECURITY<br />
-                  • CLOUD COMPUTING<br />
-                  • AUGMENTED REALITY & VIRTUAL REALITY<br /></td>
-
-              </tr>
-              <tr>
-                <td className='text-center' >CSA</td>
-                <td  >       • MACHINE LEARNING<br />• BLOCK CHAIN TECHNOLOGIES<br />
-                  • DEVOOPS<br />
-                  • BIG DATA<br />
-                  • CYBER SECURITY<br />
-                  • QUATUM COMPUTING<br />
-                  • DATA ANALYTICS<br /></td>
-
-              </tr>
-              <tr>
-                <td className='text-center' >MCA</td>
-                <td  >  • Deep learning ,machine learning <br />
-                • A.I lastest Technologies<br />
-                • Block chain Technologies<br />
-                • Cloud computing , Machine Learning<br /></td>
-
-              </tr>
-              <tr>
-                <td className='text-center' >MBA</td>
-                <td  >  • Sustainable Marketing Strategies<br />
-                • Digital HR<br />
-                • Green Banking<br />
-                • Management New Paradigms<br />
-                • Entrepreneurship<br />
-                • Women Empowerment<br /></td>
-
-              </tr>
-            </tbody>
-          </table>
-
-        </div>
+    
+        <div class='flex justify-center mx-4'>
+  <table class='border border-gray-800  mx-auto border-collapse'>
+    <thead>
+      <tr>
+        <th class='border border-gray-800 text-center mx-6 py-2 px-2'>DEPARTMENT</th>
+        <th class='border border-gray-800  py-2'>TOPICS</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class='border border-gray-800 py-2'>CSE</td>
+        <td class='border border-gray-800 py-2'>
+          • ETHICAL HACKING <br />
+          • CLOUD COMPUTING <br />
+          • IOT & IT'S APPLICATIONS <br />
+          • WEB DEVELOPMENT <br />
+          • FRONT END TECHNOLOGIES<br />
+        </td>
+      </tr>
+      <tr>
+        <td class='border border-gray-800  py-2'>ECE</td>
+        <td class='border border-gray-800 py-2'>
+          • SIGNAL / IMAGE & VIDEO PROCESSING<br />
+          • COMMUNICATION SYSTEMS<br />
+          • EMBEDDED SYSTEMS<br />
+          • VLSI<br />
+          • SENSOR NETWORKING<br />
+        </td>
+      </tr>
+      <tr>
+        <td class='border border-gray-800  py-2'>MECH</td>
+        <td class='border border-gray-800 py-2'>
+          • RECENT TRENDS IN MECHANICAL ENGINEERING<br />
+          • ENHANCEMENT OF HEAT TRANSFER TECHNIQUES<br />
+          • ROBOTICS, CAD/CAM & FEA<br />
+          • NANO-COMPOSITES<br />
+          • CAD modelling<br />
+          • ADDITIVE AND SUSTAINABLE MANUFACTURING TECHNOLOGIES<br />
+        </td>
+      </tr>
+      <tr>
+        <td class='border border-gray-800  py-2'>CIVIL</td>
+        <td class='border border-gray-800 py-2'>
+          • STRUCTURAL ENGINEERING<br />
+          • GEO-TECHNICAL ENGINEERING<br />
+          • TRANSPORTATION ENGINEERING<br />
+          • WATER RESOURCE ENGINEERING<br />
+          • CAD modelling<br />
+          • ENVIRONMENTAL ENGINEERING<br />
+        </td>
+      </tr>
+      <tr>
+        <td class='border border-gray-800  py-2'>EEE</td>
+        <td class='border border-gray-800 py-2'>
+          • SMART GRIDS<br />
+          • ELECTRIC VEHICLE TECHNOLOGIES<br />
+          • POWER QUALITY IMPROVEMENT TECHNIQUES<br />
+          • BATTERY MANAGEMENT SYSTEM<br />
+          • SOFT COMPUTING TECHNIQUES<br />
+        </td>
+      </tr>
+      <tr>
+        <td class='border border-gray-800  py-2'>S&H</td>
+        <td class='border border-gray-800 py-2'>
+          • NANO MATERIALS<br />
+          • TRANSFORM TECHNIQUES<br />
+          • POLYMERS<br />
+          • APPLICATIONS OF OPTICAL FIBERS & LASERS<br />
+          • ADVANCED ENGINEERING MATERIALS<br />
+        </td>
+      </tr>
+      <tr>
+        <td class='border border-gray-800 text-center py-2'>IT</td>
+        <td class='border border-gray-800 py-2'>
+          • BLOCKCHAIN TECHNOLOGIES<br />
+          • IOT(INTERNET OF THINGS)<br />
+          • BIG DATA<br />
+          • CYBER SECURITY<br />
+          • CLOUD COMPUTING<br />
+          • AUGMENTED REALITY & VIRTUAL REALITY<br />
+        </td>
+      </tr>
+      <tr>
+        <td class='border border-gray-800 text-center py-2'>CSA</td>
+        <td class='border border-gray-800 py-2'>
+          • MACHINE LEARNING<br />
+          • BLOCKCHAIN TECHNOLOGIES<br />
+          • DEVOPS<br />
+          • BIG DATA<br />
+          • CYBER SECURITY<br />
+          • QUANTUM COMPUTING<br />
+          • DATA ANALYTICS<br />
+        </td>
+      </tr>
+      <tr>
+        <td class='border border-gray-800 text-center py-2'>MCA</td>
+        <td class='border border-gray-800 py-2'>
+          • Deep learning, machine learning <br />
+          • A.I latest Technologies<br />
+          • Blockchain Technologies<br />
+          • Cloud computing, Machine Learning<br />
+        </td>
+      </tr>
+      <tr>
+        <td class='border border-gray-800 text-center py-2'>MBA</td>
+        <td class='border border-gray-800 py-2'>
+          • Sustainable Marketing Strategies<br />
+          • Digital HR<br />
+          • Green Banking<br />
+          • Management New Paradigms<br />
+          • Entrepreneurship<br />
+          • Women Empowerment<br />
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
       </section>
       <div className="bg-white py-4 sm:py-4 lg:py-6">

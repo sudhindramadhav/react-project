@@ -47,7 +47,7 @@ const TableWithTabs = () => {
              </td>
          </tr>
          <tr>
-             <td className="border px-2 py-1.5">8</td>
+             <td className="border px-2 py-1.5">4</td>
              <td className="border px-2 py-1.5">T.TARUN KUMAR</td>
              <td className="border px-2 py-1.5">Technical Lead</td>
              <td className="border px-2 py-1.5">
@@ -55,7 +55,7 @@ const TableWithTabs = () => {
              </td>
            </tr>
          <tr>
-             <td className="border px-2 py-1.5">4</td>
+             <td className="border px-2 py-1.5">5</td>
              <td className="border px-2 py-1.5">V.M.NEHA</td>
              <td className="border px-2 py-1.5"> cultural Lead</td>
              <td className="border px-2 py-1.5">
@@ -63,7 +63,7 @@ const TableWithTabs = () => {
              </td>
          </tr>
          <tr>
-             <td className="border px-2 py-1.5">5</td>
+             <td className="border px-2 py-1.5">6</td>
              <td className="border px-2 py-1.5">K.JAYAVARDHAN</td>
              <td className="border px-2 py-1.5">cultural Lead</td>
              <td className="border px-2 py-1.5">
@@ -71,7 +71,7 @@ const TableWithTabs = () => {
              </td>
          </tr>
          <tr>
-             <td className="border px-2 py-1.5">6</td>
+             <td className="border px-2 py-1.5">7</td>
              <td className="border px-2 py-1.5">K.CHARAN TEJA</td>
              <td className="border px-2 py-1.5">Spot Events Organiser</td>
              <td className="border px-2 py-1.5">
@@ -79,7 +79,7 @@ const TableWithTabs = () => {
              </td>
            </tr>
            <tr>
-             <td className="border px-2 py-1.5">7</td>
+             <td className="border px-2 py-1.5">8</td>
              <td className="border px-2 py-1.5">J.BALA SWAROOP </td>
              <td className="border px-2 py-1.5">Spot Events Organiser</td>
              <td className="border px-2 py-1.5">

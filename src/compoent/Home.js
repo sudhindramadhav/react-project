@@ -123,7 +123,9 @@ During a band show, the musicians perform a setlist of songs, which may include 
 
 </p>
       <div className="flex justify-center">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdJmsfz-_2KK8JmeF1VqDD_YBI7B2TTQIvoxVtNansCa0g83Q/viewform?usp=sf_link">
       <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Regsiter Now</button>
+      </a>
      
       </div>
     </div>

@@ -39,7 +39,7 @@ const Pricing = () => {
                 <div className="mb-12">
                   <div className="mb-4 text-center text-2xl font-bold text-gray-800">Explorer </div>
                   <div style={{ display: 'flex', justifyContent: 'center' }}>
-                    <img alt="hero" src={brass} style={{ height: '150px' }} />
+                    <img alt="hero" src={brass} style={{ height: '120px' }} />
                   </div>
 
                   <div className="space-y-4">
@@ -91,7 +91,7 @@ const Pricing = () => {
                 <div className="mb-12">
                   <div className="mb-2 text-center text-2xl font-bold text-gray-800">Achiver</div>
                   <div style={{ display: 'flex', justifyContent: 'center' }}>
-                    <img alt="hero" src={silver} style={{ height: '150px' }} />
+                    <img alt="hero" src={silver} style={{ height: '120px' }} />
                   </div>
 
                   <div className="space-y-4">
@@ -147,7 +147,7 @@ const Pricing = () => {
                 <div className="mb-12">
                   <div className="mb-2 text-center text-2xl font-bold text-gray-800">Champion</div>
                   <div style={{ display: 'flex', justifyContent: 'center' }}>
-                    <img alt="hero" src={gold} style={{ height: '150px' }} />
+                    <img alt="hero" src={gold} style={{ height: '120px' }} />
                   </div>
 
                   <div className="space-y-4">

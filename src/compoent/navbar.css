@@ -17,7 +17,7 @@ li {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 12vh;
+  height: 90px;
   box-shadow: rgba(50, 50, 93, 0.23) 0px 30px 30px -20px;
 
   /*box-shadow: rgba(50, 50, 93, 0.23) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;*/
@@ -60,7 +60,7 @@ button {
 }
 @media (max-width: 980px) {
   .navbar{
-    height: 12vh;
+    height: 90px;
   }
   .logo {
     display: flex;
@@ -79,7 +79,7 @@ button {
     list-style: none;
     box-shadow: rgba(50, 50, 93, 0.23) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     left: 0;
-    top: 10%;
+    top: 9.6%;
     transition: all 0.5s ease-in-out;
     width: 100%;
     background-color: white;

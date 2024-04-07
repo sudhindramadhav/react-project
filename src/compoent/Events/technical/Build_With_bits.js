@@ -26,7 +26,6 @@ const Build_With_bits = () => {
               <a href='https://docs.google.com/forms/d/e/1FAIpQLSc9v6fe-zYZ3-SfbXcgUyisaA_ar56behRUC1xKEFZZxtDozQ/viewform?usp=sf_link'>
               <RegisterButton/>
               </a>
-              <p className='text-red-500'>Note: Entry Fee is mandatory to participate in this events</p>
             </div>
           </div>
         </div>

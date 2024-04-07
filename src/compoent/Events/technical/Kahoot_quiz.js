@@ -1,6 +1,6 @@
 import React from 'react'
 import { useEffect } from 'react';
-import kahoot_quiz from "../../../Assets/images/kahoot_quiz.png"
+import kahoot_quiz from "../../../Assets/images/kahoot.jpg"
 import RegisterButton from '../../Registerbutton';
 const Kahoot_quiz = () => {
   useEffect(() => {
@@ -49,7 +49,7 @@ const Kahoot_quiz = () => {
                     <h2 className="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">REGISTRATION FEE:</h2>
               
                     <p className="mb-6 text-gray-500 sm:text-lg md:mb-8">
-                    <h4><strong className='text-red-600'>• 100/- per team.</strong></h4><br/>
+                    <strong className='text-red-600'>• 100/- per team.</strong><br/>
                     </p>
             
                 </div>

@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import { useEffect } from 'react';
-import paper from "../../../Assets/images/paperpresentation.jpg"
+import paper from "../../../Assets/images/paper-presen.png"
 import RegisterButton from '../../Registerbutton';
 const Paper_persentation = () => {
   useEffect(() => {
@@ -11,7 +11,7 @@ const Paper_persentation = () => {
     <>
       <section className="text-gray-600 body-font">
         <div className="container mx-auto flex px-5 py-10 md:flex-row flex-col items-center">
-          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+          <div className=" lg:w-1/4 md:w-1/2 w-5/6 mb-10 md:mb-0">
             <img className="object-cover object-center rounded" alt="hero" src={paper} />
           </div>
           <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">

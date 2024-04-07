@@ -7,10 +7,10 @@ import build_with_bits from "../../Assets/images/build_with_bits.jpg"
 import coding_automata from "../../Assets/images/coding_automata.jpg"
 import coding_contest from "../../Assets/images/codingcontest.jpg"
 import idea_blitz from "../../Assets/images/idea_blitz.jpeg"
-import kahoot_quiz from "../../Assets/images/kahoot_quiz.png"
+import kahoot_quiz from "../../Assets/images/kahoot.jpg"
 import robo_talk from "../../Assets/images/robotalk.jpg"
 import poster from "../../Assets/images/posterpresentation.jpg"
-import paper from "../../Assets/images/paperpresentation.jpg"
+import paper from "../../Assets/images/paper-presen.png"
 import technical_quiz from "../../Assets/images/quiz.jpg"
 import expo from "../../Assets/images/expo.jpeg"
 import flipIt from "../../Assets/images/flipIt.jpeg"
@@ -18,7 +18,7 @@ import flipIt from "../../Assets/images/flipIt.jpeg"
 const Events = () => {
   return (
     <>
-    <p className='text-red-500 text-center text-xl'>Note: Entry Fee of 300/- is mandatory for participating in this events</p>
+    <p className='text-red-500 text-center text-xl mt-3'>Note: Entry Fee of 300/- is mandatory for participating in this events</p>
       <div className="container  py-5 mx-auto flex flex-wrap flex-col">
         <nav className="flex lg:mx-auto flex-wrap justify-center ">
           <Link to='/non_technical' className="sm:px-8 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium inline-flex items-center leading-none border-gray-200 hover:text-indigo-500 tracking-wider text-center">
@@ -92,7 +92,7 @@ const Events = () => {
               <Link to='/kahoot_quiz' className="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
               <img src={kahoot_quiz}  
                   alt="Description of the image"
-                  className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
+                  className="absolute inset-0 h-2/3 w-full object-cover object-center transition duration-200 group-hover:scale-110"
                 />
                 <div className="relative flex w-full flex-col rounded-lg bg-white p-4 text-center">
                   <span className="text-lg font-bold text-gray-800 lg:text-xl">KAHOOT QUIZ</span>
@@ -128,7 +128,7 @@ const Events = () => {
               <Link to='/paper' className="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
               <img src={paper}  
                   alt="Description of the image"
-                  className="absolute inset-0 h-3/4 w-6/7 object-cover object-center transition duration-200 group-hover:scale-110"
+                  className="absolute inset-0  w-full object-cover object-center transition duration-200 group-hover:scale-110"
                 />
                 <div className="relative flex w-full flex-col rounded-lg bg-white p-4 text-center">
                   <span className="text-lg font-bold text-gray-800 lg:text-xl">PARER PRESENTATION</span>

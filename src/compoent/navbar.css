@@ -60,13 +60,13 @@ button {
 }
 @media (max-width: 980px) {
   .navbar{
-    height: 12vh;
+    height: 10vh;
   }
   .logo {
     display: flex;
     position: absolute;
     left: 10px;
-    height: 54px;
+    height: 45px;
  
   }
   .nav-links {
@@ -79,7 +79,7 @@ button {
     list-style: none;
     box-shadow: rgba(50, 50, 93, 0.23) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     left: 0;
-    top: 12%;
+    top: 10%;
     transition: all 0.5s ease-in-out;
     width: 100%;
     background-color: white;
@@ -101,7 +101,7 @@ button {
     font-size: 50px;
   }
   svg {
-    height: 30px;
-    width: 30px;
+    height: 24px;
+    width: 24px;
 }
 }

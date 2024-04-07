@@ -60,7 +60,7 @@ button {
 }
 @media (max-width: 980px) {
   .navbar{
-    height: 10vh;
+    height: 12vh;
   }
   .logo {
     display: flex;

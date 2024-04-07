@@ -41,7 +41,7 @@ const TimingDeadline = () => {
       {registrationEnabled && (
         <Link
           to="/events"
-          className={`rounded-lg px-8 py-3 text-center text-sm font-semibold outline-none transition duration-100 focus-visible:ring md:text-base ${
+          className={`rounded-lg px-8 py-3 text-center mt-3 text-sm font-semibold outline-none transition duration-100 focus-visible:ring md:text-base ${
             registrationEnabled
               ? "bg-indigo-500 text-white hover:bg-indigo-600 active:bg-indigo-700"
               : "bg-gray-300 text-gray-500 cursor-not-allowed"

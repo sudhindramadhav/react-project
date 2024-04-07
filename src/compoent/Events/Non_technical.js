@@ -19,7 +19,7 @@ import standupcomedy from "../../Assets/images/standupcomedy.jpg"
 const Non_technical = () => {
   return (
     <>
-
+        <p className='text-red-500 text-center text-xl'>Note: Entry Fee of 300/- is mandatory for participating in this events</p>
       <div className="container  py-5 mx-auto flex flex-wrap flex-col">
         <nav className="flex lg:mx-auto flex-wrap justify-center">
           <Link to='/events' className="sm:px-8 py-3 w-1/3 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium inline-flex items-center leading-none border-gray-200 hover:text-indigo-500 tracking-wider text-center">

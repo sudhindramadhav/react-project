@@ -177,6 +177,8 @@ const Paper_persentation = () => {
             • CSA : <a href='mailto:spark.csa@svce.edu.in' style={{ color: 'blue' }}>spark.csa@svce.edu.in</a><br />
             • HS : <a href='mailto:spark.sh@svce.edu.in' style={{ color: 'blue' }}>spark.sh@svce.edu.in</a><br />
             • IT/CSM/CSD/CSC: <a href='mailto:spark.it@svce.edu.in' style={{ color: 'blue' }}>spark.it@svce.edu.in</a><br />
+            • MBA : <a href='mailto:spark.mba@svce.edu.in' style={{ color: 'blue' }}>spark.mba@svce.edu.in</a><br />
+            • MCA : <a href='mailto:spark.mca@svce.edu.in' style={{ color: 'blue' }}>spark.mca@svce.edu.in</a><br />
 
           </p>
 

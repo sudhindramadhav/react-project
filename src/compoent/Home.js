@@ -122,7 +122,8 @@ const Home = () => {
 During a band show, the musicians perform a setlist of songs, which may include original compositions, covers of popular songs, or a mix of both. The performance often includes instrumental solos, vocal performances, and interaction with the audience to create an engaging and entertaining experience.
 
 </p>
-      <div className="flex justify-center">
+      <div className=" justify-center">
+      <p className="mb-2">Entry Fee : 300/-</p>
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSdJmsfz-_2KK8JmeF1VqDD_YBI7B2TTQIvoxVtNansCa0g83Q/viewform?usp=sf_link">
       <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Regsiter Now</button>
       </a>

@@ -9,7 +9,8 @@ const Navbar = () => {
   return (
     <>
       <nav className='navbar w-full mb-4'>
-      <img src={img1}  alt=" by Magicle" className="logo p-0 m-0" />
+        <img src={img1}  alt=" by Magicle" className="logo p-0 m-0" />
+     
         {/*
         if large screen ma xa bhane Mobile add huxa
         if mobile screen ma xa bhane nav-links-mobile add huxa

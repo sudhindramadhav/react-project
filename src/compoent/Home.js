@@ -88,7 +88,7 @@ const Home = () => {
 
   return (
     <>
-      <section className="min-h-90 relative flex flex-1 shrink-0 items-center justify-center overflow-hidden bg-gray-2000 py-10 shadow-lg md:py-20 xl:py-48 ">
+      <section className="min-h-90 relative flex flex-1 shrink-0 items-center justify-center overflow-hidden bg-gray-2000 py-24 shadow-lg md:py-20 xl:py-44 ">
       {/* Video element */}
       <video autoPlay loop muted className="absolute inset-0 h-full w-full object-cover object-center">
         <source src={examplev} type="video/mp4" />
@@ -101,8 +101,8 @@ const Home = () => {
 
       {/* Content */}
       <div className="relative flex flex-col items-center p-4 text-hero">
-        <h1 className="mb-8 text-center  font-bold text-white  md:mb-12  w-full"><p className="text-5xl lg:text-6xl">SPARK 2024</p><br/>
-<p className="text-2xl lg:text-4xl">A National Level Techno Cultural Fest</p></h1>
+        <h1 className="mb-8 text-center  font-bold text-white  md:mb-12  w-full"><p className="text-4xl lg:text-6xl">SPARK 2024</p><br/>
+<p className="text-xl lg:text-4xl">A National Level Techno Cultural Fest</p></h1>
         <TimingDeadline/>
         <div className="flex flex-col gap-2.5 sm:flex-row sm:justify-center">
           {/* <Link to='/events'>

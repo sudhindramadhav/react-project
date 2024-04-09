@@ -101,7 +101,7 @@ const Home = () => {
 
       {/* Content */}
       <div className="relative flex flex-col items-center p-4 text-hero">
-        <h1 className="mb-8 text-center  font-bold text-white  md:mb-12  w-full"><p className="text-4xl lg:text-6xl">SPARK 2024</p><br/>
+        <h1 className="mb-8 text-center  font-bold text-white  md:mb-12  w-full"><p className="text-5xl lg:text-6xl">SPARK 2024</p><br/>
 <p className="text-xl lg:text-4xl">A National Level Techno Cultural Fest</p></h1>
         <TimingDeadline/>
         <div className="flex flex-col gap-2.5 sm:flex-row sm:justify-center">

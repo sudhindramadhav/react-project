@@ -43,7 +43,7 @@ const Kahoot_quiz = () => {
               
                     <p className="mb-6 text-gray-500 sm:text-lg md:mb-8">
                     • P. Prasanth - 7331104759<br/>
-                    • Y.V. Parthasaradhi Reddy - 7993003170<br/>
+                    • Puneeth Reddy - +91 80086 58208<br/>
                     </p>
 
                     <h2 className="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">REGISTRATION FEE:</h2>

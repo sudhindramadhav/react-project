@@ -31,12 +31,12 @@ const Technical_quiz = () => {
                   <h2 className="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">RULES :</h2>
               
                     <p className="mb-6 text-gray-500 sm:text-lg md:mb-8">
-                    <strong className='text-red-500'>➤ Screening Round</strong> <br/>
+                    <strong className='text-black-500'>➤ Screening Round</strong> <br/>
         ◦ Each team would be given a set of question papers containing 15 objective type questions.<br/>
         ◦ Time limit – 15 minutes.<br/>
         ◦ Only Qualified Teams would be selected for STAGE ROUNDS.<br/>
         ◦ In case of tie between 2 or more teams, further 3 questions would be asked for final selection<br/><br/>
-        <strong className='text-red-500'>➤ Stage Rounds</strong><br/>
+        <strong className='text-black-500'>➤ Stage Rounds</strong><br/>
          <strong>• First Round (Lap Round)</strong><br/>
     
             ▪ Each team would be asked 5 questions. (Objective question)<br/>

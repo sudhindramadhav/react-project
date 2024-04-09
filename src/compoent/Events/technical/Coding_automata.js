@@ -16,7 +16,8 @@ const Coding_automata = () => {
           <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">CODING AUTOMATA
             </h1>
-            <p className="mb-8 leading-relaxed text-justify">CODING AUTOMATA: A compact, engaging brainstorming event, Maximum participants of 2 per team collaborate on inventive solutions for various problem statements. Prizes and appreciation are given for the most creative, feasible ideas, fostering an atmosphere of innovation and enthusiasm.</p>
+            <p className="mb-8 leading-relaxed text-justify">"Coding Automata: Debugging Edition! A brainstorming event with a maximum of 2 participants per team, will be tasked 
+with identifying and rectifying bugs in given various programs within specified time limits. Think you have what it takes to debug like a pro? Join us to test your coding skills in a thrilling debugging contest."</p>
             <div className="flex justify-center">
               <a href='https://docs.google.com/forms/d/e/1FAIpQLSfZgDE3IoRsyn_Rec7OyXYlUfoKGRIn05Iu90h8zeC6morHrA/viewform?usp=sf_link'>
                 <RegisterButton/>

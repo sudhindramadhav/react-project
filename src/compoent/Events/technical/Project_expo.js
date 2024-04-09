@@ -33,12 +33,12 @@ const Project_expo = () => {
                   <h2 className="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">RULES :</h2>
               
                     <p className="mb-6 text-gray-500 sm:text-lg md:mb-8 leading-relaxed">
-                    <strong className='text-red-400'>General Rules and Guidelines for competition:</strong><br/>
+                    <strong className='text-black-400'>General Rules and Guidelines for competition:</strong><br/>
                     <strong>➤ Each team can have maximum of 4 members.</strong><br/>
                     ➤ The competition is open to only under graduate students.<br/>
                     ➤ Members should have a valid student ID card of their college.<br/>
                     ➤ A team member can participate in only one project presentation.<br/><br/>
-                                <strong className='text-red-400'> Regulations for  competition and display of Project :</strong><br/>
+                                <strong className='text-black-400'> Regulations for  competition and display of Project :</strong><br/>
                             Student taking part in project exhibition event should follow certain rules regarding the event.<br/>
                             1. The project for competition must be displayed and presented with an effective power point presentation.<br/>
                             2. The presentation  should  contain  a  simple description  about  their  project.<br/>
@@ -48,9 +48,8 @@ const Project_expo = () => {
                                 <strong>• Working principle</strong><br/>
                                 <strong>• Its advantage and disadvantages</strong><br/>
                                 <strong>• Future Work</strong><br/><br/>
-                            4. Participants  must  exhibit  their  project  in   the  event of Engineers day on September 15th 2K17.<br/>
-                            5.Teams will be given a space to set up their model/design at the venue, center-3  for exhibition and for judging.<br/><br/>
-                            <strong className='text-red-400'>Important note:</strong><br/>
+                            4.Teams will be given a space to set up their model/design at the venue, center-3  for exhibition and for judging.<br/><br/>
+                            <strong className='text-black-400'>Important note:</strong><br/>
                                 • Partial outputs are considered.<br/>
                                 • All selected participants will receive participation certificate.<br/>
                                 • Basic system requirement  will  be  made  available  to participants as per requirement of project.<br/>
@@ -58,7 +57,7 @@ const Project_expo = () => {
                                 • The decision of the judges shall be treated as final and binding.<br/>
                                 • The panel  of  judges  consists  of  subject  experts from  our college.<br/>
                                 • The organizers  reserve the  rights  to  change  any  or  all  of  the  above  rules  as  they  deem fit<br/><br/>
-                                <strong className='text-red-400'>Judging:  Key Evaluation Criteria would be</strong><br/>
+                                <strong className='text-black-400'>Judging:  Key Evaluation Criteria would be</strong><br/>
                                 • Innovation<br/>
                                 • Design (Compactness and the efficiency of work done)<br/>
                                 • Efficiency (Performance of said task)<br/>

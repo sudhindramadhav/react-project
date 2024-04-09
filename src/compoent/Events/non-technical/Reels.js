@@ -53,7 +53,7 @@ const Reels = () => {
                     <h2 className="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">CO-ORDINATOR :</h2>
               
                     <p className="mb-6 text-gray-500 sm:text-lg md:mb-8">
-                    • CH. Govardhan - 8919333975<br/>
+                    • CH.GOVARDHAN- 89193 33975<br/>
                     </p>
 
                     <h2 className="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">REGISTRATION FEE:</h2>

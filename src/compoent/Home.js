@@ -15,7 +15,7 @@ import idea_blitz from "../Assets/images/idea_blitz.jpeg"
 import kahoot_quiz from "../Assets/images/kahoot.jpg"
 import robo_talk from "../Assets/images/robotalk.jpg"
 import paper from "../Assets/images/paper-presen.png"
-import poster from "../Assets/images/posterpresentation.jpg"
+// import poster from "../Assets/images/posterpresentation.jpg"
 import quiz from "../Assets/images/quiz.jpg"
 
 
@@ -100,8 +100,9 @@ const Home = () => {
       <div className="absolute inset-0 mix-blend-multiply"></div>
 
       {/* Content */}
-      <div className="relative flex flex-col items-center p-4 sm:max-w-xl">
-        <h1 className="mb-8 text-center text-4xl font-bold text-white sm:text-5xl md:mb-12 md:text-6xl">SVCE SPARK</h1>
+      <div className="relative flex flex-col items-center p-4 text-hero">
+        <h1 className="mb-8 text-center  font-bold text-white  md:mb-12  w-full"><p className="text-5xl lg:text-6xl">SPARK 2024</p><br/>
+<p className="text-2xl lg:text-4xl">A National Level Techno Cultural Fest</p></h1>
         <TimingDeadline/>
         <div className="flex flex-col gap-2.5 sm:flex-row sm:justify-center">
           {/* <Link to='/events'>
@@ -197,7 +198,7 @@ During a band show, the musicians perform a setlist of songs, which may include 
               </Link>
             </div>
           </div>
-
+{/* 
           <div className="box ">
             <div className=" bg-gray-200 p-6 rounded-lg mx-10">
               <Link to="/poster">
@@ -205,13 +206,13 @@ During a band show, the musicians perform a setlist of songs, which may include 
                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center ">POSTER PRESENTATION</h2>
               </Link>
             </div>
-          </div>
+          </div> */}
 
           <div className="box ">
             <div className=" bg-gray-200 p-6 rounded-lg mx-10">
               <Link to="/paper">
                 <img className="h-40 rounded w-full object-cover object-center mb-6" src={paper} alt="content" />
-                <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center ">PAPER PRESENTATION</h2>
+                <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center ">PAPER/POSTER PRESENTATION</h2>
               </Link>
             </div>
           </div>

@@ -9,7 +9,7 @@ import coding_contest from "../../Assets/images/codingcontest.jpg"
 import idea_blitz from "../../Assets/images/idea_blitz.jpeg"
 import kahoot_quiz from "../../Assets/images/kahoot.jpg"
 import robo_talk from "../../Assets/images/robotalk.jpg"
-import poster from "../../Assets/images/posterpresentation.jpg"
+// import poster from "../../Assets/images/posterpresentation.jpg"
 import paper from "../../Assets/images/paper-presen.png"
 import technical_quiz from "../../Assets/images/quiz.jpg"
 import expo from "../../Assets/images/expo.jpeg"
@@ -18,7 +18,7 @@ import flipIt from "../../Assets/images/flipIt.jpeg"
 const Events = () => {
   return (
     <>
-    <p className='text-red-500 text-center text-xl mt-3'>Note: Entry Fee of 300/- is mandatory for participating in this events</p>
+    <p className='text-red-500 text-center text-md lg:text-xl mt-3'>Note: Entry Fee of 300/- is mandatory for participating in this events</p>
       <div className="container  py-5 mx-auto flex flex-wrap flex-col">
         <nav className="flex lg:mx-auto flex-wrap justify-center ">
           <Link to='/non_technical' className="sm:px-8 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium inline-flex items-center leading-none border-gray-200 hover:text-indigo-500 tracking-wider text-center">
@@ -112,7 +112,7 @@ const Events = () => {
               </Link>
             </div>
 
-            <div>
+            {/* <div>
               <Link to='/poster' className="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
               <img src={poster}  
                   alt="Description of the image"
@@ -122,7 +122,7 @@ const Events = () => {
                   <span className="text-lg font-bold text-gray-800 lg:text-xl">POSTER PRESENTATION</span>
                 </div>
               </Link>
-            </div>
+            </div> */}
 
             <div>
               <Link to='/paper' className="group relative flex h-96 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
@@ -131,7 +131,7 @@ const Events = () => {
                   className="absolute inset-0  w-full object-cover object-center transition duration-200 group-hover:scale-110"
                 />
                 <div className="relative flex w-full flex-col rounded-lg bg-white p-4 text-center">
-                  <span className="text-lg font-bold text-gray-800 lg:text-xl">PARER PRESENTATION</span>
+                  <span className="text-lg font-bold text-gray-800 lg:text-xl">PARER/POSTER PRESENTATION</span>
                 </div>
               </Link>
             </div>

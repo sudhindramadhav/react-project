@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-pascal-case */
 import React from "react"
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
+import { HashRouter as Router, Switch, Route } from "react-router-dom"
 import Navbar from "./compoent/Navbar"
 import Home from "./compoent/Home"
 import About from "./compoent/About"

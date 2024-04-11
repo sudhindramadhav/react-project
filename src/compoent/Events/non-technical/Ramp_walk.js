@@ -37,7 +37,7 @@ const Ramp_walk = () => {
                     ➤ Students who got qualified for 2nd round will undergo a question-and-answer round, Which is considered as final round and winner deciding round.<br/>
                     ➤ The student has to give relevant answers Confidently to the question asked. <br/>
                     </p>
-                    <h2 className="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">CO-ORDINATORS :</h2>
+                    <h2 className="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">STUDENT COORDINATORS :</h2>
               
                     <p className="mb-6 text-gray-500 sm:text-lg md:mb-8">
                     ➤ K. CHAITANYA - 80195 27077 – 4th ECE.<br/>

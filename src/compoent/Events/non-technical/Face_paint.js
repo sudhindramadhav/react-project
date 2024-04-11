@@ -17,7 +17,7 @@ const Face_paint = () => {
             <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">MINI POLAROID PAINTING
             </h1>
-            <p className="mb-8 leading-relaxed text-justify">With limited space and boundless imagination, contestants will compete to create captivating scenes, portrait's etc, all with in a polaroid frame. The evaluation will be based on creativity, technique and overall visual impact.</p>
+            <p className="mb-8 leading-relaxed text-justify">With limited space and boundless imagination, contestants will compete to create captivating scenes, portraits, etc, all within a Polaroid frame. The evaluation will be based on creativity, technique, and overall visual impact.</p>
             <div className="flex justify-center">
               <a href='https://forms.gle/2KH8xMqTU7bMdXj8A'>
                 <RegisterButton/>
@@ -32,11 +32,11 @@ const Face_paint = () => {
                   <h2 className="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">RULES :</h2>
               
                     <p className="mb-6 text-gray-500 sm:text-lg md:mb-8">
-                    ➤ The time given to complete the painting is 45 mins.<br/>
+                    ➤ The time given to complete the painting is 45 min.<br/>
 
                     ➤ Only individual participants are allowed.
                     </p>
-                    <h2 className="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">CO-ORDINATOR :</h2>
+                    <h2 className="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">STUDENT COORDINATORS :</h2>
               
                     <p className="mb-6 text-gray-500 sm:text-lg md:mb-8">
                     •  P.Hema Sekhar - 9347883828<br/>

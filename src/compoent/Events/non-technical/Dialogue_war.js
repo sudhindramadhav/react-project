@@ -41,7 +41,7 @@ const Dialogue_war = () => {
                     ➤ Those who have qualified for 2nd round will be provided with MOVIE NAME & HERO.<br/>
                     ➤ The participant has to guess the famous dialogue in that movie.<br/>
                     </p>
-                    <h2 className="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">CO-ORDINATORS :</h2>
+                    <h2 className="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">STUDENT COORDINATORS :</h2>
               
                     <p className="mb-6 text-gray-500 sm:text-lg md:mb-8">
                     • T. PRASHANTHI - 75695 63542 – 2ND ECE.<br/>

@@ -154,7 +154,7 @@ const Paper_persentation = () => {
           <p>
             <h4 className='text-black-500'>Instructions to Candidates :</h4><br />
             1. Open for all Students.<br />
-            2. A Paper can have maximum of two authors.<br />
+            2. A aper/Poster can have a maximum of two authors.<br />
             3. Papers must be in IEEE Format.<br />
             4. Papers must be sent to designated E-mail id's.<br />
             5. No accommodation will be provided.<br /><br />

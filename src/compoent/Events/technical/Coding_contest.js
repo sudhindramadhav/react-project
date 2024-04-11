@@ -44,7 +44,7 @@ const Coding_contest = () => {
             ➤ The contest will consist of two rounds, with teams progressing in every
             round.<br />
           </p>
-          <h2 className="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">CO-ORDINATORS :</h2>
+          <h2 className="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">STUDENT COORDINATORS :</h2>
 
           <p className="mb-6 text-gray-500 sm:text-lg md:mb-8">
             • JVS. Tharun Sai - 9491237041<br />

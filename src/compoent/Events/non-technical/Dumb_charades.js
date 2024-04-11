@@ -36,7 +36,7 @@ const Dumb_charades = () => {
                     ➤ The number of movie names guessed by team for a duration of 2 minutes will be noted.<br/>
                     ➤ The team which guess the more number of movie names for a duration of 2 minutes will be declared as a winner and cash prize will be awarded for that team.<br/>
                     </p>
-                    <h2 className="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">CO-ORDINATOR :</h2>
+                    <h2 className="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">STUDENT COORDINATORS :</h2>
               
                     <p className="mb-6 text-gray-500 sm:text-lg md:mb-8">
                     • Pavan - 8247655251<br/>

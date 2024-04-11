@@ -38,7 +38,7 @@ const Stand_up_comedy = () => {
                     ➤ Foul language should be avoided, shouldn’t disrespect any institution or college.<br/>
                     ➤ Judges decision is final.<br/>
                     </p>
-                    <h2 className="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">CO-ORDINATORS :</h2>
+                    <h2 className="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">STUDENT COORDINATORS :</h2>
               
                     <p className="mb-6 text-gray-500 sm:text-lg md:mb-8">
                     • M. VENKATA NARASIMHA - 70328 29039 – 2ND ECE.<br/>

@@ -32,13 +32,13 @@ const Dillse_Dance = () => {
               
                     <p className="mb-6 text-gray-500 sm:text-lg md:mb-8">
                     ➤ There will be total of 2 rounds.<br/>
-                    ➤ In 1st round the participant can DANCE for his/her favourite song.<br/>
+                    ➤ In the 1st round, the participant can DANCE to his/her favorite song.<br/>
                     ➤ Duration is 1 minute only. <br/>
                     ➤ If the student qualified for 2nd round then.<br/>
                     ➤ The student has to dance for the song which is selected by co-ordinators or else judges.<br/>
                     ➤ After selecting a song 5 minutes is provided to students, to make themselves prepared.<br/>
                     </p>
-                    <h2 className="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">CO-ORDINATORS:</h2>
+                    <h2 className="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">STUDENT COORDINATORS :</h2>
               
                     <p className="mb-6 text-gray-500 sm:text-lg md:mb-8">
                     • K. CHARAN – 97045 79985 – 3rd ECE.<br/>

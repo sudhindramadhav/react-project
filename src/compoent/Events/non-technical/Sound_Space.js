@@ -34,7 +34,7 @@ const Sound_Space = () => {
                     ➤ The participant has to play his/her favourite song or music by using instrument.<br/>
                     ➤ Participants should bring their own instruments.<br/>
                     </p>
-                    <h2 className="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">C0-0RDINATOR :</h2>
+                    <h2 className="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">STUDENT COORDINATORS :</h2>
               
                     <p className="mb-6 text-gray-500 sm:text-lg md:mb-8">
                     • A. ALWIN RAJ – 62819 84480 – 2ND CSA.<br/>

@@ -36,12 +36,12 @@ const Robo_Talk = () => {
             about robots across 2 levels </strong><br /><br/>
             <strong>• Level 1 : </strong><br/><p className='ps-4'>-Participants answer basic questions about robots.<br />
             -Participants' response are evaluated and top perfromes are selected for round 2.<br/><br/></p>
-            <strong>• Level 2 : </strong><br/><p className='ps-4'>-Participants identify specific components of robots and explain their functionalities.<br />
-            -Finalists with guidelines for selecting and researching advanced real-life robots for their presentations.<br/>
-            -Winners will be decided based on their quiz performance, component identification, and their presentation quality.</p>
+            <strong>• Level 2 : </strong><br/><p className='ps-4'>-Participants identify specific components of robots and explain their functionalities. <br />
+            -Provide finalists with guidelines for selecting and researching advanced real-life robots for their presentations. <br/>
+            -Winners will be decided based on quiz performance, component identification, and presentation quality.</p>
           </p>
 
-          <h2 className="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">CO-ORDINATOR :</h2>
+          <h2 className="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">STUDENT COORDINATORS :</h2>
 
           <p className="mb-6 text-gray-500 sm:text-lg md:mb-8">
             • R. Simhadri - 8919386853<br />

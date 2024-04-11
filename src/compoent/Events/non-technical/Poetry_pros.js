@@ -33,11 +33,11 @@ const Poetry_pros = () => {
                     <p className="mb-6 text-gray-500 sm:text-lg md:mb-8">
                     ➤ Only one round is conducted.<br/>
                     ➤ Student will be provided a paper and topic instantly.<br/>
-                    ➤ And some time (around 15 mins) is provided to think and write.<br/>
+                    ➤ And some time (around 15 min.) is provided to think and write.<br/>
                     ➤ Once the student is ready, he/she may proceed to present their poetry orally.<br/>
                     ➤ Judges decision is final.<br/>
                     </p>
-                    <h2 className="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">CO-ORDINATORS :</h2>
+                    <h2 className="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">STUDENT COORDINATORS :</h2>
               
                     <p className="mb-6 text-gray-500 sm:text-lg md:mb-8">
                     • M. VENKATA NARASIMHA - 70328 29039 – 2ND ECE.<br/>

@@ -43,14 +43,14 @@ const Reels = () => {
                     ➤	Branch/Year  <br/>
                     ➤	Email Id     <br/>
                     ➤ Mobile Number<br/>
-                    ➤ Winning Criteria :<br/><br/>
+                    <strong>Winning Criteria :</strong><br/><br/>
                       </p>
-
+1
 1.Top 20 posts will be shown to judges. Post With Highest Views Will be Declared as One Winner.<br/>
 2.Winners will be announced in the page itself and also will be notified through mail.<br/>
 
                     </p>
-                    <h2 className="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">CO-ORDINATOR :</h2>
+                    <h2 className="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">STUDENT COORDINATORS :</h2>
               
                     <p className="mb-6 text-gray-500 sm:text-lg md:mb-8">
                     • CH.GOVARDHAN- 89193 33975<br/>

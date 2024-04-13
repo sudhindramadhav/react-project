@@ -89,7 +89,7 @@ const Pricing = () => {
 
               <div className="flex flex-1 flex-col p-6 pt-8">
                 <div className="mb-12">
-                  <div className="mb-2 text-center text-2xl font-bold text-gray-800">Achiver</div>
+                  <div className="mb-2 text-center text-2xl font-bold text-gray-800">Achiever</div>
                   <div style={{ display: 'flex', justifyContent: 'center' }}>
                     <img alt="hero" src={silver} style={{ height: '120px' }} />
                   </div>

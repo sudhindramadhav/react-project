@@ -17,9 +17,7 @@ const FilpIt_PitchIt = () => {
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">FLIP_IT AND PITCH_IT
             </h1>
             <p className="mb-8 leading-relaxed text-justify">FLIP IT & PITCH IT: Instead of pitching ideas, teams showcase existing products or services and challenge others to reimagine their purpose or target audience. This sparks creative thinking and breaks away from traditional pitching formats.</p>
-            <p className="mb-8 leading-relaxed text-justify">Gear up for a coding marathon like no other, where innovation meets competition,
-              and every line of code brings you closer to victory! Register your team today and
-              let the coding battle begin!</p>
+            <p className="mb-8 leading-relaxed text-justify">Register your team today.</p>
             <div className="flex justify-center">
               <a href='https://docs.google.com/forms/d/e/1FAIpQLScC9x9g1_9_8OtVyHuj0LwHdyLnHMkN2UDOZaHO21l2DrJsPA/viewform?usp=sf_link'>
                 <RegisterButton/>

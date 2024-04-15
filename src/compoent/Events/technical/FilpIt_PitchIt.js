@@ -16,7 +16,7 @@ const FilpIt_PitchIt = () => {
           <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">FLIP_IT AND PITCH_IT
             </h1>
-            <p className="mb-8 leading-relaxed text-justify">FLIP IT & PITCH IT: also known as a programming contest or hackathon, is a competitive event where individuals or teams solve programming problems within a specified time frame. These contests can be online or in-person and are popular among computer programmers, software engineers, and students.</p>
+            <p className="mb-8 leading-relaxed text-justify">FLIP IT & PITCH IT: Instead of pitching ideas, teams showcase existing products or services and challenge others to reimagine their purpose or target audience. This sparks creative thinking and breaks away from traditional pitching formats.</p>
             <p className="mb-8 leading-relaxed text-justify">Gear up for a coding marathon like no other, where innovation meets competition,
               and every line of code brings you closer to victory! Register your team today and
               let the coding battle begin!</p>

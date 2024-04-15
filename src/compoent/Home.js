@@ -42,7 +42,7 @@ import ff from "../Assets/images/FreeFire.jpg"
 import movieQuiz from "../Assets/images/movieQuiz.jpeg"
 import Pricing from "./Pricing"
 
-import akil from "../Assets/images/infusion.jpg"
+import akil from "../Assets/images/infusion_band_new.jpeg"
 import TimingDeadline from "./TimingDeadline"
 
 const Home = () => {
@@ -221,7 +221,7 @@ During a band show, the musicians perform a setlist of songs, which may include 
             <div className=" bg-gray-200 p-6 rounded-lg mx-10">
               <Link to="/technical_quiz">
                 <img className="h-40 rounded w-full object-cover object-center mb-6" src={quiz} alt="content" />
-                <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center ">TECHNICAL QUIZ</h2>
+                <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center ">TECHNICAL QUIZ/B-QUIZ</h2>
               </Link>
             </div>
           </div>

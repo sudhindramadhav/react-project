@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-undef */
 /* eslint-disable jsx-a11y/img-redundant-alt */
 
 import React from 'react'
@@ -14,11 +15,16 @@ import paper from "../../Assets/images/paper-presen.png"
 import technical_quiz from "../../Assets/images/quiz.jpg"
 import expo from "../../Assets/images/expo.jpeg"
 import flipIt from "../../Assets/images/flipIt.jpeg"
+import RegisterButton from '../Registerbutton'
+
 
 const Events = () => {
   return (
     <>
     <p className='text-red-500 text-center text-md lg:text-xl mt-3'>Note: Entry Fee of 300/- is mandatory for participating in this events</p>
+    {/* <a href="https://docs.google.com/forms/d/e/1FAIpQLSdJmsfz-_2KK8JmeF1VqDD_YBI7B2TTQIvoxVtNansCa0g83Q/viewform?usp=sf_link">
+      <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Regsiter Now</button>
+      </a> */}
       <div className="container  py-5 mx-auto flex flex-wrap flex-col">
         <nav className="flex lg:mx-auto flex-wrap justify-center ">
           <Link to='/non_technical' className="sm:px-8 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium inline-flex items-center leading-none border-gray-200 hover:text-indigo-500 tracking-wider text-center">
@@ -143,7 +149,7 @@ const Events = () => {
                   className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
                 />
                 <div className="relative flex w-full flex-col rounded-lg bg-white p-4 text-center">
-                  <span className="text-lg font-bold text-gray-800 lg:text-xl">TECHNICAL QUIZ</span>
+                  <span className="text-lg font-bold text-gray-800 lg:text-xl">TECHNICAL QUIZ/B-QUIZ</span>
                 </div>
               </Link>
             </div>

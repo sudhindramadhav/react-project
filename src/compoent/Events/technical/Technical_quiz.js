@@ -14,9 +14,9 @@ const Technical_quiz = () => {
             <img className="object-cover object-center rounded" alt="hero" src={quiz}/>
             </div>
             <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">TECHNICAL QIIZ/B-QUIZ
+            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">TECHNICAL QUIZ/B-QUIZ
             </h1>
-            <p className="mb-8 leading-relaxed text-justify">TECHNICAL QUIZ : A quiz is a game which can also be called a mind sport wherein the players, either as individuals or in teams attempt to answer questions posed to them correctly, in order to win a prize. We designed these to promote, a fun way of study and help in the process of improving one’s general knowledge.</p>
+            <p className="mb-8 leading-relaxed text-justify">TECHNICAL QUIZ/B-QUIZ : A quiz is a game which can also be called a mind sport wherein the players, either as individuals or in teams attempt to answer questions posed to them correctly, in order to win a prize. We designed these to promote, a fun way of study and help in the process of improving one’s general knowledge.</p>
             <div className="flex justify-center">
                 <a href='https://docs.google.com/forms/d/e/1FAIpQLScRsuDcwsQKkXH0Ql8Qo6nrK3O4stLHUTSvMJDzK_cyypRq6Q/viewform?usp=sf_link'>
                   <RegisterButton/>

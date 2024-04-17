@@ -1,7 +1,11 @@
 import React from "react";
-import fgc from "../Assets/images/white.jpg"
-import cola from "../Assets/images/white.jpg"
-
+import fgc from "../Assets/images/global.jpeg"
+import viva from "../Assets/images/vivawa bhojana.jpeg"
+import dance from "../Assets/images/team twoz logo.png"
+import elite from "../Assets/images/elite park 2.jpg"
+import emphasis from "../Assets/images/emphasis.jpeg"
+import sree from "../Assets/images/sree veshwara.jpeg"
+import city from "../Assets/images/citycare.jpeg"
 const sponser = () => {
   return (
     <>
@@ -13,22 +17,18 @@ const sponser = () => {
             
           <div className="bg-white sm:py-4 ">
   <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
-    <div className="grid grid-cols-2 gap-16 rounded-lg bg-gray-100 p-6 sm:h-45 sm:content-evenly md:grid-cols-4">
+    <div className="grid grid-cols-3 gap-16 rounded-lg bg-gray-100 p-6 sm:h-45 sm:content-evenly md:grid-cols-3">
           
             <div className="flex justify-center text-gray-400">
-            <img alt="testimonial" className=" object-cover object-center  inline-block  border-gray-200 bg-gray-100" src={fgc}></img>
+            <img alt="testimonial" className=" object-cover object-center  inline-block  border-gray-200 bg-gray-100" src={elite}></img>
             </div>
      
             <div className="flex justify-center text-gray-400">
-            <img alt="testimonial" className=" object-cover object-center  inline-block  border-gray-200 bg-gray-100" src={fgc}></img>
+            <img alt="testimonial" className=" object-cover object-center  inline-block  border-gray-200 bg-gray-100" src={city}></img>
             </div>
            
             <div className="flex justify-center text-gray-400">
-            <img alt="testimonial" className=" object-cover object-center  inline-block  border-gray-200 bg-gray-100" src={fgc}></img>
-            </div>
-           
-            <div className="flex justify-center text-gray-400">
-            <img alt="testimonial" className=" object-cover object-center  inline-block  border-gray-200 bg-gray-100" src={fgc}></img>
+            <img alt="testimonial" className=" object-cover object-center  inline-block  border-gray-200 bg-gray-100" src={sree}></img>
             </div>
          
           </div>
@@ -45,30 +45,18 @@ const sponser = () => {
       <h2 className="mb-2 text-center text-2xl font-bold text-gray-800 lg:mb-0 lg:text-3xl">Event Sponsors</h2>
     </div>
 
-    <div className="grid grid-cols-2  gap-4 rounded-lg md:grid-cols-4  lg:gap-6">
+    <div className="grid grid-cols-3  gap-4 rounded-lg md:grid-cols-3  lg:gap-6">
     
       <div className="flex  items-center justify-center rounded-lg bg-gray-100 p-4 text-gray-400 ">
-      <img alt="testimonial" className=" object-cover object-center  inline-block  border-gray-200 bg-gray-100" src={ cola}></img>
+      <img alt="testimonial" className=" object-cover object-center  inline-block  border-gray-200 bg-gray-100" src={viva}></img>
       </div>
     
       <div className="flex  items-center justify-center rounded-lg bg-gray-100 p-4 text-gray-400 ">
-      <img alt="testimonial" className=" object-cover object-center  inline-block  border-gray-200 bg-gray-100" src={ cola}></img>
+      <img alt="testimonial" className=" object-cover object-center  inline-block  border-gray-200 bg-gray-100" src={dance}></img>
       </div>
      
       <div className="flex  items-center justify-center rounded-lg bg-gray-100 p-4 text-gray-400 ">
-      <img alt="testimonial" className=" object-cover object-center  inline-block  border-gray-200 bg-gray-100" src={ cola}></img>
-      </div>
-  
-      <div className="flex items-center justify-center rounded-lg bg-gray-100 p-4 text-gray-400 ">
-      <img alt="testimonial" className=" object-cover object-center  inline-block  border-gray-200 bg-gray-100" src={ cola}></img>
-      </div>
-  
-      <div className="flex  items-center justify-center rounded-lg bg-gray-100 p-4 text-gray-400 ">
-      <img alt="testimonial" className=" object-cover object-center  inline-block  border-gray-200 bg-gray-100" src={ cola}></img>
-      </div>
-
-      <div className="flex  items-center justify-center rounded-lg bg-gray-100 p-4 text-gray-400 ">
-      <img alt="testimonial" className=" object-cover object-center  inline-block  border-gray-200 bg-gray-100" src={ cola}></img>
+      <img alt="testimonial" className=" object-cover object-center  inline-block  border-gray-200 bg-gray-100" src={emphasis}></img>
       </div>
      
     </div>

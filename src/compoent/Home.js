@@ -82,7 +82,12 @@ const Home = () => {
     ]
   };
   const row1 = [
-
+    "https://res.cloudinary.com/dcurthbq9/image/upload/v1713372590/global2_bcpazm.jpg",
+    "https://res.cloudinary.com/dcurthbq9/image/upload/v1713372296/sree_veshwara_knjdds.jpg",
+    "https://res.cloudinary.com/dcurthbq9/image/upload/v1713372504/citycare2_h4nnux.jpg",
+    "https://res.cloudinary.com/dcurthbq9/image/upload/v1713372281/emphasis_gc15xw.jpg",
+    "https://res.cloudinary.com/dcurthbq9/image/upload/v1713372730/vivawa_bhojana2_hgvhdl.jpg",
+    "https://res.cloudinary.com/dcurthbq9/image/upload/v1713372298/team_twoz_logo_new_gvlmsh.png",
   ];
 
 

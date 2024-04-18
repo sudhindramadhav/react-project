@@ -12,7 +12,10 @@ const sponser = () => {
       <section className="text-gray-600 body-font bg-grey-600">
       <h2 className="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl mt-6">TITLE SPONSORED BY</h2>
         <div className="container mx-auto flex px-2  items-center justify-center flex-col">
-          <img className="lg:w-1/3 md:w-3/6 w-5/6  object-cover object-center rounded" alt="hero" src={fgc}/>
+          <a href="https://www.fgcedu.com/" className="lg:w-1/3 md:w-3/6 w-5/6  object-cover object-center rounded">
+              <img  alt="hero" src={fgc}/>
+          </a>
+          
           <div className="text-center lg:w-3/4 w-full">
             
           <div className="bg-white sm:py-4 ">
@@ -20,7 +23,10 @@ const sponser = () => {
     <div className="grid grid-cols-3  rounded-lg bg-gray-100 p-6  sm:content-evenly md:grid-cols-3">
           
             <div className="flex justify-center text-gray-400">
-            <img alt="testimonial" className=" object-cover object-center  inline-block  border-gray-200 bg-gray-100 my-6 h-12 lg:h-40" src={elite}></img>
+              
+              <img alt="testimonial" className=" object-cover object-center  inline-block  border-gray-200 bg-gray-100 my-6 h-12 lg:h-40" src={elite}></img>
+              
+            
             </div>
      
             <div className="flex justify-center text-gray-400">

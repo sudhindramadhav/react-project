@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 const TimingDeadline = () => {
-  const [deadline] = useState(new Date("Apr 20, 2024 23:59:59").getTime());
+  const [deadline] = useState(new Date("Apr 22, 2024 09:00:00").getTime());
   const [timeLeft, setTimeLeft] = useState(null);
   const [message, setMessage] = useState("REGISTER BEFORE");
   const [registrationEnabled, setRegistrationEnabled] = useState(true);

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 const RegisterButton = () => {
-  const [deadline, setDeadline] = useState(new Date("Apr 22, 2024 21:00:00").getTime());
+  const [deadline, setDeadline] = useState(new Date("Apr 23, 2024 23:59:59").getTime());
   const [timeLeft, setTimeLeft] = useState(null);
   const [message, setMessage] = useState("REGISTER BEFORE");
   const [registrationEnabled, setRegistrationEnabled] = useState(true);

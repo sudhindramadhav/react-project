@@ -7,7 +7,7 @@ const Pricing = () => {
   const [buttonDisabled, setButtonDisabled] = useState(false);
 
   useEffect(() => {
-    const targetDate = new Date('2024-04-22T15:00:00Z');
+    const targetDate = new Date('2024-04-23T18:29:59+05:30');
     const currentDate = new Date();
 
     const remainingTime = targetDate.getTime() - currentDate.getTime();
